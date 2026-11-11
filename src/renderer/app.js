@@ -33,6 +33,61 @@ function toast(msg, isErr = false, ms = 4500) {
     t._h = setTimeout(() => t.classList.add("hidden"), ms);
 }
 
+// ---------------- focus + confirm dialog ----------------
+// Riporta il focus sul campo domanda. Chiede anche al main process di rifocalizzare la finestra
+// (rete di sicurezza per il bug di Electron su Windows in cui la tastiera resta "bloccata").
+function focusInput() {
+    deck.refocus?.();
+    const apply = () => {
+        if (document.querySelector(".overlay:not(.hidden)")) return; // un pannello è ancora aperto
+        const input = $("input");
+        if (document.activeElement === input) return;
+        input.focus();
+        const n = input.value.length;
+        input.setSelectionRange(n, n);
+    };
+    apply(); // subito, così il primo tasto non va perso
+    requestAnimationFrame(apply); // e di nuovo dopo il ridisegno (lista sessioni ricostruita)
+}
+
+// Sostituto in-app di window.confirm(): niente dialoghi nativi bloccanti.
+// Restituisce una Promise<boolean>. Invio = conferma, Esc = annulla, Tab resta dentro al dialogo.
+function confirmDialog(message, {title = "⚠ CONFIRM", okLabel = "CONFIRM", cancelLabel = "ABORT"} = {}) {
+    const overlay = $("confirmOverlay"), ok = $("confirmOk"), cancel = $("confirmCancel");
+    if (overlay._resolve) overlay._resolve(false); // un solo dialogo alla volta
+    $("confirmTitle").textContent = title;
+    $("confirmMsg").innerHTML = message; // il chiamante passa testo già escapato
+    ok.textContent = okLabel;
+    cancel.textContent = cancelLabel;
+    overlay.classList.remove("hidden");
+    ok.focus();
+    return new Promise((resolve) => {
+        const close = (value) => {
+            overlay.classList.add("hidden");
+            overlay.removeEventListener("keydown", onKey, true);
+            ok.onclick = cancel.onclick = overlay.onclick = null;
+            overlay._resolve = null;
+            resolve(value);
+        };
+        const onKey = (e) => {
+            if (e.key === "Escape") {
+                e.preventDefault(); e.stopPropagation(); close(false);
+            } else if (e.key === "Enter") {
+                e.preventDefault(); e.stopPropagation();
+                close(document.activeElement !== cancel); // Invio su ABORT = annulla
+            } else if (e.key === "Tab") {
+                e.preventDefault();
+                (document.activeElement === ok ? cancel : ok).focus();
+            }
+        };
+        overlay.addEventListener("keydown", onKey, true);
+        ok.onclick = () => close(true);
+        cancel.onclick = () => close(false);
+        overlay.onclick = (e) => { if (e.target === overlay) close(false); };
+        overlay._resolve = close;
+    });
+}
+
 // ---------------- boot ----------------
 async function boot() {
     S.state = await deck.state();
@@ -91,13 +146,26 @@ async function refreshConversations(selectFirst = false) {
         li.className = c.id === S.convId ? "active" : "";
         li.innerHTML = `<span class="ic">${c.count ? "▸" : "○"}</span><span class="t"></span><button class="del" title="delete">✕</button>`;
         li.querySelector(".t").textContent = c.title;
-        li.onclick = () => selectConversation(c.id);
+        li.onclick = async () => {
+            await selectConversation(c.id);
+            focusInput();
+        };
         li.querySelector(".del").onclick = async (ev) => {
             ev.stopPropagation();
-            if (!confirm(`Delete session "${c.title}"?`)) return;
-            await deck.deleteConversation(c.id);
-            if (c.id === S.convId) S.convId = null;
-            refreshConversations(true);
+            const yes = await confirmDialog(`Delete session <b>"${escapeHtml(c.title)}"</b>?<br><span class="dim">this cannot be undone.</span>`,
+                {title: "⚠ PURGE_SESSION", okLabel: "DELETE"});
+            if (!yes) {
+                focusInput();
+                return;
+            }
+            try {
+                await deck.deleteConversation(c.id);
+                if (c.id === S.convId) S.convId = null;
+                await refreshConversations(true);
+            } catch (err) {
+                toast("delete failed: " + err.message, true);
+            }
+            focusInput();
         };
         ul.appendChild(li);
     }
@@ -111,7 +179,7 @@ async function newConversation() {
     if (S.generating) return;
     const c = await deck.createConversation();
     await selectConversation(c.id);
-    $("input").focus();
+    focusInput();
 }
 
 async function selectConversation(id) {
@@ -301,7 +369,7 @@ async function openSetup() {
         close.className = "btn btn-ghost";
         close.style.marginTop = "12px";
         close.textContent = "CLOSE";
-        close.onclick = () => $("setup").classList.add("hidden");
+        close.onclick = () => { $("setup").classList.add("hidden"); focusInput(); };
         $("modelCards").after(close);
         close.dataset.temp = "1";
     }
@@ -319,6 +387,7 @@ async function startDownload(tier) {
             $("setup").classList.add("hidden");
             document.querySelectorAll("[data-temp]").forEach((e) => e.remove());
             renderMessages();
+            focusInput();
             if (!S.state.kb.lessons.length) toast("Core online. Now press ⟳ AGGIORNA to download the lesson transcripts.", false, 8000);
         }, 900);
     } catch (err) {
@@ -381,7 +450,7 @@ deck.on("kb:progress", (p) => {
 });
 $("btnSync").onclick = () => runSync(false);
 $("btnSyncCancel").onclick = () => deck.cancelUpdate();
-$("btnSyncClose").onclick = () => $("syncOverlay").classList.add("hidden");
+$("btnSyncClose").onclick = () => { $("syncOverlay").classList.add("hidden"); focusInput(); };
 
 // ---------------- settings ----------------
 async function openSettings() {
@@ -408,7 +477,7 @@ async function openSettings() {
 }
 
 $("btnSettings").onclick = openSettings;
-$("btnCloseSettings").onclick = () => $("settings").classList.add("hidden");
+$("btnCloseSettings").onclick = () => { $("settings").classList.add("hidden"); focusInput(); };
 $("btnSaveSettings").onclick = async () => {
     try {
         await deck.setSettings({
@@ -425,6 +494,7 @@ $("btnSaveSettings").onclick = async () => {
         renderCourse();
         $("settings").classList.add("hidden");
         toast("config saved");
+        focusInput();
     } catch (err) {
         toast(err.message, true);
     }
@@ -465,7 +535,11 @@ $("input").addEventListener("keydown", (e) => {
     }
 });
 document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") document.querySelectorAll(".overlay:not(#setup)").forEach((o) => o.classList.add("hidden"));
+    if (e.key !== "Escape" || !$("confirmOverlay").classList.contains("hidden")) return;
+    const open = document.querySelectorAll(".overlay:not(#setup):not(.hidden)");
+    if (!open.length) return;
+    open.forEach((o) => o.classList.add("hidden"));
+    focusInput();
 });
 
 boot().catch((err) => toast("boot failed: " + err.message, true, 15000));

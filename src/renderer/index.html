@@ -111,6 +111,19 @@
     </div>
 </div>
 
+<!-- CONFIRM DIALOG (sostituisce window.confirm: su Windows i dialoghi nativi bloccano la tastiera) -->
+<div class="overlay confirm-overlay hidden" id="confirmOverlay">
+    <div class="panel confirm-panel" id="confirmPanel" role="alertdialog" aria-modal="true" aria-labelledby="confirmTitle" aria-describedby="confirmMsg">
+        <div class="panel-title" id="confirmTitle">⚠ CONFIRM</div>
+        <p class="confirm-msg" id="confirmMsg"></p>
+        <div class="confirm-hint">enter = confirm · esc = abort</div>
+        <div class="row buttons right">
+            <button class="btn btn-ghost" id="confirmCancel" type="button">ABORT</button>
+            <button class="btn btn-kill" id="confirmOk" type="button">CONFIRM</button>
+        </div>
+    </div>
+</div>
+
 <div class="toast hidden" id="toast"></div>
 <script src="markdown.js"></script>
 <script src="app.js"></script>

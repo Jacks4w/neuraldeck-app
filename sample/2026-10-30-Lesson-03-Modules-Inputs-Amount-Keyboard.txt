@@ -1,0 +1,2087 @@
+10:22:49 --> 10:22:54
+Giacomo Satoru Quintili: It's going today's topic is going to be module categories.
+
+10:22:56 --> 10:23:08
+Giacomo Satoru Quintili: Module categories, module inputs, main inputs and CV inputs, CV1, CV2 inputs, amount and attenuation. And today you learn two new modules.
+
+10:23:09 --> 10:23:13
+Giacomo Satoru Quintili: Which basically are, uh, automatic keyboards.
+
+10:23:13 --> 10:23:14
+Giacomo Satoru Quintili: Mmhm.
+
+10:23:15 --> 10:23:16
+Giacomo Satoru Quintili: So.
+
+10:23:17 --> 10:23:19
+Giacomo Satoru Quintili: in a synthesizer.
+
+10:23:20 --> 10:23:25
+Giacomo Satoru Quintili: modular synthesizer, we have multiple modules.
+
+10:23:20 --> 10:23:25
+Giacomo Satoru Quintili: Maggiular sintesiser web multiple, matrols.
+
+10:23:25 --> 10:23:30
+Giacomo Satoru Quintili: And these modules can be grouped into three main categories.
+
+10:23:30 --> 10:23:37
+Giacomo Satoru Quintili: The three main categories are sources, modifiers and controls.
+
+10:23:37 --> 10:23:42
+Giacomo Satoru Quintili: Sources are basically modules that generate an audio signal.
+
+10:23:42 --> 10:23:45
+Giacomo Satoru Quintili: Hmm? So, they generate…
+
+10:23:45 --> 10:23:49
+Giacomo Satoru Quintili: Uh, what we can hear…
+
+10:23:49 --> 10:23:55
+Giacomo Satoru Quintili: the sound we want to work with. The BCO, for example, which you already used.
+
+10:23:55 --> 10:23:57
+Giacomo Satoru Quintili: a noise generator.
+
+10:23:58 --> 10:24:03
+Giacomo Satoru Quintili: And yes, and a self-oscillating BCF, but this, uh…
+
+10:24:03 --> 10:24:08
+Giacomo Satoru Quintili: It's an exception. The, the last one is an exception, so skip it for now. Hmm.
+
+10:24:12 --> 10:24:18
+Giacomo Satoru Quintili: So you need to know that this belongs to the category of sources.
+
+10:24:21 --> 10:24:24
+Giacomo Satoru Quintili: Now, then we have…
+
+10:24:24 --> 10:24:26
+Giacomo Satoru Quintili: The modifiers.
+
+10:24:27 --> 10:24:31
+Giacomo Satoru Quintili: Modifiers are modules that.
+
+10:24:31 --> 10:24:34
+Giacomo Satoru Quintili: Do not generate a signal.
+
+10:24:34 --> 10:24:38
+Giacomo Satoru Quintili: Audio signal. They just process.
+
+10:24:38 --> 10:24:41
+Giacomo Satoru Quintili: An incoming signal. They modify it.
+
+10:24:43 --> 10:24:46
+Giacomo Satoru Quintili: So, for example, the filter.
+
+10:24:46 --> 10:24:49
+Giacomo Satoru Quintili: The filter or the amplifier?
+
+10:24:51 --> 10:24:55
+Giacomo Satoru Quintili: As you can see, for example, let me load a filter here.
+
+10:24:55 --> 10:24:58
+Giacomo Satoru Quintili: A filter, if I plug it to the output…
+
+10:24:58 --> 10:25:09
+Giacomo Satoru Quintili: nothing happens, because we don't have… it doesn't generate anything, right? The filter must modify something that enters here, the audio input.
+
+10:25:21 --> 10:25:25
+Giacomo Satoru Quintili: Finally, we have controls. These are…
+
+10:25:25 --> 10:25:29
+Giacomo Satoru Quintili: Uh, the, this can be confusing for students, okay? Controls.
+
+10:25:30 --> 10:25:33
+Giacomo Satoru Quintili: These are modules, controls.
+
+10:25:34 --> 10:25:42
+Giacomo Satoru Quintili: that generate a signal, electrical signal, but it's a CV, as we saw in the previous lesson.
+
+10:25:42 --> 10:25:45
+Giacomo Satoru Quintili: They generate a control voltage signal.
+
+10:25:49 --> 10:25:53
+Giacomo Satoru Quintili: What is… no? A brief recap.
+
+10:25:53 --> 10:25:58
+Giacomo Satoru Quintili: A CV is a signal which is used to automate things.
+
+10:26:06 --> 10:26:10
+Giacomo Satoru Quintili: For example, we have the oscillator. We plug it here.
+
+10:26:10 --> 10:26:15
+Giacomo Satoru Quintili: So we see the audio signal that it generates, right?
+
+10:26:15 --> 10:26:19
+Giacomo Satoru Quintili: Then we have the frequency knob. You see, if I move it…
+
+10:26:19 --> 10:26:22
+Giacomo Satoru Quintili: The frequency changes, right?
+
+10:26:24 --> 10:26:26
+Giacomo Satoru Quintili: Let, let's listen to the sound.
+
+10:26:37 --> 10:26:39
+Giacomo Satoru Quintili: Can you hear the sound?
+
+10:26:40 --> 10:26:45
+Giacomo Satoru Quintili: Alright, so yes, I can use the my hand.
+
+10:26:41 --> 10:26:42
+travismorgado: Jesse.
+
+10:26:45 --> 10:26:48
+Giacomo Satoru Quintili: To move the frequency knob, right?
+
+10:26:51 --> 10:26:59
+Giacomo Satoru Quintili: But now, look at this. The LFO is a control module. Control. So it generates a signal.
+
+10:27:01 --> 10:27:03
+Giacomo Satoru Quintili: One, an electrical signal.
+
+10:27:05 --> 10:27:13
+Giacomo Satoru Quintili: Just like the oscillator. But this signal is not audio. We use this signal to do this task for me.
+
+10:27:13 --> 10:27:20
+Giacomo Satoru Quintili: Automation. So, let me plug this guy here, for example. We see the difference between this…
+
+10:27:21 --> 10:27:23
+Giacomo Satoru Quintili: And this, today…
+
+10:27:25 --> 10:27:27
+Giacomo Satoru Quintili: So we can do this.
+
+10:27:29 --> 10:27:30
+Giacomo Satoru Quintili: As you can see.
+
+10:27:31 --> 10:27:35
+Giacomo Satoru Quintili: I'm not moving the knob frequency, the frequency knob.
+
+10:27:35 --> 10:27:41
+Giacomo Satoru Quintili: I'm using this signal, CD, to do the work for me.
+
+10:27:43 --> 10:27:47
+Giacomo Satoru Quintili: This is a key concept that you must understand.
+
+10:27:48 --> 10:27:55
+Giacomo Satoru Quintili: And, we said, module categories. Remember the topic. Module categories. So…
+
+10:27:55 --> 10:27:58
+Giacomo Satoru Quintili: The third category.
+
+10:27:58 --> 10:28:04
+Giacomo Satoru Quintili: is control modules. Modules that generate a signal, this one, for example.
+
+10:28:04 --> 10:28:09
+Giacomo Satoru Quintili: But this signal is not used for audio to be listened.
+
+10:28:09 --> 10:28:12
+Giacomo Satoru Quintili: This signal is used to automate other parameters.
+
+10:28:14 --> 10:28:15
+Giacomo Satoru Quintili: Okay?
+
+10:28:15 --> 10:28:21
+Giacomo Satoru Quintili: So, control modules are all modules that generate control voltage signals.
+
+10:28:21 --> 10:28:30
+travismorgado: Softwarequequation Southern Southers Coup dats Noolaking Nashifricals Wall Afrance Forword Gewning Reage Show.
+
+10:28:23 --> 10:28:24
+Giacomo Satoru Quintili: Yes.
+
+10:28:28 --> 10:28:33
+Giacomo Satoru Quintili: Yes, it's a visual reference, yes. It's not… it's useless.
+
+10:28:30 --> 10:28:31
+travismorgado: Avete.
+
+10:28:33 --> 10:28:37
+Giacomo Satoru Quintili: I mean, you can even remove it.
+
+10:28:37 --> 10:28:38
+Giacomo Satoru Quintili: Right.
+
+10:28:38 --> 10:28:41
+Giacomo Satoru Quintili: And it still works.
+
+10:28:40 --> 10:28:41
+travismorgado: Tornare a.
+
+10:28:43 --> 10:28:46
+Giacomo Satoru Quintili: I'm just using it to teach.
+
+10:28:46 --> 10:28:49
+Giacomo Satoru Quintili: And you can use it to study.
+
+10:28:51 --> 10:28:56
+Giacomo Satoru Quintili: But remember to remove them before submitting an exercise because that they're useless.
+
+10:28:56 --> 10:28:57
+travismorgado: Dove.
+
+10:28:59 --> 10:29:01
+Giacomo Satoru Quintili: So…
+
+10:29:01 --> 10:29:03
+Giacomo Satoru Quintili: Let's go back. Sources.
+
+10:29:04 --> 10:29:10
+Giacomo Satoru Quintili: Modules that generate an audio signal. Modifiers, modules that modify a signal.
+
+10:29:11 --> 10:29:19
+Giacomo Satoru Quintili: And controls. Modules that generate a signal, but this signal is used to create automations.
+
+10:29:20 --> 10:29:25
+Giacomo Satoru Quintili: Now, controls divide into manual and automatic.
+
+10:29:25 --> 10:29:34
+Giacomo Satoru Quintili: Uh, yeah, they subdivide, they branch out into subcategories, manual controls and automatic controls.
+
+10:29:37 --> 10:29:45
+Giacomo Satoru Quintili: Manual controls are basically modules that generate a CV, they do generate a CV, but.
+
+10:29:46 --> 10:29:52
+Giacomo Satoru Quintili: The voltage of this signal only changes if I touch the module.
+
+10:29:55 --> 10:30:05
+Giacomo Satoru Quintili: So, in this case, this is not a manual control, you see? The LFO is not a manual control, because I'm not touching it, yet its signal is changing.
+
+10:30:05 --> 10:30:07
+Giacomo Satoru Quintili: So, an example of.
+
+10:30:07 --> 10:30:10
+Giacomo Satoru Quintili: Manual control is the keyboard.
+
+10:30:10 --> 10:30:12
+Giacomo Satoru Quintili: The keyboard that you used.
+
+10:30:12 --> 10:30:15
+Giacomo Satoru Quintili: For example, let's plug the gate.
+
+10:30:15 --> 10:30:20
+Giacomo Satoru Quintili: We studied the gate last time, guys. That's why it's important that you study.
+
+10:30:21 --> 10:30:23
+Giacomo Satoru Quintili: Uh, each lesson. Hmm.
+
+10:30:24 --> 10:30:33
+Giacomo Satoru Quintili: So I don't have to explain what the gate signal is, but the gate is a bipolar binary signal, zero volt, five volts. It's a switch.
+
+10:30:34 --> 10:30:39
+Giacomo Satoru Quintili: You see, it changes its value only when it presses.
+
+10:30:40 --> 10:30:43
+Giacomo Satoru Quintili: So it's a manual control.
+
+10:30:43 --> 10:30:47
+Giacomo Satoru Quintili: Okay. Question for you. Question.
+
+10:30:47 --> 10:30:50
+Giacomo Satoru Quintili: What's the purpose of the gate?
+
+10:30:50 --> 10:30:53
+Giacomo Satoru Quintili: What do we use the gate for?
+
+10:30:55 --> 10:30:59
+Daniel Bradarić: Uh, for switch… to switch in.
+
+10:30:58 --> 10:30:59
+Giacomo Satoru Quintili: Mm-hmm.
+
+10:30:59 --> 10:31:01
+Daniel Bradarić: Turn.
+
+10:31:00 --> 10:31:06
+Giacomo Satoru Quintili: Yes, what module do we use? With which on which module?
+
+10:31:11 --> 10:31:20
+Giacomo Satoru Quintili: We use the gate as a switch, no? On off. On off. Right. Okay, cool. What module do we switch on and off with the gate?
+
+10:31:21 --> 10:31:24
+travismorgado: Red, già a noi, Jerry è alta. La seconda camera.
+
+10:31:22 --> 10:31:24
+Giacomo Satoru Quintili: Mmhm.
+
+10:31:24 --> 10:31:25
+Giacomo Satoru Quintili: Nope.
+
+10:31:25 --> 10:31:26
+travismorgado: No.
+
+10:31:25 --> 10:31:29
+Giacomo Satoru Quintili: Watch the patch, the basic patch that you did for today.
+
+10:31:36 --> 10:31:42
+travismorgado: Paure solide. Helbowatts, Bevack da Watch Videott National.
+
+10:31:38 --> 10:31:39
+Giacomo Satoru Quintili: Yes.
+
+10:31:41 --> 10:31:47
+Giacomo Satoru Quintili: Yes. We use the gate to turn on the envelopes. Yes.
+
+10:31:42 --> 10:31:43
+travismorgado: The Green Show.
+
+10:31:47 --> 10:31:48
+Giacomo Satoru Quintili: Okay?
+
+10:31:48 --> 10:31:53
+Giacomo Satoru Quintili: It's okay, guys. You are new, but promise me that you study. So.
+
+10:31:54 --> 10:31:55
+Giacomo Satoru Quintili: Um…
+
+10:31:58 --> 10:32:04
+Giacomo Satoru Quintili: Automatic and manual control. So, manual control, I repeat, manual control…
+
+10:32:04 --> 10:32:09
+Giacomo Satoru Quintili: You must touch, you must interact with the module to generate the signal.
+
+10:32:10 --> 10:32:15
+travismorgado: Social sourced gave Binn Church da Ceeve Dactor Votage.
+
+10:32:15 --> 10:32:17
+Giacomo Satoru Quintili: Mm-hmm, mm-h.
+
+10:32:17 --> 10:32:20
+Giacomo Satoru Quintili: The gate is a CV voltage.
+
+10:32:21 --> 10:32:22
+Giacomo Satoru Quintili: Okay?
+
+10:32:22 --> 10:32:26
+Giacomo Satoru Quintili: But the module is the keyboard.
+
+10:32:26 --> 10:32:37
+Giacomo Satoru Quintili: The keyboard generates a multitude of signals, CV signals. Pitch, gate, trigger, velocity, aftertouch, so on and so forth.
+
+10:32:45 --> 10:32:48
+Giacomo Satoru Quintili: Then we have automatic controls.
+
+10:32:48 --> 10:32:51
+Giacomo Satoru Quintili: The LFO, it's an automatic control, for example, you see?
+
+10:32:51 --> 10:32:57
+Giacomo Satoru Quintili: It generates a signal that is used to automate a parameter, in this case the frequency.
+
+10:32:57 --> 10:33:02
+Giacomo Satoru Quintili: In this case, because I plugged it here, I could plug it here to automate something else.
+
+10:33:04 --> 10:33:06
+Giacomo Satoru Quintili: Okay?
+
+10:33:08 --> 10:33:16
+Giacomo Satoru Quintili: Automatic. So automatic controls are modules that generate a CV signal with changes.
+
+10:33:17 --> 10:33:19
+Giacomo Satoru Quintili: Automatically, over time.
+
+10:33:21 --> 10:33:23
+Giacomo Satoru Quintili: Okay.
+
+10:33:25 --> 10:33:27
+Giacomo Satoru Quintili: Study. Take notes.
+
+10:33:27 --> 10:33:31
+Giacomo Satoru Quintili: Read the PDF. Watch the video. Study.
+
+10:33:33 --> 10:33:34
+Giacomo Satoru Quintili: Next.
+
+10:33:38 --> 10:33:39
+Giacomo Satoru Quintili: Uh… mm-hmm.
+
+10:33:41 --> 10:33:43
+Giacomo Satoru Quintili: Well, yeah, it's fine.
+
+10:33:47 --> 10:33:49
+Giacomo Satoru Quintili: Let's skip. Oh, inputs.
+
+10:33:50 --> 10:33:58
+Giacomo Satoru Quintili: Next topic is going to be inputs. So we already finished with one topic, which is module categories.
+
+10:33:58 --> 10:34:00
+Giacomo Satoru Quintili: sources, modifiers.
+
+10:34:00 --> 10:34:04
+Giacomo Satoru Quintili: Controls. Manual and automatic controls.
+
+10:34:04 --> 10:34:06
+Giacomo Satoru Quintili: Let's talk about module inputs.
+
+10:34:07 --> 10:34:16
+Giacomo Satoru Quintili: Modules have inputs, you see? This is an input, input, input, many inputs. And outputs, we don't care about outputs.
+
+10:34:17 --> 10:34:22
+Giacomo Satoru Quintili: We only care about inputs. Now, modules have two types of inputs, two types.
+
+10:34:23 --> 10:34:28
+Giacomo Satoru Quintili: Main input and CD input.
+
+10:34:29 --> 10:34:33
+Giacomo Satoru Quintili: CV inputs are going to haunt you until the end of this year.
+
+10:34:33 --> 10:34:34
+Giacomo Satoru Quintili: Okay?
+
+10:34:34 --> 10:34:37
+Giacomo Satoru Quintili: Main inputs…
+
+10:34:37 --> 10:34:38
+Giacomo Satoru Quintili: are basically…
+
+10:34:38 --> 10:34:43
+Giacomo Satoru Quintili: You inputs in which you plug something that you want to modify.
+
+10:34:43 --> 10:34:45
+Giacomo Satoru Quintili: main input.
+
+10:34:47 --> 10:34:55
+Giacomo Satoru Quintili: Let's take the amplifier module because the amplifier module is very simple.
+
+10:34:57 --> 10:35:00
+Giacomo Satoru Quintili: Here we have the main input.
+
+10:35:00 --> 10:35:03
+Giacomo Satoru Quintili: And here we have the CV input.
+
+10:35:05 --> 10:35:06
+Giacomo Satoru Quintili: Let's take a look.
+
+10:35:23 --> 10:35:25
+Giacomo Satoru Quintili: Whatever we plug here.
+
+10:35:25 --> 10:35:28
+Giacomo Satoru Quintili: will be processed…
+
+10:35:28 --> 10:35:32
+Giacomo Satoru Quintili: Modified, and we'll output from here.
+
+10:35:33 --> 10:35:36
+Giacomo Satoru Quintili: This is a main input.
+
+10:35:47 --> 10:35:48
+Giacomo Satoru Quintili: Okay?
+
+10:35:50 --> 10:35:52
+Giacomo Satoru Quintili: Note.
+
+10:35:52 --> 10:35:56
+Giacomo Satoru Quintili: Only modifiers modules have main inputs.
+
+10:36:26 --> 10:36:28
+Giacomo Satoru Quintili: Okay.
+
+10:36:28 --> 10:36:30
+Giacomo Satoru Quintili: So far, so good?
+
+10:36:33 --> 10:36:34
+travismorgado: Jes.
+
+10:36:34 --> 10:36:37
+Giacomo Satoru Quintili: Now, the oscillator, for example.
+
+10:36:39 --> 10:36:42
+Giacomo Satoru Quintili: Doesn't have any main input.
+
+10:36:45 --> 10:36:48
+Giacomo Satoru Quintili: The noise generator.
+
+10:36:48 --> 10:36:50
+Giacomo Satoru Quintili: Doesn't have any main input.
+
+10:36:51 --> 10:36:58
+Giacomo Satoru Quintili: Why? Because, I said, main inputs are inputs in which you process a signal.
+
+10:37:00 --> 10:37:06
+Giacomo Satoru Quintili: These don't process a signal, they generate a signal, so they only have outputs.
+
+10:37:06 --> 10:37:10
+Giacomo Satoru Quintili: or CV inputs for automations.
+
+10:37:11 --> 10:37:15
+Giacomo Satoru Quintili: Hmm? To control one of their knobs.
+
+10:37:16 --> 10:37:18
+Giacomo Satoru Quintili: So far, so good?
+
+10:37:19 --> 10:37:26
+Giacomo Satoru Quintili: Okay, let's talk about CV inputs. Now, CV inputs are going to be your…
+
+10:37:26 --> 10:37:30
+Giacomo Satoru Quintili: Cross for the rest of the year.
+
+10:37:30 --> 10:37:32
+Giacomo Satoru Quintili: Okay?
+
+10:37:34 --> 10:37:40
+Giacomo Satoru Quintili: Let's keep it simple. Let's try to keep them simple. CV inputs.
+
+10:37:48 --> 10:37:49
+Giacomo Satoru Quintili: Hmm?
+
+10:37:50 --> 10:37:52
+Giacomo Satoru Quintili: Our inputs…
+
+10:37:52 --> 10:37:57
+Giacomo Satoru Quintili: that are used to automate a parameter.
+
+10:37:57 --> 10:38:00
+Giacomo Satoru Quintili: So you plug, you must plug.
+
+10:38:00 --> 10:38:04
+Giacomo Satoru Quintili: A CV signal.
+
+10:38:04 --> 10:38:06
+Giacomo Satoru Quintili: To automate.
+
+10:38:06 --> 10:38:08
+Giacomo Satoru Quintili: A parameter.
+
+10:38:11 --> 10:38:14
+Giacomo Satoru Quintili: So, for example, in this example here.
+
+10:38:19 --> 10:38:22
+Giacomo Satoru Quintili: If you plug something here.
+
+10:38:23 --> 10:38:26
+Giacomo Satoru Quintili: You will automate parameter.
+
+10:38:32 --> 10:38:35
+Giacomo Satoru Quintili: So if you plug.
+
+10:38:36 --> 10:38:38
+Giacomo Satoru Quintili: a signal here.
+
+10:38:39 --> 10:38:41
+Giacomo Satoru Quintili: The gain…
+
+10:38:41 --> 10:38:43
+Giacomo Satoru Quintili: will be…
+
+10:38:44 --> 10:38:46
+Giacomo Satoru Quintili: Automated.
+
+10:38:47 --> 10:38:49
+Giacomo Satoru Quintili: or controlled.
+
+10:39:07 --> 10:39:08
+Giacomo Satoru Quintili: Okay.
+
+10:39:09 --> 10:39:12
+Giacomo Satoru Quintili: There are two types of CV input.
+
+10:39:12 --> 10:39:14
+Giacomo Satoru Quintili: CV1 and CV2.
+
+10:39:18 --> 10:39:19
+Giacomo Satoru Quintili: Okay?
+
+10:39:42 --> 10:39:48
+Giacomo Satoru Quintili: This is a VCO oscillator of another brand.
+
+10:39:48 --> 10:39:56
+Giacomo Satoru Quintili: It doesn't matter. It's just useful because you can see it's CV1 is written here and CV2 is written here.
+
+10:39:57 --> 10:40:00
+Giacomo Satoru Quintili: Okay, so let's analyze.
+
+10:40:04 --> 10:40:10
+Giacomo Satoru Quintili: I'm gonna use red to identify the CV1, and I'm gonna use…
+
+10:40:10 --> 10:40:14
+Giacomo Satoru Quintili: Blue to identify CV2.
+
+10:40:15 --> 10:40:17
+Giacomo Satoru Quintili: Okay, so…
+
+10:40:18 --> 10:40:20
+Giacomo Satoru Quintili: First and foremost.
+
+10:40:24 --> 10:40:26
+Giacomo Satoru Quintili: Any CV input?
+
+10:40:27 --> 10:40:30
+Giacomo Satoru Quintili: both CE1 and CE2.
+
+10:40:30 --> 10:40:32
+Giacomo Satoru Quintili: are linked.
+
+10:40:35 --> 10:40:38
+Giacomo Satoru Quintili: to a parameter.
+
+10:40:41 --> 10:40:48
+Giacomo Satoru Quintili: So they refer to a parameter because you are automating something. What am I automating?
+
+10:40:49 --> 10:40:54
+Giacomo Satoru Quintili: Okay. Okay. So, you tell me, guys.
+
+10:40:56 --> 10:40:59
+Giacomo Satoru Quintili: No, you guess. Guess. Try to guess.
+
+10:41:00 --> 10:41:04
+Giacomo Satoru Quintili: If I plug something here in this CV1 or this CV2.
+
+10:41:04 --> 10:41:11
+Giacomo Satoru Quintili: What is the parameter that will be controlled, automated? What do you think?
+
+10:41:17 --> 10:41:22
+travismorgado: Un soft Nobel Next Sive Wancest, un so.
+
+10:41:19 --> 10:41:20
+Giacomo Satoru Quintili: Yes.
+
+10:41:20 --> 10:41:23
+Giacomo Satoru Quintili: Correct. What's the name?
+
+10:41:24 --> 10:41:26
+travismorgado: Working.
+
+10:41:25 --> 10:41:28
+Giacomo Satoru Quintili: What's the name of the parameter?
+
+10:41:29 --> 10:41:31
+travismorgado: The snot toun.
+
+10:41:31 --> 10:41:33
+Giacomo Satoru Quintili: Tune, correct.
+
+10:41:33 --> 10:41:34
+Giacomo Satoru Quintili: Tune.
+
+10:41:34 --> 10:41:36
+Giacomo Satoru Quintili: You will control this.
+
+10:41:37 --> 10:41:43
+Giacomo Satoru Quintili: Okay, so if you plug something here, I repeat, if you plug something here in this CV1 input.
+
+10:41:43 --> 10:41:47
+Giacomo Satoru Quintili: This CV1 input is linked to this parameter, tune.
+
+10:41:49 --> 10:41:54
+Giacomo Satoru Quintili: Okay? And if you plug something here on the CV2.
+
+10:41:54 --> 10:41:57
+Giacomo Satoru Quintili: Still, it is still linked to the tune.
+
+10:42:05 --> 10:42:06
+Giacomo Satoru Quintili: So.
+
+10:42:05 --> 10:42:13
+travismorgado: Som my question Beatrice of noub Next Theavit You web haumatch Am.
+
+10:42:12 --> 10:42:14
+Giacomo Satoru Quintili: Yeah, that's the amount, yes.
+
+10:42:13 --> 10:42:15
+travismorgado: Che è.
+
+10:42:14 --> 10:42:20
+Giacomo Satoru Quintili: That's the difference. CV1 can be controlled. I mean, you can decide how much.
+
+10:42:20 --> 10:42:32
+Giacomo Satoru Quintili: to control the tune. Uh, sorry, you cannot. In CV1, you cannot control how much the tune will be controlled. In CV2, you can control how much by using the knob.
+
+10:42:22 --> 10:42:23
+travismorgado: 2 .
+
+10:42:33 --> 10:42:37
+Giacomo Satoru Quintili: Called Attenuator. We'll get there in a moment.
+
+10:42:36 --> 10:42:37
+travismorgado: Organo.
+
+10:42:38 --> 10:42:42
+Giacomo Satoru Quintili: So, I repeat, any CV input…
+
+10:42:42 --> 10:42:47
+Giacomo Satoru Quintili: is always linked to a parameter. Always.
+
+10:42:49 --> 10:42:54
+Giacomo Satoru Quintili: So, for example, on the oscillator, you tell me, okay, guess.
+
+10:42:55 --> 10:42:58
+Giacomo Satoru Quintili: Uh, this is… this CV input.
+
+10:42:59 --> 10:43:04
+Giacomo Satoru Quintili: What do you think is going to be linked? What's the parameter that it will be?
+
+10:43:04 --> 10:43:06
+Giacomo Satoru Quintili: Controlled.
+
+10:43:05 --> 10:43:07
+travismorgado: Qui con sé.
+
+10:43:08 --> 10:43:10
+Giacomo Satoru Quintili: Uh, this one.
+
+10:43:09 --> 10:43:11
+travismorgado: Via.
+
+10:43:10 --> 10:43:12
+Giacomo Satoru Quintili: Nope.
+
+10:43:12 --> 10:43:15
+travismorgado: Opa poss web.
+
+10:43:14 --> 10:43:16
+Giacomo Satoru Quintili: Yes, yes, this one.
+
+10:43:15 --> 10:43:17
+travismorgado: Doganale.
+
+10:43:16 --> 10:43:21
+Giacomo Satoru Quintili: I can change it manually, you see? Manually, I'm manually turning the knob.
+
+10:43:21 --> 10:43:26
+Giacomo Satoru Quintili: Or if I don't want to do it manually, I can plug something here.
+
+10:43:30 --> 10:43:33
+Giacomo Satoru Quintili: Hmm? Like an elephant.
+
+10:43:33 --> 10:43:35
+Giacomo Satoru Quintili: Okay, like this.
+
+10:43:35 --> 10:43:37
+Giacomo Satoru Quintili: I don't have to touch it.
+
+10:43:39 --> 10:43:41
+Giacomo Satoru Quintili: All clear?
+
+10:43:41 --> 10:43:45
+Giacomo Satoru Quintili: So CVA inputs are always linked.
+
+10:43:45 --> 10:43:48
+Giacomo Satoru Quintili: linked to a parameter.
+
+10:43:48 --> 10:43:49
+Giacomo Satoru Quintili: Usually…
+
+10:43:50 --> 10:43:55
+Giacomo Satoru Quintili: You can guess what parameter is linked to, right?
+
+10:43:55 --> 10:43:57
+Giacomo Satoru Quintili: Is it a written?
+
+10:43:57 --> 10:44:02
+Giacomo Satoru Quintili: PW modulation, pulse width modulation. It's either written.
+
+10:44:02 --> 10:44:06
+Giacomo Satoru Quintili: Frequency modulation, so it's labeled.
+
+10:44:06 --> 10:44:08
+Giacomo Satoru Quintili: Or it's intuitive.
+
+10:44:08 --> 10:44:11
+Giacomo Satoru Quintili: It's just next to it.
+
+10:44:11 --> 10:44:13
+Giacomo Satoru Quintili: Does it make sense?
+
+10:44:20 --> 10:44:22
+Giacomo Satoru Quintili: All right, next.
+
+10:44:23 --> 10:44:26
+Giacomo Satoru Quintili: So CV inputs are always…
+
+10:44:26 --> 10:44:35
+Giacomo Satoru Quintili: referring to a parameter that needs to be controlled. Nice. Now, there are two types of CV inputs, CV1 and CV2.
+
+10:44:36 --> 10:44:38
+Giacomo Satoru Quintili: CB1.
+
+10:44:40 --> 10:44:43
+Giacomo Satoru Quintili: These are inputs.
+
+10:44:48 --> 10:44:55
+Giacomo Satoru Quintili: Without any kind of… they are just inputs, only inputs, no…
+
+10:44:55 --> 10:44:58
+Giacomo Satoru Quintili: No attenuator knob.
+
+10:45:04 --> 10:45:06
+Giacomo Satoru Quintili: They don't have…
+
+10:45:07 --> 10:45:10
+Giacomo Satoru Quintili: An attenuator knob.
+
+10:45:10 --> 10:45:12
+Giacomo Satoru Quintili: More on this later.
+
+10:45:17 --> 10:45:24
+Giacomo Satoru Quintili: The CV signal that you plug into this input enters with full amplitude.
+
+10:45:42 --> 10:45:49
+Giacomo Satoru Quintili: Okay, full amplitude, you don't reduce it, you don't adjust it. So, how much percentage?
+
+10:45:49 --> 10:45:54
+Giacomo Satoru Quintili: Enters. What do you think? 0%? 100%?
+
+10:45:54 --> 10:45:56
+Giacomo Satoru Quintili: 200%?
+
+10:45:59 --> 10:46:03
+travismorgado: Paul Ample, Twitteran Siminazon Percent.
+
+10:46:02 --> 10:46:04
+Giacomo Satoru Quintili: 100%.
+
+10:46:04 --> 10:46:05
+Giacomo Satoru Quintili: Okay.
+
+10:46:14 --> 10:46:20
+Giacomo Satoru Quintili: It's pretty simple, no? Full. Enters full. 100. No more, no less.
+
+10:46:22 --> 10:46:26
+Giacomo Satoru Quintili: And this is important, because the CV2, you can change it.
+
+10:46:26 --> 10:46:28
+Giacomo Satoru Quintili: Okay.
+
+10:46:38 --> 10:46:40
+Giacomo Satoru Quintili: So, CV one, CV two.
+
+10:46:41 --> 10:46:48
+Giacomo Satoru Quintili: Don't allow the user to change this amplitude.
+
+10:46:51 --> 10:46:54
+Giacomo Satoru Quintili: I mean, you can still do it.
+
+10:46:54 --> 10:47:06
+Giacomo Satoru Quintili: This is a side note. You can still do it externally. You can change the amplitude of the CV by using an external module. We don't care about that.
+
+10:47:07 --> 10:47:09
+Yuqian Wu: Hard question.
+
+10:47:08 --> 10:47:09
+Giacomo Satoru Quintili: Yes.
+
+10:47:09 --> 10:47:15
+Yuqian Wu: Toddy a Hawood Andersen e Antona tourest of volume.
+
+10:47:14 --> 10:47:22
+Giacomo Satoru Quintili: Amplitude, uh, we need to talk about, yes, parameters of the sound. Amplitude is basically how tall is the…
+
+10:47:22 --> 10:47:25
+Giacomo Satoru Quintili: Uh, signal. The wave.
+
+10:47:24 --> 10:47:32
+Yuqian Wu: Right Youtube Tesera Verificing Tose Bowerth del trustrds. Ok.
+
+10:47:29 --> 10:47:41
+Giacomo Satoru Quintili: Yes, yes, yes. The amplitude is the measurement. We'll see it in the next lesson. There's no time to do that yet, sadly.
+
+10:47:32 --> 10:47:33
+Yuqian Wu: Dove.
+
+10:47:41 --> 10:47:45
+Giacomo Satoru Quintili: But amplitude is basically here, you see.
+
+10:47:45 --> 10:47:50
+Giacomo Satoru Quintili: How tall is the oscillation? How tall is the signal?
+
+10:47:50 --> 10:47:52
+Yuqian Wu: Ocket tangeel.
+
+10:47:50 --> 10:47:56
+Giacomo Satoru Quintili: Okay. Yes. And also amplitude causes the volume.
+
+10:47:57 --> 10:48:05
+Giacomo Satoru Quintili: Usually, always. The bigger the amplitude, the louder the volume perceived.
+
+10:48:05 --> 10:48:06
+Giacomo Satoru Quintili: Okay.
+
+10:48:06 --> 10:48:07
+Yuqian Wu: La.
+
+10:48:07 --> 10:48:19
+Giacomo Satoru Quintili: But I'm not talking about volume because we are not listening to, careful, we are not listening to the signal. I'm talking about the amplitude of the electricity entering here.
+
+10:48:19 --> 10:48:26
+Giacomo Satoru Quintili: The higher the amplitude, the more volts you plug in this input, the more the frequency will be controlled, for example.
+
+10:48:26 --> 10:48:29
+Yuqian Wu: An wayusing as normation.
+
+10:48:29 --> 10:48:31
+Giacomo Satoru Quintili: Come again?
+
+10:48:30 --> 10:48:39
+Yuqian Wu: Woowsenet o ad armaine Adiarr Mmm Southerny and Wayuth Hotmay.
+
+10:48:38 --> 10:48:40
+Giacomo Satoru Quintili: Yep.
+
+10:48:39 --> 10:48:41
+Yuqian Wu: Ok.
+
+10:48:40 --> 10:48:41
+Giacomo Satoru Quintili: Yeah.
+
+10:48:41 --> 10:48:42
+Yuqian Wu: La.
+
+10:48:41 --> 10:48:44
+Giacomo Satoru Quintili: So we use the LFO, for example, here. Look.
+
+10:48:44 --> 10:48:49
+Giacomo Satoru Quintili: We plug the, uh, this guy here. That's a CV1, look.
+
+10:48:49 --> 10:48:51
+Giacomo Satoru Quintili: in the oscillator.
+
+10:48:51 --> 10:48:59
+Giacomo Satoru Quintili: pitch CV is equal to a CV1 input of the frequency. So this is linked to the frequency.
+
+10:48:59 --> 10:49:01
+Giacomo Satoru Quintili: This input is linked to the frequency.
+
+10:49:01 --> 10:49:04
+Giacomo Satoru Quintili: This input is also linked to the frequency.
+
+10:49:05 --> 10:49:08
+Giacomo Satoru Quintili: This is a CV1, this is a CV2.
+
+10:49:09 --> 10:49:15
+Giacomo Satoru Quintili: Okay? Here you can control… here, sorry, here you can control how much to let pass.
+
+10:49:15 --> 10:49:19
+Giacomo Satoru Quintili: using the attenuator. Here you can't.
+
+10:49:21 --> 10:49:24
+Giacomo Satoru Quintili: Look at the difference if I plug the LFO.
+
+10:49:25 --> 10:49:29
+Giacomo Satoru Quintili: I'm gonna plug this LFO.
+
+10:49:32 --> 10:49:33
+Giacomo Satoru Quintili: Here.
+
+10:49:33 --> 10:49:38
+Giacomo Satoru Quintili: Look how much the oscillator frequency will change and listen to it.
+
+10:49:40 --> 10:49:43
+Giacomo Satoru Quintili: Careful. It's going to be very high pitch.
+
+10:49:44 --> 10:49:45
+Giacomo Satoru Quintili: Here.
+
+10:49:51 --> 10:49:55
+Giacomo Satoru Quintili: Can you change? No. You can't adjust.
+
+10:49:58 --> 10:50:01
+Giacomo Satoru Quintili: Okay, it's entering, the whole thing is entering.
+
+10:50:01 --> 10:50:04
+Giacomo Satoru Quintili: Here you can decide how much.
+
+10:50:07 --> 10:50:08
+Giacomo Satoru Quintili: Using this.
+
+10:50:11 --> 10:50:14
+Yuqian Wu: Out Out e Amsterdam.
+
+10:50:14 --> 10:50:16
+Giacomo Satoru Quintili: So that's the difference.
+
+10:50:17 --> 10:50:20
+Giacomo Satoru Quintili: Question, let's see if you understood.
+
+10:50:20 --> 10:50:24
+Giacomo Satoru Quintili: You see here I plug the signal full amplitude.
+
+10:50:25 --> 10:50:27
+Giacomo Satoru Quintili: So I get this crazy stuff.
+
+10:50:29 --> 10:50:30
+Giacomo Satoru Quintili: That's it.
+
+10:50:31 --> 10:50:36
+Giacomo Satoru Quintili: Hmm. If I plug it here, I can reduce it. I can attenuate it. Right.
+
+10:50:37 --> 10:50:41
+Giacomo Satoru Quintili: And I can decide how much in percentage.
+
+10:50:41 --> 10:50:42
+Giacomo Satoru Quintili: Mmhm.
+
+10:50:43 --> 10:50:44
+Giacomo Satoru Quintili: Question.
+
+10:50:44 --> 10:50:51
+Giacomo Satoru Quintili: How much percentage do I need to set here in order to get the same result.
+
+10:50:51 --> 10:50:54
+Giacomo Satoru Quintili: of plugging the signal in. How much?
+
+10:50:51 --> 10:50:53
+Yuqian Wu: Per esempio.
+
+10:50:54 --> 10:50:55
+Yuqian Wu: Chrisen.
+
+10:50:55 --> 10:50:57
+Giacomo Satoru Quintili: 100% correct.
+
+10:51:08 --> 10:51:14
+Giacomo Satoru Quintili: So the difference, CV1, CV2. CV1, I repeat what I just said, right?
+
+10:51:14 --> 10:51:21
+Giacomo Satoru Quintili: CV1. The CV signal that you plug to this input enters with full amplitude. You don't change it.
+
+10:51:21 --> 10:51:24
+Giacomo Satoru Quintili: The amplitude is 100%.
+
+10:51:25 --> 10:51:33
+Giacomo Satoru Quintili: CV1 don't allow… CV1 inputs don't allow the user to change this amplitude. It's always 100%.
+
+10:51:39 --> 10:51:52
+travismorgado: Software, Armon Contion Wall Bied Point Ovising Sywone Ef Sevie Huk and dour avita in sivi wandasefi perrahanno e versati ad anni. Vincenzo per Washington.
+
+10:51:44 --> 10:51:45
+Giacomo Satoru Quintili: Hmm.
+
+10:51:48 --> 10:51:50
+Giacomo Satoru Quintili: Yes.
+
+10:51:53 --> 10:51:57
+Giacomo Satoru Quintili: Good question. Two reasons. First, it's expensive.
+
+10:51:58 --> 10:52:00
+Giacomo Satoru Quintili: Because you need to, uh…
+
+10:52:00 --> 10:52:06
+Giacomo Satoru Quintili: It's a luxury we could say because you need.
+
+10:52:06 --> 10:52:12
+Giacomo Satoru Quintili: A knob, which is expensive, a attunator.
+
+10:52:12 --> 10:52:14
+Giacomo Satoru Quintili: Circuit.
+
+10:52:14 --> 10:52:19
+Giacomo Satoru Quintili: Basically an amplifier inside, which is expensive, takes space.
+
+10:52:21 --> 10:52:24
+Giacomo Satoru Quintili: Okay, so CV2 is a luxury.
+
+10:52:21 --> 10:52:22
+travismorgado: Ora.
+
+10:52:24 --> 10:52:25
+travismorgado: Do. Re.
+
+10:52:24 --> 10:52:28
+Giacomo Satoru Quintili: First reason. Second reason, some connections…
+
+10:52:28 --> 10:52:32
+Giacomo Satoru Quintili: Don't require an adjustment.
+
+10:52:33 --> 10:52:35
+travismorgado: Ok. Ok.
+
+10:52:35 --> 10:52:37
+Giacomo Satoru Quintili: Example.
+
+10:52:37 --> 10:52:39
+Giacomo Satoru Quintili: Envelope.
+
+10:52:39 --> 10:52:42
+Giacomo Satoru Quintili: Have a gating input.
+
+10:52:42 --> 10:52:44
+Giacomo Satoru Quintili: And this is a CV1 input.
+
+10:52:45 --> 10:52:48
+Giacomo Satoru Quintili: Because you need to plug a CV here.
+
+10:52:48 --> 10:52:49
+Giacomo Satoru Quintili: Mmhm.
+
+10:52:49 --> 10:52:55
+Giacomo Satoru Quintili: Do you need to adjust how much? No. We just care if it enters something or not.
+
+10:52:57 --> 10:53:04
+Giacomo Satoru Quintili: So, let me repeat, now your question is, why aren't they all CV2? CV2 is better, more flexible.
+
+10:53:03 --> 10:53:04
+travismorgado: Vi.
+
+10:53:04 --> 10:53:15
+Giacomo Satoru Quintili: Two reasons. One, it's more expensive, takes space, and you need another circuit, a BCR circuit, an amplifier circuit here. First, expensive. Second, not always is useful.
+
+10:53:15 --> 10:53:20
+Giacomo Satoru Quintili: Sometimes you just need to plug something with no adjustment.
+
+10:53:20 --> 10:53:26
+travismorgado: Oh, che sai piangerlo, bruciata Gae sbinner I suoi Romani Neea.
+
+10:53:23 --> 10:53:27
+Giacomo Satoru Quintili: Yeah, you don't really care about setting 50% amount. Who cares?
+
+10:53:27 --> 10:53:27
+travismorgado: L'okaya.
+
+10:53:27 --> 10:53:31
+Giacomo Satoru Quintili: Okay. Or the reset here. Look. Reset.
+
+10:53:32 --> 10:53:40
+Giacomo Satoru Quintili: This is also CB input, which resets the LFO. If you plug the gate, for example, you're going to reset.
+
+10:53:40 --> 10:53:45
+Giacomo Satoru Quintili: reset the DLFO every time you press a key. Do you need to adjust how much? No.
+
+10:53:45 --> 10:53:47
+travismorgado: Noh Carl, la Medjugorje.
+
+10:53:46 --> 10:53:49
+Giacomo Satoru Quintili: You don't care, you just use a CV one.
+
+10:53:49 --> 10:53:52
+Giacomo Satoru Quintili: Oscillator! Careful here!
+
+10:53:52 --> 10:53:59
+Giacomo Satoru Quintili: Why do we plug the pitch? Careful, guys. This is important. The pitch. And this is kind of a diktat.
+
+10:53:59 --> 10:54:09
+Giacomo Satoru Quintili: This is a rule. Usually we plug the pitch CV here in the CV1 of the oscillator.
+
+10:54:10 --> 10:54:12
+Giacomo Satoru Quintili: So that we can control.
+
+10:54:12 --> 10:54:16
+Giacomo Satoru Quintili: Uh, let me, let me unplug this so that we can control the note.
+
+10:54:23 --> 10:54:24
+Giacomo Satoru Quintili: Okay.
+
+10:54:27 --> 10:54:31
+Giacomo Satoru Quintili: Why don't we want to change the amplitude of this signal?
+
+10:54:39 --> 10:54:43
+Yuqian Wu: Toss wesh acctims ha una on-line skype.
+
+10:54:43 --> 10:54:47
+Giacomo Satoru Quintili: The answer is, for example, the pitch.
+
+10:54:48 --> 10:54:53
+Giacomo Satoru Quintili: The PHCV must not be…
+
+10:54:53 --> 10:54:54
+Giacomo Satoru Quintili: Altered.
+
+10:54:54 --> 10:54:59
+Giacomo Satoru Quintili: Otherwise, I mean, you can do it, but otherwise…
+
+10:55:00 --> 10:55:04
+Giacomo Satoru Quintili: You're going to have a very weird scale.
+
+10:55:08 --> 10:55:10
+Giacomo Satoru Quintili: You can barely hear it.
+
+10:55:24 --> 10:55:27
+Giacomo Satoru Quintili: Look, let's go C4.
+
+10:55:27 --> 10:55:29
+Giacomo Satoru Quintili: and C5.
+
+10:55:35 --> 10:55:41
+travismorgado: Hohhow hockey Keess Norah hahner percentus Likechaning a Ped, Hunry Personal white You.
+
+10:55:40 --> 10:55:41
+Giacomo Satoru Quintili: Yes.
+
+10:55:41 --> 10:55:42
+travismorgado: Ok.
+
+10:55:41 --> 10:55:43
+Giacomo Satoru Quintili: It's a microtonal scale.
+
+10:55:42 --> 10:55:44
+travismorgado: Via. Ok.
+
+10:55:44 --> 10:55:51
+Giacomo Satoru Quintili: I'm generating a perfect fourth interval.
+
+10:55:52 --> 10:55:54
+Giacomo Satoru Quintili: Not… not an octave.
+
+10:55:54 --> 10:55:56
+Giacomo Satoru Quintili: See what I mean?
+
+10:55:55 --> 10:55:57
+travismorgado: 0 .
+
+10:55:56 --> 10:56:01
+Giacomo Satoru Quintili: Yeah. So usually you want this to be 100% so that you have.
+
+10:56:04 --> 10:56:09
+Giacomo Satoru Quintili: Exactly one octave. Because I repeat, each key has a specific.
+
+10:56:09 --> 10:56:17
+Giacomo Satoru Quintili: has a specific voltage. You don't want to unbalance this, otherwise you're gonna break your keyboard.
+
+10:56:17 --> 10:56:23
+Giacomo Satoru Quintili: Unless you want to do microtonal stuff, yes, but that's your problem, not mine.
+
+10:56:24 --> 10:56:25
+Giacomo Satoru Quintili: Okay?
+
+10:56:28 --> 10:56:29
+Giacomo Satoru Quintili: So.
+
+10:56:29 --> 10:56:32
+Giacomo Satoru Quintili: Go back. Go back. Hmm?
+
+10:56:33 --> 10:56:35
+Giacomo Satoru Quintili: Uh, CV1.
+
+10:56:36 --> 10:56:38
+Giacomo Satoru Quintili: You plug something here.
+
+10:56:38 --> 10:56:41
+Giacomo Satoru Quintili: The parameter will be controlled.
+
+10:56:42 --> 10:56:47
+Giacomo Satoru Quintili: Fully, 100% amplitude, you cannot change it.
+
+10:56:48 --> 10:56:49
+Giacomo Satoru Quintili: CV tube.
+
+10:56:52 --> 10:56:56
+Giacomo Satoru Quintili: They're the same, but they come…
+
+10:56:56 --> 10:57:01
+Giacomo Satoru Quintili: with an additional knob. You must remember the name.
+
+10:57:02 --> 10:57:03
+Giacomo Satoru Quintili: Hmm?
+
+10:57:04 --> 10:57:08
+Giacomo Satoru Quintili: They come with a knob.
+
+10:57:08 --> 10:57:10
+Giacomo Satoru Quintili: Cold.
+
+10:57:10 --> 10:57:12
+Giacomo Satoru Quintili: Attenuator.
+
+10:57:12 --> 10:57:15
+Giacomo Satoru Quintili: Which allows…
+
+10:57:16 --> 10:57:18
+Giacomo Satoru Quintili: the user.
+
+10:57:18 --> 10:57:20
+Giacomo Satoru Quintili: to adjust.
+
+10:57:20 --> 10:57:23
+Giacomo Satoru Quintili: the amount.
+
+10:57:24 --> 10:57:26
+Giacomo Satoru Quintili: What is amount?
+
+10:57:30 --> 10:57:34
+travismorgado: The S Themath, the Programmiterred spegners.
+
+10:57:33 --> 10:57:37
+Giacomo Satoru Quintili: Uh, it's the amount of… it's a percentage.
+
+10:57:37 --> 10:57:38
+travismorgado: Ryanair.
+
+10:57:37 --> 10:57:40
+Giacomo Satoru Quintili: Of the amplitude entering the input.
+
+10:57:40 --> 10:57:45
+travismorgado: Anzi, è nato il question tinico Back, la fauter o a Varda.
+
+10:57:41 --> 10:57:43
+Giacomo Satoru Quintili: Yes.
+
+10:57:45 --> 10:57:46
+Giacomo Satoru Quintili: Yes.
+
+10:57:46 --> 10:57:53
+travismorgado: Su f af the siwan cambichenge World Nobes forly g of tonnob.
+
+10:57:52 --> 10:57:54
+Giacomo Satoru Quintili: This one.
+
+10:57:53 --> 10:57:55
+travismorgado: Ya.
+
+10:57:54 --> 10:57:57
+Giacomo Satoru Quintili: Yeah, this is the manual control.
+
+10:57:57 --> 10:57:59
+travismorgado: Tock epoca.
+
+10:57:59 --> 10:58:02
+Giacomo Satoru Quintili: Okay, so you can change it manually.
+
+10:58:00 --> 10:58:02
+travismorgado: Proprio.
+
+10:58:03 --> 10:58:08
+Giacomo Satoru Quintili: Here you plug something and the tune will change by itself.
+
+10:58:08 --> 10:58:14
+Giacomo Satoru Quintili: Or here. And the tune will change by itself, but you can decide how much by turning this attenuator.
+
+10:58:16 --> 10:58:18
+Giacomo Satoru Quintili: So.
+
+10:58:18 --> 10:58:26
+Giacomo Satoru Quintili: Okay, amount. What is the amount? Amount is how much signal you let pass.
+
+10:58:38 --> 10:58:39
+Giacomo Satoru Quintili: How much?
+
+10:58:41 --> 10:58:45
+Giacomo Satoru Quintili: CV, signal, you let pass.
+
+10:58:47 --> 10:58:49
+Giacomo Satoru Quintili: In percentage.
+
+10:58:52 --> 10:58:58
+Giacomo Satoru Quintili: So, question. Really simple question. I mean, take your time to write. Or…
+
+10:58:58 --> 10:58:59
+Giacomo Satoru Quintili: Think.
+
+10:59:08 --> 10:59:11
+Giacomo Satoru Quintili: Hmm. No.
+
+10:59:11 --> 10:59:15
+Giacomo Satoru Quintili: If I set a 0% amount, what does it mean?
+
+10:59:16 --> 10:59:19
+travismorgado: Down seglows. Cari.
+
+10:59:17 --> 10:59:19
+Giacomo Satoru Quintili: Yeah.
+
+10:59:19 --> 10:59:22
+Giacomo Satoru Quintili: No signal. No signal passes.
+
+10:59:24 --> 10:59:25
+Giacomo Satoru Quintili: Okay.
+
+10:59:27 --> 10:59:31
+Giacomo Satoru Quintili: So the parameter will not be controlled by the CV.
+
+10:59:49 --> 10:59:52
+Giacomo Satoru Quintili: And this is a common mistake.
+
+10:59:52 --> 10:59:56
+Giacomo Satoru Quintili: Common mistake made by.
+
+10:59:56 --> 10:59:58
+Giacomo Satoru Quintili: New.
+
+10:59:59 --> 11:00:01
+Giacomo Satoru Quintili: People.
+
+11:00:01 --> 11:00:04
+Giacomo Satoru Quintili: people who are new to synthesizers, okay?
+
+11:00:04 --> 11:00:07
+Giacomo Satoru Quintili: Uh, for example.
+
+11:00:10 --> 11:00:14
+Giacomo Satoru Quintili: Let's suppose I want to automate the pulse width.
+
+11:00:15 --> 11:00:16
+Giacomo Satoru Quintili: Right?
+
+11:00:17 --> 11:00:21
+Giacomo Satoru Quintili: A common mistake is to plug.
+
+11:00:21 --> 11:00:23
+Giacomo Satoru Quintili: an LFO.
+
+11:00:27 --> 11:00:29
+Giacomo Satoru Quintili: Here.
+
+11:00:29 --> 11:00:33
+Giacomo Satoru Quintili: and then forget to set the amount.
+
+11:00:33 --> 11:00:35
+Giacomo Satoru Quintili: That's a common mistake.
+
+11:00:37 --> 11:00:42
+Giacomo Satoru Quintili: You leave it to 0%, you're killing this signal. Nothing is entering here.
+
+11:00:45 --> 11:00:49
+Giacomo Satoru Quintili: You see, I'm gonna let more signal pass…
+
+11:00:49 --> 11:00:51
+Giacomo Satoru Quintili: 30%.
+
+11:00:54 --> 11:01:00
+Giacomo Satoru Quintili: Yeah, it's 030. Yes, yes. Just imagine it's 30%, okay?
+
+11:01:00 --> 11:01:03
+Giacomo Satoru Quintili: 0.3, yes.
+
+11:01:03 --> 11:01:05
+Giacomo Satoru Quintili: Okay.
+
+11:01:05 --> 11:01:07
+Giacomo Satoru Quintili: Same for the frequency.
+
+11:01:07 --> 11:01:10
+Giacomo Satoru Quintili: I wanna get a vibrato.
+
+11:01:10 --> 11:01:12
+Giacomo Satoru Quintili: No, the vibrato is…
+
+11:01:12 --> 11:01:14
+Giacomo Satoru Quintili: Basically.
+
+11:01:14 --> 11:01:17
+Giacomo Satoru Quintili: You know, the Big Brother effect, I hope.
+
+11:01:22 --> 11:01:24
+Giacomo Satoru Quintili: That's a vibrato, right?
+
+11:01:26 --> 11:01:29
+Giacomo Satoru Quintili: Yeah, doing it manually, it sucks.
+
+11:01:29 --> 11:01:33
+Giacomo Satoru Quintili: Because I need to move this guy real quick, right?
+
+11:01:34 --> 11:01:37
+Giacomo Satoru Quintili: So I use an LFO to do so.
+
+11:01:37 --> 11:01:42
+Giacomo Satoru Quintili: Right? A common mistake by students is to plug this here.
+
+11:01:43 --> 11:01:46
+Giacomo Satoru Quintili: And forget to set the amount, 0%.
+
+11:01:48 --> 11:01:50
+Giacomo Satoru Quintili: Okay, this is muscle memory.
+
+11:01:52 --> 11:01:55
+Giacomo Satoru Quintili: So you need to turn it up.
+
+11:01:55 --> 11:01:58
+Giacomo Satoru Quintili: Adjust by taste, of course.
+
+11:02:02 --> 11:02:04
+Giacomo Satoru Quintili: Like this.
+
+11:02:05 --> 11:02:07
+Giacomo Satoru Quintili: to get a vibrato.
+
+11:02:10 --> 11:02:12
+Giacomo Satoru Quintili: Questions?
+
+11:02:29 --> 11:02:32
+Giacomo Satoru Quintili: All right, let's move on. Cv. One. Cv. 2.
+
+11:02:37 --> 11:02:49
+Giacomo Satoru Quintili: Module categories, module inputs, main inputs, CV inputs, CV1, CV2, amount and attenuation. Okay, what about attenuation, guys? It's just words.
+
+11:02:49 --> 11:02:53
+Giacomo Satoru Quintili: Attenuation is the opposite of amount.
+
+11:03:01 --> 11:03:05
+Giacomo Satoru Quintili: Attenuate the signal by 30%.
+
+11:03:10 --> 11:03:12
+Giacomo Satoru Quintili: What does it mean?
+
+11:03:12 --> 11:03:16
+Giacomo Satoru Quintili: How much amount I have to set?
+
+11:03:18 --> 11:03:22
+Giacomo Satoru Quintili: I repeat, this is a elementary school.
+
+11:03:22 --> 11:03:31
+Giacomo Satoru Quintili: Uh, problem, logic problem. If I say, attenuate the signal, the incoming signal, by 30%.
+
+11:03:31 --> 11:03:34
+Giacomo Satoru Quintili: How much amount do I need to set?
+
+11:03:39 --> 11:03:40
+Daniel Bradarić: 70.
+
+11:03:40 --> 11:03:41
+Giacomo Satoru Quintili: Correct.
+
+11:03:43 --> 11:03:50
+Giacomo Satoru Quintili: Because 100%, right? You reduce from 100% by 30, so 70%.
+
+11:03:50 --> 11:03:53
+Giacomo Satoru Quintili: Congrats. You can do math.
+
+11:03:54 --> 11:03:58
+Giacomo Satoru Quintili: Dobro, dobro. Let's move on.
+
+11:03:58 --> 11:04:06
+Giacomo Satoru Quintili: Attenuation. So, don't confuse. Sometimes, in instructions, I will say, attenuate the…
+
+11:04:06 --> 11:04:09
+Giacomo Satoru Quintili: The keyboard tracking by 10%.
+
+11:04:10 --> 11:04:19
+Giacomo Satoru Quintili: What's the keyboard tracking? Who cares? You will know in the future. Attenuate the keyboard tracking by 10%. How much amount do you need to set?
+
+11:04:23 --> 11:04:24
+travismorgado: Docenti.
+
+11:04:24 --> 11:04:25
+Giacomo Satoru Quintili: Careful.
+
+11:04:25 --> 11:04:29
+travismorgado: Wayserviet agrave.
+
+11:04:25 --> 11:04:36
+Giacomo Satoru Quintili: Yes. Yeah, yeah. Correct. Careful me. Correct. If I say attenuate by 10%, you must reduce from 100%. So you need to set 90% amount.
+
+11:04:37 --> 11:04:40
+Giacomo Satoru Quintili: This is just words, okay?
+
+11:04:40 --> 11:04:43
+Giacomo Satoru Quintili: Sometimes a music producer.
+
+11:04:43 --> 11:04:46
+Giacomo Satoru Quintili: I mean, most of the times you just say, set the amount.
+
+11:04:46 --> 11:04:55
+Giacomo Satoru Quintili: Who cares, right? You just say set the amount to 20%. Okay. But sometimes producers say the opposite way.
+
+11:04:55 --> 11:05:03
+Giacomo Satoru Quintili: Okay, sometimes producers say, let's attenuate this by 20%, let's reduce them. Then you need to reduce the amount.
+
+11:05:05 --> 11:05:07
+Giacomo Satoru Quintili: It's just words.
+
+11:05:07 --> 11:05:09
+Giacomo Satoru Quintili: Okay.
+
+11:05:16 --> 11:05:18
+Giacomo Satoru Quintili: So.
+
+11:05:19 --> 11:05:22
+Giacomo Satoru Quintili: In short, what do you care? Amount?
+
+11:05:25 --> 11:05:28
+Giacomo Satoru Quintili: Basically, how much effect you want.
+
+11:05:30 --> 11:05:34
+Giacomo Satoru Quintili: Uh, okay, real really simple.
+
+11:05:34 --> 11:05:41
+Giacomo Satoru Quintili: To understand, for a musician, just know that amount usually is how much effect you want.
+
+11:05:45 --> 11:05:48
+Giacomo Satoru Quintili: Low amount, low effect.
+
+11:05:48 --> 11:05:50
+Giacomo Satoru Quintili: High amount, more effect.
+
+11:05:53 --> 11:05:54
+Giacomo Satoru Quintili: Okay.
+
+11:05:58 --> 11:05:59
+Giacomo Satoru Quintili: Next.
+
+11:06:02 --> 11:06:05
+Giacomo Satoru Quintili: Keyboards. Automatic.
+
+11:06:05 --> 11:06:11
+Giacomo Satoru Quintili: and semi-automatic keyboards, sequencer and arpeggiator modules.
+
+11:06:12 --> 11:06:16
+Giacomo Satoru Quintili: Okay, we finished with the theory, now it's more practice.
+
+11:06:16 --> 11:06:17
+Giacomo Satoru Quintili: Kinda.
+
+11:06:17 --> 11:06:20
+Giacomo Satoru Quintili: We study too.
+
+11:06:20 --> 11:06:27
+Giacomo Satoru Quintili: modules that are important in synthesizers, very important.
+
+11:06:27 --> 11:06:31
+Giacomo Satoru Quintili: Sequencer, RPGator and Sequencer, these two.
+
+11:06:31 --> 11:06:34
+Giacomo Satoru Quintili: Now, don't be scared.
+
+11:06:38 --> 11:06:40
+Giacomo Satoru Quintili: These…
+
+11:06:40 --> 11:06:42
+Giacomo Satoru Quintili: R.
+
+11:06:43 --> 11:06:46
+Giacomo Satoru Quintili: It's funny because they are all here, look.
+
+11:06:48 --> 11:06:51
+Giacomo Satoru Quintili: Up here you have the keyboard.
+
+11:06:51 --> 11:06:55
+Giacomo Satoru Quintili: This CV sources panel is the keyboard.
+
+11:06:58 --> 11:07:00
+Giacomo Satoru Quintili: So, manual.
+
+11:07:00 --> 11:07:01
+Giacomo Satoru Quintili: Control.
+
+11:07:01 --> 11:07:03
+Giacomo Satoru Quintili: Keyboard.
+
+11:07:04 --> 11:07:07
+Giacomo Satoru Quintili: You know the keyboard, right? I hope.
+
+11:07:08 --> 11:07:14
+Giacomo Satoru Quintili: Then you have the arpeggiator, which is a semi-automatic keyboard.
+
+11:07:30 --> 11:07:34
+Giacomo Satoru Quintili: By semi, I mean that you need to still press.
+
+11:07:34 --> 11:07:41
+Giacomo Satoru Quintili: the keys, but once you do so, it will arpeggiate the key that you are holding.
+
+11:07:41 --> 11:07:44
+Giacomo Satoru Quintili: So you still need to touch the module.
+
+11:07:44 --> 11:07:50
+Giacomo Satoru Quintili: Hmm. But then it it's automatic. And finally we have.
+
+11:07:51 --> 11:07:52
+Giacomo Satoru Quintili: The last.
+
+11:07:55 --> 11:07:58
+Giacomo Satoru Quintili: Here, the sequencer…
+
+11:07:58 --> 11:08:01
+Giacomo Satoru Quintili: Which is fully automatic.
+
+11:08:17 --> 11:08:18
+Giacomo Satoru Quintili: Okay?
+
+11:08:20 --> 11:08:22
+Giacomo Satoru Quintili: So.
+
+11:08:25 --> 11:08:29
+Giacomo Satoru Quintili: To make it to make them play.
+
+11:08:31 --> 11:08:42
+Giacomo Satoru Quintili: Know that these don't… these modules here, the keyboard up here, the arpeggiator and the sequencer, these modules don't generate any sound.
+
+11:08:43 --> 11:08:44
+Giacomo Satoru Quintili: Okay.
+
+11:08:46 --> 11:08:50
+Giacomo Satoru Quintili: What do you need to generate sound?
+
+11:08:53 --> 11:08:55
+Daniel Bradarić: Insulator.
+
+11:08:54 --> 11:08:56
+Giacomo Satoru Quintili: Correct.
+
+11:08:56 --> 11:09:04
+Giacomo Satoru Quintili: Without the oscillator, these are like the hands, if you imagine the metaphor of a guitar.
+
+11:09:04 --> 11:09:06
+Giacomo Satoru Quintili: These are the hands.
+
+11:09:06 --> 11:09:09
+Giacomo Satoru Quintili: You need a string.
+
+11:09:09 --> 11:09:13
+Giacomo Satoru Quintili: And the oscillator is the string. Okay.
+
+11:09:13 --> 11:09:19
+Giacomo Satoru Quintili: So, these don't generate any sound, they just tell what.
+
+11:09:20 --> 11:09:23
+Giacomo Satoru Quintili: Note must be played and when.
+
+11:09:24 --> 11:09:25
+Giacomo Satoru Quintili: Okay.
+
+11:09:25 --> 11:09:30
+Giacomo Satoru Quintili: So, you still need a basic patch architecture.
+
+11:09:30 --> 11:09:32
+Giacomo Satoru Quintili: Does it make sense?
+
+11:09:33 --> 11:09:34
+Giacomo Satoru Quintili: So.
+
+11:09:34 --> 11:09:37
+Giacomo Satoru Quintili: Let's start from the base patch.
+
+11:09:41 --> 11:09:42
+Giacomo Satoru Quintili: And…
+
+11:09:42 --> 11:09:45
+Giacomo Satoru Quintili: We modify this batch.
+
+11:09:45 --> 11:09:47
+Giacomo Satoru Quintili: Right? Right now…
+
+11:09:47 --> 11:09:50
+Giacomo Satoru Quintili: In this batch, I'm using…
+
+11:09:50 --> 11:09:57
+Giacomo Satoru Quintili: the manual keyboard, because I'm using the pitch and the gate, so if I want to hear sound, I have to press the keys.
+
+11:10:01 --> 11:10:06
+Giacomo Satoru Quintili: Okay? But look, with the RPG editor, I can just…
+
+11:10:07 --> 11:10:12
+Giacomo Satoru Quintili: Semi-automate the process. I'm going to load it here.
+
+11:10:12 --> 11:10:14
+Giacomo Satoru Quintili: Okay.
+
+11:10:15 --> 11:10:21
+Giacomo Satoru Quintili: And instead of using the keyboard here, I'm going to use him.
+
+11:10:22 --> 11:10:28
+Giacomo Satoru Quintili: Okay, so the CV out down here is basically the pitch CV.
+
+11:10:29 --> 11:10:31
+Giacomo Satoru Quintili: So I'm gonna move this one here.
+
+11:10:33 --> 11:10:36
+Giacomo Satoru Quintili: And the gate, gate out, is here.
+
+11:10:36 --> 11:10:41
+Giacomo Satoru Quintili: Now, I still need to plug the manual keyboard.
+
+11:10:41 --> 11:10:43
+Giacomo Satoru Quintili: to the arpeggiator.
+
+11:10:43 --> 11:10:45
+Giacomo Satoru Quintili: Okay.
+
+11:10:45 --> 11:10:53
+Giacomo Satoru Quintili: Because I still need to play my keyboard. So what do I do? Well, in this case, I need to plug the MIDI in.
+
+11:10:55 --> 11:10:59
+Giacomo Satoru Quintili: Okay, and look, here we have MIDI.
+
+11:10:59 --> 11:11:00
+Giacomo Satoru Quintili: Game.
+
+11:11:00 --> 11:11:04
+Giacomo Satoru Quintili: I'm going to select a color and it's fine here.
+
+11:11:05 --> 11:11:09
+Giacomo Satoru Quintili: Okay, now the keyboard is plugged to the arpeggiator.
+
+11:11:09 --> 11:11:15
+Giacomo Satoru Quintili: and the RP Jitter will do the work for me. I'm gonna hold the keys, look.
+
+11:11:20 --> 11:11:21
+Giacomo Satoru Quintili: You see?
+
+11:11:23 --> 11:11:26
+Giacomo Satoru Quintili: I can increase the rate.
+
+11:11:28 --> 11:11:30
+Giacomo Satoru Quintili: Change the pattern.
+
+11:11:32 --> 11:11:34
+Giacomo Satoru Quintili: the octave range.
+
+11:11:37 --> 11:11:40
+Giacomo Satoru Quintili: It's a semi-automatic.
+
+11:11:40 --> 11:11:44
+Giacomo Satoru Quintili: Because I still need to press the keys, right?
+
+11:11:50 --> 11:11:57
+Giacomo Satoru Quintili: Have you ever used an arpeggiator on a keyboard or something, some device, an arpeggiator?
+
+11:11:56 --> 11:11:58
+travismorgado: Già.
+
+11:11:57 --> 11:11:59
+Giacomo Satoru Quintili: Okay.
+
+11:12:00 --> 11:12:02
+Giacomo Satoru Quintili: So.
+
+11:12:02 --> 11:12:15
+Giacomo Satoru Quintili: yeah, you must be aware of its existence. Arpeggiator? Arpeggiator is a semi-automatic keyboard which generates CV, pitch CV, and gate CV, just like a keyboard.
+
+11:12:17 --> 11:12:23
+Giacomo Satoru Quintili: Um, but one… all you need to do is to hold the keys.
+
+11:12:23 --> 11:12:26
+Giacomo Satoru Quintili: And then, the refrigerator will just…
+
+11:12:26 --> 11:12:27
+Giacomo Satoru Quintili: RPG8.
+
+11:12:28 --> 11:12:31
+Giacomo Satoru Quintili: The peak CV and gate for you.
+
+11:12:35 --> 11:12:37
+Giacomo Satoru Quintili: Okay?
+
+11:12:42 --> 11:12:45
+Giacomo Satoru Quintili: Next, the sequencer.
+
+11:12:45 --> 11:12:46
+Giacomo Satoru Quintili: Ah.
+
+11:12:46 --> 11:12:50
+Giacomo Satoru Quintili: Now, the sequencer is going to be the exercise for the next time.
+
+11:12:50 --> 11:12:57
+Giacomo Satoru Quintili: The sequencer… let me unplug the two, these. I'm gonna remove the RPGator.
+
+11:12:57 --> 11:12:59
+Giacomo Satoru Quintili: And I'm going to.
+
+11:13:01 --> 11:13:04
+Giacomo Satoru Quintili: um… change.
+
+11:13:04 --> 11:13:06
+Giacomo Satoru Quintili: The arrangement a little bit.
+
+11:13:06 --> 11:13:08
+Giacomo Satoru Quintili: Let me load the sequencer.
+
+11:13:11 --> 11:13:15
+Giacomo Satoru Quintili: Oh, the sequencer is an automatic keyboard.
+
+11:13:15 --> 11:13:17
+Giacomo Satoru Quintili: Follow me, yeah?
+
+11:13:17 --> 11:13:22
+Giacomo Satoru Quintili: Basically, you pre-made, you pre-make your sequence.
+
+11:13:22 --> 11:13:24
+Giacomo Satoru Quintili: by using the faders.
+
+11:13:25 --> 11:13:26
+Giacomo Satoru Quintili: You see?
+
+11:13:26 --> 11:13:29
+Giacomo Satoru Quintili: A4, for example.
+
+11:13:29 --> 11:13:32
+Giacomo Satoru Quintili: And this is D3.
+
+11:13:32 --> 11:13:34
+Giacomo Satoru Quintili: D 5.
+
+11:13:34 --> 11:13:39
+Giacomo Satoru Quintili: So you decide the sequence of notes with the faders.
+
+11:13:46 --> 11:13:47
+Giacomo Satoru Quintili: Hmm?
+
+11:13:49 --> 11:13:54
+Giacomo Satoru Quintili: And then you need to plug this one, CV output, which is basically the picture CV.
+
+11:13:54 --> 11:13:57
+Giacomo Satoru Quintili: Where do you need to plug it?
+
+11:13:58 --> 11:14:02
+Giacomo Satoru Quintili: This is the signal that will control the frequency, right?
+
+11:14:02 --> 11:14:04
+Giacomo Satoru Quintili: So where do I need to plug it?
+
+11:14:05 --> 11:14:09
+travismorgado: Pentole Pedgeve a opere.
+
+11:14:07 --> 11:14:08
+Giacomo Satoru Quintili: Yes, so…
+
+11:14:08 --> 11:14:12
+Giacomo Satoru Quintili: of the oscillator. Yes. Brau here.
+
+11:14:12 --> 11:14:16
+Giacomo Satoru Quintili: Okay, and here we have the gate out.
+
+11:14:17 --> 11:14:20
+Giacomo Satoru Quintili: So this is basically when.
+
+11:14:20 --> 11:14:22
+Giacomo Satoru Quintili: The sound must appear.
+
+11:14:22 --> 11:14:23
+Giacomo Satoru Quintili: Hmm?
+
+11:14:24 --> 11:14:32
+Giacomo Satoru Quintili: So the gate is going to be… must enter the gate input of the envelope, so I'm just gonna plug it into the splitter, it's already here.
+
+11:14:33 --> 11:14:35
+Giacomo Satoru Quintili: Okay.
+
+11:14:36 --> 11:14:40
+Giacomo Satoru Quintili: Remember that you need to press play.
+
+11:14:40 --> 11:14:41
+Giacomo Satoru Quintili: to play the sequence.
+
+11:14:41 --> 11:14:44
+Giacomo Satoru Quintili: Okay, I'm going to press play.
+
+11:14:48 --> 11:14:50
+Giacomo Satoru Quintili: Bellissimo. Beautiful.
+
+11:14:50 --> 11:14:52
+Giacomo Satoru Quintili: I mean, it sucks, but…
+
+11:14:52 --> 11:14:54
+Giacomo Satoru Quintili: Does it make sense?
+
+11:14:54 --> 11:14:58
+Giacomo Satoru Quintili: You can increase the speed of the sequence, right?
+
+11:14:59 --> 11:15:00
+Giacomo Satoru Quintili: Okay, how?
+
+11:15:10 --> 11:15:12
+travismorgado: Software universitario.
+
+11:15:12 --> 11:15:15
+Giacomo Satoru Quintili: Yeah. How can I increase? It's too slow.
+
+11:15:23 --> 11:15:24
+travismorgado: The rate.
+
+11:15:24 --> 11:15:26
+Giacomo Satoru Quintili: Yes, great.
+
+11:15:36 --> 11:15:39
+Giacomo Satoru Quintili: Let me just change it a little bit because it sucks.
+
+11:15:46 --> 11:15:47
+Giacomo Satoru Quintili: Okay.
+
+11:16:09 --> 11:16:11
+Giacomo Satoru Quintili: Let me use this one.
+
+11:16:13 --> 11:16:15
+Giacomo Satoru Quintili: No, no.
+
+11:16:15 --> 11:16:19
+Giacomo Satoru Quintili: Let let's do something. Right? It's boring, by the way.
+
+11:16:28 --> 11:16:31
+Giacomo Satoru Quintili: You can turn some steps off.
+
+11:16:38 --> 11:16:41
+Giacomo Satoru Quintili: Okay, you can decrease the number of steps.
+
+11:16:47 --> 11:16:49
+Giacomo Satoru Quintili: Glide.
+
+11:16:57 --> 11:16:58
+Giacomo Satoru Quintili: Does that make sense?
+
+11:17:03 --> 11:17:06
+Giacomo Satoru Quintili: Now, do you need to do this? No. No, you don't need to.
+
+11:17:07 --> 11:17:11
+Giacomo Satoru Quintili: For the exercise, you will need to create a basic patch.
+
+11:17:11 --> 11:17:13
+Giacomo Satoru Quintili: Hmm?
+
+11:17:13 --> 11:17:22
+Giacomo Satoru Quintili: From scratch. So that you remember, so that you learn, because today I saw that many of you must acquire some muscle memory yet.
+
+11:17:22 --> 11:17:24
+Giacomo Satoru Quintili: So from scratch…
+
+11:17:24 --> 11:17:26
+Giacomo Satoru Quintili: from the new patch.
+
+11:17:27 --> 11:17:30
+Giacomo Satoru Quintili: Basic patch, you add the sequencer.
+
+11:17:31 --> 11:17:34
+Giacomo Satoru Quintili: And then you set. So let's do it now.
+
+11:17:35 --> 11:17:37
+Giacomo Satoru Quintili: I'm gonna stop the recording.
+
+11:31:53 --> 11:32:03
+Giacomo Satoru Quintili: Let me record this. So look at the sequencer. We have the voltage range, 1 volt, 2 volt, 5 volts. This allows us to change.
+
+11:32:04 --> 11:32:06
+Giacomo Satoru Quintili: The range of the faders.
+
+11:32:06 --> 11:32:10
+Giacomo Satoru Quintili: 5 volts means 5 octaves.
+
+11:32:10 --> 11:32:14
+Giacomo Satoru Quintili: Two volts, two octaves. One volt, one B.
+
+11:32:14 --> 11:32:17
+Giacomo Satoru Quintili: One octave. This is a utility.
+
+11:32:17 --> 11:32:25
+Giacomo Satoru Quintili: Because it allows us to operate in one octave only, so from C2 here, C2, to C3.
+
+11:32:25 --> 11:32:29
+Giacomo Satoru Quintili: This is 5 volts, so you want a bigger sequence?
+
+11:32:29 --> 11:32:31
+Giacomo Satoru Quintili: You have 5 octaves.
+
+11:32:31 --> 11:32:33
+Giacomo Satoru Quintili: Okay.
+
+11:32:33 --> 11:32:35
+Giacomo Satoru Quintili: So if I only want to do…
+
+11:32:35 --> 11:32:37
+Giacomo Satoru Quintili: Stuff like this.
+
+11:32:38 --> 11:32:41
+Giacomo Satoru Quintili: It's better if I just use one octave.
+
+11:33:01 --> 11:33:03
+Giacomo Satoru Quintili: Minor is better.
+
+11:33:06 --> 11:33:11
+Giacomo Satoru Quintili: Okay, one volt, only one octave. It's easier to work.
+
+11:33:12 --> 11:33:14
+Giacomo Satoru Quintili: Second thing.
+
+11:33:14 --> 11:33:21
+Giacomo Satoru Quintili: Transposition. Keyboard transposition. We can plug, look, we can plug the pitch.
+
+11:33:22 --> 11:33:24
+Giacomo Satoru Quintili: of the keyboard.
+
+11:33:25 --> 11:33:28
+Giacomo Satoru Quintili: Here, on the CV offset.
+
+11:33:30 --> 11:33:37
+Giacomo Satoru Quintili: So now, our keyboard will control the transposition of the whole sequence.
+
+11:33:49 --> 11:33:51
+Giacomo Satoru Quintili: Doesn't make sense.
+
+11:33:56 --> 11:33:58
+Giacomo Satoru Quintili: I…
+
+11:33:59 --> 11:34:01
+Giacomo Satoru Quintili: So this…

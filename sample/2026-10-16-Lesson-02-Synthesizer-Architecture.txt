@@ -1,0 +1,3377 @@
+10:05:08 --> 10:05:09
+Giacomo Satoru Quintili: Okay.
+
+10:05:12 --> 10:05:13
+Giacomo Satoru Quintili: So…
+
+10:05:13 --> 10:05:16
+Giacomo Satoru Quintili: Those who are present and.
+
+10:05:16 --> 10:05:22
+Giacomo Satoru Quintili: participate to the lesson can access the video, YouTube video, private of the lesson, and.
+
+10:05:24 --> 10:05:25
+Giacomo Satoru Quintili: If…
+
+10:05:25 --> 10:05:36
+Giacomo Satoru Quintili: People who are absent or do not show participation will not be granted access to the video for privacy reasons.
+
+10:05:25 --> 10:05:36
+Giacomo Satoru Quintili: Tipo world hubsent or the not show partecipation a Bonnut Pe Grand Ducks the video four prive Se visionsen.
+
+10:05:36 --> 10:05:41
+Giacomo Satoru Quintili: To avoid any kind of abuse, right?
+
+10:05:36 --> 10:05:41
+Giacomo Satoru Quintili: A voi da Eni Kain, dove ha bevuto.
+
+10:05:41 --> 10:05:43
+Giacomo Satoru Quintili: A.
+
+10:05:41 --> 10:05:43
+Giacomo Satoru Quintili: Umm.
+
+10:05:44 --> 10:05:49
+Giacomo Satoru Quintili: Today's topic is going to be the architecture of a synthesizer.
+
+10:05:44 --> 10:05:49
+Giacomo Satoru Quintili: T Day Stapik e Sganght Bee di Architecture Ovastin necessityser.
+
+10:05:49 --> 10:05:54
+Giacomo Satoru Quintili: And the types of synthesizers that you can find, uh…
+
+10:05:56 --> 10:06:01
+Giacomo Satoru Quintili: So synthesizers can be monophonic or polyphonic.
+
+10:06:01 --> 10:06:06
+Giacomo Satoru Quintili: A student must be aware of their existence and what they are.
+
+10:06:06 --> 10:06:08
+Giacomo Satoru Quintili: So…
+
+10:06:08 --> 10:06:12
+Giacomo Satoru Quintili: Monophonic synthesizers are basically, uh…
+
+10:06:12 --> 10:06:15
+Giacomo Satoru Quintili: capable of producing amines.
+
+10:06:15 --> 10:06:17
+Giacomo Satoru Quintili: Not producing, but…
+
+10:06:17 --> 10:06:22
+Giacomo Satoru Quintili: Only one key works at a time, that's what it means.
+
+10:06:22 --> 10:06:24
+Giacomo Satoru Quintili: Let me show you an example.
+
+10:06:29 --> 10:06:32
+Giacomo Satoru Quintili: So monophonic synthesizers.
+
+10:06:32 --> 10:06:36
+Giacomo Satoru Quintili: Are those you are going to create?
+
+10:06:36 --> 10:06:40
+Giacomo Satoru Quintili: Monophonic only, not polyphonic, okay?
+
+10:06:41 --> 10:06:46
+Giacomo Satoru Quintili: For example, the basic patch, which you will do today.
+
+10:06:49 --> 10:06:51
+Giacomo Satoru Quintili: This is monophonic.
+
+10:06:52 --> 10:06:56
+Giacomo Satoru Quintili: I repeat, every monophonic equal.
+
+10:06:56 --> 10:07:00
+Giacomo Satoru Quintili: One key works at a time.
+
+10:07:02 --> 10:07:09
+Giacomo Satoru Quintili: As you can see, I'm pressing one key, I'm holding one key, then I'm pressing multiple keys.
+
+10:07:10 --> 10:07:14
+Giacomo Satoru Quintili: But only one key works at a time.
+
+10:07:15 --> 10:07:16
+Giacomo Satoru Quintili: Careful!
+
+10:07:17 --> 10:07:20
+Giacomo Satoru Quintili: I'm not saying that…
+
+10:07:20 --> 10:07:25
+Giacomo Satoru Quintili: In a monophonic synthesizer, you can only have one note. Wrong.
+
+10:07:26 --> 10:07:28
+Giacomo Satoru Quintili: I said wonky.
+
+10:07:28 --> 10:07:33
+Giacomo Satoru Quintili: Because you can have multiple oscillators at once.
+
+10:07:33 --> 10:07:36
+Giacomo Satoru Quintili: Producing different notes, for example.
+
+10:07:40 --> 10:07:43
+Giacomo Satoru Quintili: Which you will do in a future lesson.
+
+10:07:55 --> 10:07:59
+Giacomo Satoru Quintili: And this is an exercise that you will do in the future.
+
+10:08:04 --> 10:08:06
+Giacomo Satoru Quintili: But not now.
+
+10:08:09 --> 10:08:15
+Giacomo Satoru Quintili: Gain staging to avoid the sound distorting.
+
+10:08:16 --> 10:08:18
+Giacomo Satoru Quintili: A little bit of detune.
+
+10:08:18 --> 10:08:20
+Giacomo Satoru Quintili: Un lavoro.
+
+10:08:19 --> 10:08:27
+Giacomo Satoru Quintili: This is called Carus. Anyway, as you can see, I have multiple oscillators. I press one key.
+
+10:08:27 --> 10:08:29
+Giacomo Satoru Quintili: But I can do this.
+
+10:08:35 --> 10:08:37
+Giacomo Satoru Quintili: As you can see.
+
+10:08:38 --> 10:08:41
+Giacomo Satoru Quintili: I have multiple notes.
+
+10:08:42 --> 10:08:43
+Giacomo Satoru Quintili: Right?
+
+10:08:44 --> 10:08:53
+Giacomo Satoru Quintili: What I'm saying is that monophonic does not mean that only one note can be produced. No. It means that one key works at a time.
+
+10:08:57 --> 10:08:58
+Giacomo Satoru Quintili: Okay?
+
+10:09:00 --> 10:09:06
+Giacomo Satoru Quintili: Decay release. This is all skills that you will be required to know.
+
+10:09:12 --> 10:09:14
+Giacomo Satoru Quintili: Okay?
+
+10:09:16 --> 10:09:19
+Giacomo Satoru Quintili: What about a polyphonic synthesizer?
+
+10:09:20 --> 10:09:23
+Giacomo Satoru Quintili: a polyphonic synthesizer.
+
+10:09:26 --> 10:09:34
+Giacomo Satoru Quintili: is a synthesizer in which multiple keys work at once.
+
+10:09:33 --> 10:09:36
+Giacomo Satoru Quintili: In un.
+
+10:09:39 --> 10:09:41
+Giacomo Satoru Quintili: Each key…
+
+10:09:41 --> 10:09:43
+Giacomo Satoru Quintili: Buongiorno.
+
+10:09:43 --> 10:09:45
+Giacomo Satoru Quintili: Vi.
+
+10:09:44 --> 10:09:46
+Giacomo Satoru Quintili: is a voice.
+
+10:09:48 --> 10:09:51
+Giacomo Satoru Quintili: And it's independent.
+
+10:10:03 --> 10:10:05
+Giacomo Satoru Quintili: Let's increase some attack.
+
+10:10:07 --> 10:10:08
+Giacomo Satoru Quintili: To give…
+
+10:10:08 --> 10:10:10
+Giacomo Satoru Quintili: some…
+
+10:10:10 --> 10:10:12
+Giacomo Satoru Quintili: fade-in effect.
+
+10:10:15 --> 10:10:18
+Giacomo Satoru Quintili: Can you hear that each key I press?
+
+10:10:18 --> 10:10:21
+Giacomo Satoru Quintili: produces a fading effect.
+
+10:10:23 --> 10:10:25
+Giacomo Satoru Quintili: So each key…
+
+10:10:25 --> 10:10:27
+Giacomo Satoru Quintili: Each voice…
+
+10:10:27 --> 10:10:29
+Giacomo Satoru Quintili: Has its own fade-in.
+
+10:10:33 --> 10:10:35
+Giacomo Satoru Quintili: That's the difference.
+
+10:10:35 --> 10:10:39
+Giacomo Satoru Quintili: A monophonic synthesizer is not capable of doing this.
+
+10:11:04 --> 10:11:05
+Giacomo Satoru Quintili: So.
+
+10:11:15 --> 10:11:18
+Giacomo Satoru Quintili: Monophonic and polyphonic.
+
+10:11:19 --> 10:11:24
+Giacomo Satoru Quintili: Polyphonic synthesizers subdivide into three.
+
+10:11:24 --> 10:11:27
+Giacomo Satoru Quintili: Additional categories. Polyphonic.
+
+10:11:28 --> 10:11:30
+Giacomo Satoru Quintili: Duophonic.
+
+10:11:34 --> 10:11:36
+Giacomo Satoru Quintili: Paraphonic.
+
+10:11:37 --> 10:11:39
+Giacomo Satoru Quintili: and true polyphonic.
+
+10:11:57 --> 10:11:59
+Giacomo Satoru Quintili: Okay?
+
+10:12:11 --> 10:12:15
+Giacomo Satoru Quintili: Let's analyze the architecture of a monophonic.
+
+10:12:16 --> 10:12:18
+Giacomo Satoru Quintili: Synthesizer.
+
+10:12:20 --> 10:12:29
+Giacomo Satoru Quintili: And once we understood the architecture of a monophonic synthesizer, we can move onto the polyphonic.
+
+10:12:29 --> 10:12:32
+Giacomo Satoru Quintili: Which is a little bit more complex.
+
+10:12:34 --> 10:12:37
+Giacomo Satoru Quintili: So, a monophonic synthesizer…
+
+10:12:43 --> 10:12:45
+Giacomo Satoru Quintili: Always have.
+
+10:12:45 --> 10:12:48
+Giacomo Satoru Quintili: has an oscillator.
+
+10:12:49 --> 10:12:52
+Giacomo Satoru Quintili: Which is the sorts.
+
+10:12:52 --> 10:12:54
+Giacomo Satoru Quintili: of sound.
+
+10:12:54 --> 10:12:57
+Giacomo Satoru Quintili: Then usually has a filter.
+
+10:12:57 --> 10:12:59
+Giacomo Satoru Quintili: And an amplifier.
+
+10:13:02 --> 10:13:03
+Giacomo Satoru Quintili: Hmm?
+
+10:13:04 --> 10:13:06
+Giacomo Satoru Quintili: Then…
+
+10:13:06 --> 10:13:08
+Giacomo Satoru Quintili: We have…
+
+10:13:08 --> 10:13:10
+Giacomo Satoru Quintili: Two envelopes.
+
+10:13:10 --> 10:13:13
+Giacomo Satoru Quintili: One or two envelopes.
+
+10:13:14 --> 10:13:16
+Giacomo Satoru Quintili: One is the bare minimum.
+
+10:13:18 --> 10:13:20
+Giacomo Satoru Quintili: 2 is ideal.
+
+10:13:25 --> 10:13:26
+Giacomo Satoru Quintili: And…
+
+10:13:27 --> 10:13:31
+Giacomo Satoru Quintili: The purpose of the envelopes is to…
+
+10:13:32 --> 10:13:33
+Giacomo Satoru Quintili: Automate.
+
+10:13:34 --> 10:13:38
+Giacomo Satoru Quintili: Automate cutoff and gain.
+
+10:13:41 --> 10:13:43
+Giacomo Satoru Quintili: In short…
+
+10:13:43 --> 10:13:48
+Giacomo Satoru Quintili: The envelope generator allows you to get an envelope.
+
+10:13:48 --> 10:13:57
+Giacomo Satoru Quintili: I mean, you can decide if the sound has a fade-in effect or fade-out effect, so that the…
+
+10:13:58 --> 10:14:03
+Giacomo Satoru Quintili: You can decide the articulation of the sound.
+
+10:14:03 --> 10:14:08
+Giacomo Satoru Quintili: So let me repeat, the envelope allows you.
+
+10:14:08 --> 10:14:12
+Giacomo Satoru Quintili: To shape the articulation of a sound.
+
+10:14:14 --> 10:14:17
+Giacomo Satoru Quintili: And it is crucial.
+
+10:14:17 --> 10:14:21
+Giacomo Satoru Quintili: that students like you fully understand the envelope.
+
+10:14:25 --> 10:14:27
+Giacomo Satoru Quintili: and how it works.
+
+10:14:29 --> 10:14:31
+Giacomo Satoru Quintili: But that's for a future lesson.
+
+10:14:36 --> 10:14:39
+Giacomo Satoru Quintili: So, oscillator.
+
+10:14:39 --> 10:14:45
+Giacomo Satoru Quintili: VCO, also known as VCO, voltage controlled oscillator.
+
+10:14:45 --> 10:14:47
+Giacomo Satoru Quintili: V C F.
+
+10:14:47 --> 10:14:49
+Giacomo Satoru Quintili: Filter.
+
+10:14:49 --> 10:14:52
+Giacomo Satoru Quintili: and VCA amplifier.
+
+10:14:54 --> 10:14:59
+Giacomo Satoru Quintili: Two envelopes. One envelope for the filter to move the cutoff.
+
+10:15:01 --> 10:15:04
+Giacomo Satoru Quintili: One envelope for the amplifier, two…
+
+10:15:04 --> 10:15:09
+Giacomo Satoru Quintili: move the game, and so having the sound. So, super important.
+
+10:15:12 --> 10:15:16
+Giacomo Satoru Quintili: Finally, a keyboard module.
+
+10:15:17 --> 10:15:19
+Giacomo Satoru Quintili: So it's.
+
+10:15:19 --> 10:15:25
+Giacomo Satoru Quintili: Here, up here, the CV sources panel equals to the keyboard.
+
+10:15:27 --> 10:15:29
+Giacomo Satoru Quintili: As you can see.
+
+10:15:29 --> 10:15:32
+Giacomo Satoru Quintili: The keyboard module.
+
+10:15:32 --> 10:15:35
+Giacomo Satoru Quintili: The keyboard, this one, the QWERTY keyboard.
+
+10:15:36 --> 10:15:45
+Giacomo Satoru Quintili: is a device, electronic device, which generates a lot of… a lot of…
+
+10:15:45 --> 10:15:47
+Giacomo Satoru Quintili: Signals.
+
+10:15:47 --> 10:15:49
+Giacomo Satoru Quintili: Control signals.
+
+10:15:50 --> 10:15:55
+Giacomo Satoru Quintili: Uh, pitch, gate, trigger, velocity, after touch, sustain…
+
+10:15:55 --> 10:15:58
+Giacomo Satoru Quintili: Pitch Bend and Mud Wheel.
+
+10:15:58 --> 10:16:02
+Giacomo Satoru Quintili: Today, we only care about pitch and gate.
+
+10:16:04 --> 10:16:06
+Giacomo Satoru Quintili: So, the keyboard…
+
+10:16:07 --> 10:16:12
+Giacomo Satoru Quintili: is used to control the frequency of the oscillator.
+
+10:16:13 --> 10:16:17
+Giacomo Satoru Quintili: So decide which note to produce. Second.
+
+10:16:17 --> 10:16:20
+Giacomo Satoru Quintili: Trigger the envelopes.
+
+10:16:20 --> 10:16:21
+Giacomo Satoru Quintili: So.
+
+10:16:21 --> 10:16:23
+Giacomo Satoru Quintili: To have sound.
+
+10:16:25 --> 10:16:32
+Giacomo Satoru Quintili: So, the keyboard is super important. You tune the oscillator, and you decide.
+
+10:16:32 --> 10:16:34
+Giacomo Satoru Quintili: when the sound comes.
+
+10:16:34 --> 10:16:39
+Giacomo Satoru Quintili: Okay? You do it with a pitch to tune the oscillator, and the gate.
+
+10:16:40 --> 10:16:42
+Giacomo Satoru Quintili: to turn the volume on.
+
+10:16:45 --> 10:16:46
+Giacomo Satoru Quintili: Okay?
+
+10:16:46 --> 10:16:48
+Giacomo Satoru Quintili: So.
+
+10:16:49 --> 10:16:57
+Giacomo Satoru Quintili: This is the architecture of a synthesizer. VCO, VCF, VCA, two envelopes, and a keyboard module.
+
+10:17:00 --> 10:17:04
+Giacomo Satoru Quintili: Those who can, open Voltage Modular.
+
+10:17:04 --> 10:17:07
+Giacomo Satoru Quintili: And perform this patch.
+
+10:17:07 --> 10:17:11
+Giacomo Satoru Quintili: Open Voltage Modular, open the library.
+
+10:17:11 --> 10:17:12
+Giacomo Satoru Quintili: Hmm? Okay.
+
+10:17:12 --> 10:17:14
+Giacomo Satoru Quintili: and load.
+
+10:17:14 --> 10:17:16
+Giacomo Satoru Quintili: An oscillator.
+
+10:17:17 --> 10:17:19
+Giacomo Satoru Quintili: a filter.
+
+10:17:21 --> 10:17:22
+Giacomo Satoru Quintili: and an amplifier.
+
+10:17:25 --> 10:17:30
+Giacomo Satoru Quintili: And two envelopes. E and B. Envelope generator.
+
+10:17:32 --> 10:17:36
+Giacomo Satoru Quintili: I'm going to stop sharing because now it's your turn to share the screen.
+
+10:17:36 --> 10:17:37
+Hongze(Wengo) Wang: Excuse me, sir.
+
+10:17:37 --> 10:17:39
+Giacomo Satoru Quintili: Yep.
+
+10:17:37 --> 10:17:41
+Hongze(Wengo) Wang: Um, when I searched for the…
+
+10:17:41 --> 10:17:46
+Hongze(Wengo) Wang: you know, everything that I'm supposed to search for, it doesn't come up for some reason.
+
+10:17:45 --> 10:17:50
+Giacomo Satoru Quintili: Okay, let me see just a moment.
+
+10:17:50 --> 10:17:53
+Hongze(Wengo) Wang: Yeah. Do you want me to share my screen with you?
+
+10:17:53 --> 10:17:56
+Giacomo Satoru Quintili: I'm going to make so that everybody's sharing their screen.
+
+10:17:56 --> 10:17:58
+Hongze(Wengo) Wang: Okay.
+
+10:17:59 --> 10:18:01
+Hongze(Wengo) Wang: So…
+
+10:18:01 --> 10:18:04
+Giacomo Satoru Quintili: Probably you are on the store, let me see.
+
+10:18:03 --> 10:18:10
+Hongze(Wengo) Wang: Yeah, I pull out the keyboard, but say if I'm searching the filter is not here.
+
+10:18:10 --> 10:18:16
+Giacomo Satoru Quintili: Yes, yes, okay, I get it. Close, close, okay. It's a simple fix.
+
+10:18:16 --> 10:18:20
+Giacomo Satoru Quintili: You created a Cherry Audio account, right?
+
+10:18:19 --> 10:18:20
+Hongze(Wengo) Wang: Yeah.
+
+10:18:20 --> 10:18:25
+Giacomo Satoru Quintili: Okay, perfect. You need to verify your account. Did you… did you…
+
+10:18:24 --> 10:18:27
+Hongze(Wengo) Wang: I'm pretty sure I did that.
+
+10:18:26 --> 10:18:29
+Giacomo Satoru Quintili: You did that, perfect. Then go to the store.
+
+10:18:30 --> 10:18:32
+Hongze(Wengo) Wang: Which is…
+
+10:18:32 --> 10:18:34
+Giacomo Satoru Quintili: Uh, here.
+
+10:18:34 --> 10:18:40
+Hongze(Wengo) Wang: Oh, my bad. I didn't see it.
+
+10:18:35 --> 10:18:37
+Giacomo Satoru Quintili: Is it store?
+
+10:18:37 --> 10:18:40
+Giacomo Satoru Quintili: Yeah, it's okay. And type Nucleus.
+
+10:18:41 --> 10:18:43
+Hongze(Wengo) Wang: How do you…
+
+10:18:42 --> 10:18:45
+Giacomo Satoru Quintili: Nucleus. Nucleus.
+
+10:18:45 --> 10:18:47
+Giacomo Satoru Quintili: The second one.
+
+10:18:47 --> 10:18:48
+Hongze(Wengo) Wang: Here.
+
+10:18:47 --> 10:18:49
+Giacomo Satoru Quintili: Yep. Yep.
+
+10:18:48 --> 10:18:52
+Hongze(Wengo) Wang: Oh, okay, so I gotta get it. Ah, okay, thank you.
+
+10:18:50 --> 10:18:52
+Giacomo Satoru Quintili: At the library, yes.
+
+10:18:53 --> 10:18:55
+Giacomo Satoru Quintili: Now, go back to modules.
+
+10:18:53 --> 10:18:54
+Hongze(Wengo) Wang: All right.
+
+10:18:57 --> 10:19:00
+Giacomo Satoru Quintili: All right, and refresh.
+
+10:19:04 --> 10:19:06
+Giacomo Satoru Quintili: Give it some time.
+
+10:19:07 --> 10:19:08
+Hongze(Wengo) Wang: Okay.
+
+10:19:09 --> 10:19:11
+Hongze(Wengo) Wang: Juna Moda Temple.
+
+10:19:15 --> 10:19:17
+Giacomo Satoru Quintili: Yeah, yeah, give it some time.
+
+10:19:17 --> 10:19:20
+Hongze(Wengo) Wang: Ah, okay, still loading.
+
+10:19:19 --> 10:19:21
+Giacomo Satoru Quintili: It's, uh, getting your stuff.
+
+10:19:22 --> 10:19:24
+Hongze(Wengo) Wang: Yeah, I see it.
+
+10:19:22 --> 10:19:26
+travismorgado: Ire Whatsapping the Semping Supling Aur. Me.
+
+10:19:26 --> 10:19:29
+Giacomo Satoru Quintili: Yeah, yeah, it's the setup, yep.
+
+10:19:29 --> 10:19:31
+travismorgado: Su how world Wef the soy.
+
+10:19:31 --> 10:19:33
+Giacomo Satoru Quintili: Let me see.
+
+10:19:31 --> 10:19:33
+Hongze(Wengo) Wang: You're good.
+
+10:19:33 --> 10:19:38
+Giacomo Satoru Quintili: Um… go to the store.
+
+10:19:33 --> 10:19:35
+Hongze(Wengo) Wang: Hold on.
+
+10:19:35 --> 10:19:37
+Hongze(Wengo) Wang: Okay.
+
+10:19:37 --> 10:19:39
+Hongze(Wengo) Wang: Julian.
+
+10:19:39 --> 10:19:42
+Giacomo Satoru Quintili: Type nucleus.
+
+10:19:42 --> 10:19:43
+Giacomo Satoru Quintili: And you?
+
+10:19:43 --> 10:19:46
+Giacomo Satoru Quintili: C, L, the second one.
+
+10:19:48 --> 10:19:50
+Giacomo Satoru Quintili: Add to library.
+
+10:19:51 --> 10:19:55
+Giacomo Satoru Quintili: All right, now go back to modules.
+
+10:19:55 --> 10:19:58
+Giacomo Satoru Quintili: Uh, close this, uh, yeah.
+
+10:19:59 --> 10:20:04
+Giacomo Satoru Quintili: And refresh on the back. Oh, yeah, great.
+
+10:20:06 --> 10:20:09
+Giacomo Satoru Quintili: Yeah, I'll give it some time.
+
+10:20:08 --> 10:20:10
+travismorgado: Tora.
+
+10:20:12 --> 10:20:13
+Giacomo Satoru Quintili: Let me check.
+
+10:20:15 --> 10:20:20
+Giacomo Satoru Quintili: If it doesn't work, close voltage moduler and open it again.
+
+10:20:20 --> 10:20:22
+Hongze(Wengo) Wang: Okay, I'm gonna do it right now.
+
+10:20:22 --> 10:20:23
+Giacomo Satoru Quintili: Yep.
+
+10:20:31 --> 10:20:35
+Giacomo Satoru Quintili: Always check, guys. Listen.
+
+10:20:36 --> 10:20:38
+Giacomo Satoru Quintili: Uh, let me, let me interrupt.
+
+10:20:39 --> 10:20:41
+Giacomo Satoru Quintili: Uh, yeah, here.
+
+10:20:43 --> 10:20:46
+Giacomo Satoru Quintili: Uh, you see here…
+
+10:20:46 --> 10:20:47
+Giacomo Satoru Quintili: Classroom.
+
+10:20:49 --> 10:20:56
+Giacomo Satoru Quintili: Always check classroom, guys, because as I said, you see voltage module here, check nucleus here.
+
+10:20:56 --> 10:20:58
+Giacomo Satoru Quintili: Okay.
+
+10:20:58 --> 10:21:08
+Giacomo Satoru Quintili: Keep in mind that you will need to create an account on Charioto website, so you don't lose your login credentials, it's all free. For any question, you can email me.
+
+10:21:08 --> 10:21:12
+Giacomo Satoru Quintili: Uh, what is this? 404 not found.
+
+10:21:13 --> 10:21:14
+Giacomo Satoru Quintili: I don't know what it is.
+
+10:21:14 --> 10:21:16
+Giacomo Satoru Quintili: So…
+
+10:21:20 --> 10:21:26
+Giacomo Satoru Quintili: So yeah, guys, it's very important to always check classroom before lesson.
+
+10:21:26 --> 10:21:29
+Giacomo Satoru Quintili: Hmm? So we don't have this kind of, uh…
+
+10:21:29 --> 10:21:33
+Giacomo Satoru Quintili: Uh, problems. Logistical problem. Hmm?
+
+10:21:34 --> 10:21:40
+Giacomo Satoru Quintili: Logistic. Anyway, because time is tyrant, so I need to move on.
+
+10:21:44 --> 10:21:47
+Giacomo Satoru Quintili: Is it working, by the way?
+
+10:21:52 --> 10:21:55
+Hongze(Wengo) Wang: It's still loading for me.
+
+10:21:52 --> 10:21:53
+travismorgado: You.
+
+10:21:55 --> 10:21:59
+Hongze(Wengo) Wang: Yeah, I have bad connections. That's probably why.
+
+10:21:58 --> 10:22:00
+Giacomo Satoru Quintili: Let me see.
+
+10:22:01 --> 10:22:07
+Giacomo Satoru Quintili: Did you verify your account? Are you sure you did? Okay, Travis is working.
+
+10:22:06 --> 10:22:08
+travismorgado: 0 .
+
+10:22:07 --> 10:22:09
+Hongze(Wengo) Wang: I'm pretty sure I did.
+
+10:22:07 --> 10:22:13
+Giacomo Satoru Quintili: It is working. So, it's downloading. Give it some time. You see it downloading down here.
+
+10:22:11 --> 10:22:12
+Hongze(Wengo) Wang: Okay.
+
+10:22:13 --> 10:22:16
+Giacomo Satoru Quintili: For Travis, it's working, that's good.
+
+10:22:16 --> 10:22:19
+Giacomo Satoru Quintili: So, let me see for…
+
+10:22:20 --> 10:22:22
+Giacomo Satoru Quintili: For you, it's not working yet.
+
+10:22:23 --> 10:22:25
+Giacomo Satoru Quintili: Mm, mm, mm.
+
+10:22:29 --> 10:22:31
+Giacomo Satoru Quintili: To be sure…
+
+10:22:33 --> 10:22:37
+Giacomo Satoru Quintili: You can close… I mean, you can open voltage modular…
+
+10:22:37 --> 10:22:49
+Giacomo Satoru Quintili: on, uh, you did press on verify and now address, okay, good, that's good. Okay, now, uh, to be sure, you close, close Cubase, you don't need Cubase, you can use voltage module or standalone.
+
+10:23:00 --> 10:23:04
+Giacomo Satoru Quintili: You should find it. Yeah. Yeah. Correct. There. Yes. Correct.
+
+10:23:04 --> 10:23:08
+Giacomo Satoru Quintili: Yeah, voltage module or standalone, let's see if it works.
+
+10:23:09 --> 10:23:11
+Giacomo Satoru Quintili: Syncing with server…
+
+10:23:11 --> 10:23:13
+Giacomo Satoru Quintili: Logged in.
+
+10:23:21 --> 10:23:23
+Giacomo Satoru Quintili: Okay.
+
+10:23:24 --> 10:23:27
+Giacomo Satoru Quintili: Try to go to the store again, let's try again.
+
+10:23:27 --> 10:23:29
+Hongze(Wengo) Wang: Okay.
+
+10:23:28 --> 10:23:30
+Giacomo Satoru Quintili: The nucleus…
+
+10:23:34 --> 10:23:37
+Giacomo Satoru Quintili: Yeah, click. Yeah, click again.
+
+10:23:37 --> 10:23:39
+Giacomo Satoru Quintili: Add to library.
+
+10:23:40 --> 10:23:43
+Giacomo Satoru Quintili: Right, but go to modules.
+
+10:23:45 --> 10:23:47
+Giacomo Satoru Quintili: Who's there?
+
+10:23:47 --> 10:23:50
+Giacomo Satoru Quintili: Daniel. Oh, uh, Ivona.
+
+10:23:50 --> 10:23:54
+Giacomo Satoru Quintili: Prepare module for download, so I think it's working now.
+
+10:23:54 --> 10:23:57
+Giacomo Satoru Quintili: Preparing modules for download.
+
+10:23:56 --> 10:23:58
+Hongze(Wengo) Wang: Okay, that's good.
+
+10:23:57 --> 10:24:04
+Giacomo Satoru Quintili: Yeah, it's working. Good. We fixed it. Okay, perfect. Of course. Guys, um…
+
+10:23:58 --> 10:24:02
+Hongze(Wengo) Wang: Oh, okay. Thank you. Thank you.
+
+10:24:04 --> 10:24:08
+Giacomo Satoru Quintili: Uh, it's important that you do this…
+
+10:24:08 --> 10:24:12
+Giacomo Satoru Quintili: Not during the lesson, because there's no time.
+
+10:24:12 --> 10:24:14
+Giacomo Satoru Quintili: Okay.
+
+10:24:14 --> 10:24:18
+Giacomo Satoru Quintili: So follow the procedure that I wrote.
+
+10:24:18 --> 10:24:20
+Giacomo Satoru Quintili: classroom, please.
+
+10:24:20 --> 10:24:24
+Giacomo Satoru Quintili: Daniel, uh, see, Daniel, uh, Ivona, did you fix your problem?
+
+10:24:26 --> 10:24:29
+Giacomo Satoru Quintili: I think she still doesn't.
+
+10:24:30 --> 10:24:32
+Giacomo Satoru Quintili: Hear us.
+
+10:24:36 --> 10:24:37
+Giacomo Satoru Quintili: Oh, well.
+
+10:24:38 --> 10:24:40
+Giacomo Satoru Quintili: Anyway.
+
+10:24:40 --> 10:24:42
+Giacomo Satoru Quintili: Um…
+
+10:24:42 --> 10:24:44
+Giacomo Satoru Quintili: Oh.
+
+10:24:47 --> 10:24:51
+Giacomo Satoru Quintili: It's important that we do some practice together.
+
+10:24:51 --> 10:24:52
+Giacomo Satoru Quintili: Okay.
+
+10:24:52 --> 10:24:54
+Giacomo Satoru Quintili: So.
+
+10:24:56 --> 10:24:58
+Giacomo Satoru Quintili: Very good, Travis.
+
+10:24:58 --> 10:25:03
+Hongze(Wengo) Wang: I'm sorry, what was it that we needed to add in?
+
+10:25:02 --> 10:25:05
+Giacomo Satoru Quintili: Yeah, a oscillator.
+
+10:25:05 --> 10:25:09
+Giacomo Satoru Quintili: So type OSC on the search bar.
+
+10:25:09 --> 10:25:11
+Giacomo Satoru Quintili: Oscillator.
+
+10:25:11 --> 10:25:15
+Giacomo Satoru Quintili: Uh, filter, yes, and amplifier.
+
+10:25:17 --> 10:25:27
+Giacomo Satoru Quintili: Amplifier, yes. And two envelopes. There's only one, you can duplicate the one that you already have, if you want. Alt, click and drag, yes.
+
+10:25:30 --> 10:25:37
+Giacomo Satoru Quintili: Or also that, yes. Right, so, uh, place the oscillator to the left first.
+
+10:25:38 --> 10:25:45
+Giacomo Satoru Quintili: Then the envelope to the left of the filter, that's correct.
+
+10:25:45 --> 10:25:50
+Giacomo Satoru Quintili: And the other envelope to the left of the amplifier.
+
+10:25:51 --> 10:25:52
+Giacomo Satoru Quintili: Correct.
+
+10:25:52 --> 10:26:00
+Giacomo Satoru Quintili: Now add some space. So move the oscillator to the left, group the envelope together with the filter.
+
+10:26:00 --> 10:26:03
+Giacomo Satoru Quintili: Yeah, keep them attached. Done. You're done.
+
+10:26:03 --> 10:26:05
+Giacomo Satoru Quintili: Okay, perfect.
+
+10:26:05 --> 10:26:06
+Hongze(Wengo) Wang: Thank you.
+
+10:26:05 --> 10:26:07
+Giacomo Satoru Quintili: Of course, it's my work.
+
+10:26:07 --> 10:26:10
+Giacomo Satoru Quintili: Oi, let's move on.
+
+10:26:11 --> 10:26:12
+Giacomo Satoru Quintili: Now…
+
+10:26:14 --> 10:26:16
+Giacomo Satoru Quintili: Here, like this.
+
+10:26:17 --> 10:26:20
+Giacomo Satoru Quintili: So, let's start.
+
+10:26:20 --> 10:26:26
+Giacomo Satoru Quintili: from the sound, the audio path.
+
+10:26:27 --> 10:26:30
+Giacomo Satoru Quintili: Okay, so follow the logic.
+
+10:26:30 --> 10:26:35
+Giacomo Satoru Quintili: Let's set a color up here, cable color.
+
+10:26:36 --> 10:26:42
+Giacomo Satoru Quintili: to, um, identify signal types. I'm gonna assign green.
+
+10:26:42 --> 10:26:44
+Giacomo Satoru Quintili: Green.
+
+10:26:44 --> 10:26:49
+Giacomo Satoru Quintili: for the audio. You can pick whatever color, just two colors are taken.
+
+10:26:49 --> 10:26:50
+Giacomo Satoru Quintili: White and.
+
+10:26:50 --> 10:26:54
+Giacomo Satoru Quintili: Some red, bright red are taken. Do not use these two.
+
+10:26:55 --> 10:26:57
+Giacomo Satoru Quintili: Ryan?
+
+10:26:57 --> 10:27:00
+Giacomo Satoru Quintili: These will be used for the output, right?
+
+10:27:01 --> 10:27:03
+Giacomo Satoru Quintili: And left.
+
+10:27:05 --> 10:27:11
+Giacomo Satoru Quintili: Now, I'm gonna pick, uh, green, for example, and then…
+
+10:27:11 --> 10:27:12
+Giacomo Satoru Quintili: Choose…
+
+10:27:12 --> 10:27:14
+Giacomo Satoru Quintili: One waveform, no?
+
+10:27:14 --> 10:27:18
+Giacomo Satoru Quintili: I suggest use the sawtooth.
+
+10:27:18 --> 10:27:21
+Giacomo Satoru Quintili: Trust me. Use the sawtooth.
+
+10:27:21 --> 10:27:27
+Giacomo Satoru Quintili: So click and hold the click, okay? Otherwise this happens.
+
+10:27:28 --> 10:27:30
+Giacomo Satoru Quintili: Which is not good.
+
+10:27:31 --> 10:27:33
+Giacomo Satoru Quintili: So click.
+
+10:27:33 --> 10:27:34
+Giacomo Satoru Quintili: and drag.
+
+10:27:35 --> 10:27:38
+Giacomo Satoru Quintili: and plug it to the audio in of the filter.
+
+10:28:01 --> 10:28:09
+Giacomo Satoru Quintili: The oscillator… try to understand the logic. The oscillator is the source of the audio.
+
+10:28:11 --> 10:28:22
+Giacomo Satoru Quintili: it's generating a sawtooth, and now we are going to filter the sawtooth using the filter. So, the audio must go into the audio input.
+
+10:28:22 --> 10:28:24
+Giacomo Satoru Quintili: Down here…
+
+10:28:24 --> 10:28:28
+Giacomo Satoru Quintili: At the bottom of the filter, we have three outputs.
+
+10:28:28 --> 10:28:36
+Giacomo Satoru Quintili: These are the filter types, which we are going to study in a future lesson, but for now, pick the one on the left.
+
+10:28:38 --> 10:28:40
+Giacomo Satoru Quintili: This is the low pass filter.
+
+10:28:41 --> 10:28:43
+Giacomo Satoru Quintili: Low pass.
+
+10:28:43 --> 10:28:48
+Giacomo Satoru Quintili: This allows us to filter the high frequencies and make the sound.
+
+10:28:48 --> 10:28:51
+Giacomo Satoru Quintili: Be more, uh, muffled.
+
+10:28:51 --> 10:28:52
+Giacomo Satoru Quintili: Okay?
+
+10:28:52 --> 10:28:56
+Giacomo Satoru Quintili: So pick this one and plug it to the input of the amplifier.
+
+10:29:16 --> 10:29:17
+Giacomo Satoru Quintili: Aye.
+
+10:29:18 --> 10:29:22
+Giacomo Satoru Quintili: Thumbs up. Okay. Now…
+
+10:29:22 --> 10:29:27
+Giacomo Satoru Quintili: Guys, follow me. Try to understand this. Why do we need the amplifier?
+
+10:29:27 --> 10:29:32
+Giacomo Satoru Quintili: Because, look what happens if I plug the signal directly here.
+
+10:29:32 --> 10:29:36
+Giacomo Satoru Quintili: Okay? Do not do it. Don't do it.
+
+10:29:36 --> 10:29:41
+Giacomo Satoru Quintili: I did it by raising down to infinity the volume node.
+
+10:29:41 --> 10:29:44
+Giacomo Satoru Quintili: The reason why is because you would hear.
+
+10:29:44 --> 10:29:46
+Giacomo Satoru Quintili: Sounds.
+
+10:29:47 --> 10:29:49
+Giacomo Satoru Quintili: Constantly.
+
+10:29:49 --> 10:29:55
+Giacomo Satoru Quintili: That's annoying, right? It's just like leaving the sink open.
+
+10:29:56 --> 10:29:59
+Giacomo Satoru Quintili: No? So we need the amplifier.
+
+10:29:59 --> 10:30:02
+Giacomo Satoru Quintili: With the minimum gain.
+
+10:30:03 --> 10:30:04
+Giacomo Satoru Quintili: to…
+
+10:30:04 --> 10:30:10
+Giacomo Satoru Quintili: silence the sound when we are not pressing a key. That's why we need the amplifier.
+
+10:30:11 --> 10:30:19
+Giacomo Satoru Quintili: Okay? Now we plug the amplifier, the signal down here, the positive one. I'm gonna assign the…
+
+10:30:19 --> 10:30:25
+Giacomo Satoru Quintili: white color. So right click on the plus here, you see, right click here.
+
+10:30:25 --> 10:30:29
+Giacomo Satoru Quintili: Set global cable color. I'm going to set.
+
+10:30:29 --> 10:30:30
+Giacomo Satoru Quintili: White.
+
+10:30:32 --> 10:30:36
+Giacomo Satoru Quintili: And then I'm gonna plug the positive…
+
+10:30:36 --> 10:30:39
+Giacomo Satoru Quintili: into the one left mono here.
+
+10:30:44 --> 10:30:50
+Giacomo Satoru Quintili: Let me know when you're done. Thumbs me up when you have done the connection.
+
+10:30:53 --> 10:30:54
+Giacomo Satoru Quintili: Perfect.
+
+10:30:57 --> 10:31:00
+Hongze(Wengo) Wang: I just gotta connect the output to the…
+
+10:31:00 --> 10:31:02
+Hongze(Wengo) Wang: to the, what do you call this?
+
+10:31:02 --> 10:31:04
+Hongze(Wengo) Wang: 1L?
+
+10:31:03 --> 10:31:05
+Giacomo Satoru Quintili: Yes, 1L.
+
+10:31:05 --> 10:31:07
+Hongze(Wengo) Wang: Okay. Yeah.
+
+10:31:05 --> 10:31:08
+Giacomo Satoru Quintili: One left mono.
+
+10:31:07 --> 10:31:09
+Hongze(Wengo) Wang: Oh, okay. Got it.
+
+10:31:09 --> 10:31:19
+Giacomo Satoru Quintili: Perfect. As you can see, now I can safely raise the volume and nothing happens. We don't have perpetual sound, okay? Thanks to the gain.
+
+10:31:19 --> 10:31:22
+Giacomo Satoru Quintili: Which is set to 0%.
+
+10:31:24 --> 10:31:29
+Giacomo Satoru Quintili: This input gain must always stay at zero, guys. Always.
+
+10:31:29 --> 10:31:31
+Giacomo Satoru Quintili: Huh?
+
+10:31:32 --> 10:31:38
+Giacomo Satoru Quintili: Now, how do we perform this? Look, this is the audio signal path.
+
+10:31:41 --> 10:31:48
+Giacomo Satoru Quintili: We're finished with the audio signal path. How do we do a sound check? What do you think?
+
+10:31:48 --> 10:31:51
+Giacomo Satoru Quintili: How do we check if the sound?
+
+10:31:51 --> 10:31:52
+Giacomo Satoru Quintili: Works.
+
+10:31:51 --> 10:31:54
+travismorgado: Baby West Dagay non vien fiher.
+
+10:31:54 --> 10:31:56
+Giacomo Satoru Quintili: Correct answer, yes.
+
+10:31:58 --> 10:32:06
+Giacomo Satoru Quintili: That's how you perform a quick sound check, so I repeat. To perform a sound check, all you need to do is to raise the gain.
+
+10:32:08 --> 10:32:09
+Giacomo Satoru Quintili: And then you close it.
+
+10:32:10 --> 10:32:13
+Giacomo Satoru Quintili: Never leave the game beyond.
+
+10:32:13 --> 10:32:16
+Giacomo Satoru Quintili: Above 0%. Never.
+
+10:32:16 --> 10:32:18
+Giacomo Satoru Quintili: Otherwise, you have this.
+
+10:32:23 --> 10:32:25
+Giacomo Satoru Quintili: So far, so good?
+
+10:32:25 --> 10:32:27
+Giacomo Satoru Quintili: Any question?
+
+10:32:27 --> 10:32:29
+travismorgado: 3 .
+
+10:32:28 --> 10:32:30
+Giacomo Satoru Quintili: Okay.
+
+10:32:30 --> 10:32:37
+Giacomo Satoru Quintili: So, how do we increase this gain, right? So, this is going to be the job of the envelope.
+
+10:32:37 --> 10:32:42
+Giacomo Satoru Quintili: The envelope will think about turning the game up.
+
+10:32:42 --> 10:32:48
+Giacomo Satoru Quintili: Okay? And who is going to turn to trigger the envelope? The keyboard.
+
+10:32:50 --> 10:32:56
+Giacomo Satoru Quintili: So, does it make sense? It's a chain reaction. We press a key.
+
+10:32:57 --> 10:33:00
+Giacomo Satoru Quintili: We turn the envelope on…
+
+10:33:00 --> 10:33:03
+Giacomo Satoru Quintili: And the envelope will raise the gain.
+
+10:33:03 --> 10:33:04
+Giacomo Satoru Quintili: For us.
+
+10:33:05 --> 10:33:08
+Giacomo Satoru Quintili: That's it. That's what you need to understand.
+
+10:33:09 --> 10:33:10
+Giacomo Satoru Quintili: So.
+
+10:33:10 --> 10:33:13
+Giacomo Satoru Quintili: Now we plug the keyboard.
+
+10:33:13 --> 10:33:19
+Giacomo Satoru Quintili: Okay, the signal path has been done, now it's the turn of the keyboard.
+
+10:33:19 --> 10:33:35
+Giacomo Satoru Quintili: So pick, I'm going to assign a new color, set global cable color. You pick any color you want. Just not, I repeat, not white nor red, bright red. I'm going to pick this one. I have my system, okay? So you pick yours.
+
+10:33:36 --> 10:33:40
+Giacomo Satoru Quintili: First, let's plug the gate.
+
+10:33:40 --> 10:33:42
+Giacomo Satoru Quintili: Okay.
+
+10:33:42 --> 10:33:52
+Giacomo Satoru Quintili: Let me introduce you to a thing which is common for modular synthesizer which is called splitter.
+
+10:33:53 --> 10:33:57
+Giacomo Satoru Quintili: micro signal splitter. So, go to the store.
+
+10:33:59 --> 10:34:03
+Giacomo Satoru Quintili: Go to the store and download the micro…
+
+10:34:03 --> 10:34:07
+Giacomo Satoru Quintili: Signal Splitter. It's for free.
+
+10:34:13 --> 10:34:20
+Giacomo Satoru Quintili: Once you have downloaded, load one and place it here, to the left of the first envelope.
+
+10:34:20 --> 10:34:26
+Giacomo Satoru Quintili: Once you're done, let me know by doing a good and big thumbs up.
+
+10:34:33 --> 10:34:35
+Giacomo Satoru Quintili: Okay, you're fast.
+
+10:34:39 --> 10:34:42
+Giacomo Satoru Quintili: Maybe if you find me managed to.
+
+10:34:42 --> 10:34:43
+Giacomo Satoru Quintili: fix.
+
+10:34:43 --> 10:34:44
+Giacomo Satoru Quintili: No problem.
+
+10:34:48 --> 10:34:49
+Giacomo Satoru Quintili: Ivona?
+
+10:34:50 --> 10:34:53
+Hongze(Wengo) Wang: So it shouldn't touch anything as well. Should be like alone.
+
+10:34:52 --> 10:34:56
+Ivonq Brscic: Hello? Can you hear me?
+
+10:34:54 --> 10:34:56
+Giacomo Satoru Quintili: Yeah, I can. Hello.
+
+10:34:56 --> 10:34:59
+Ivonq Brscic: I'm so sorry. I'm so sorry. I just.
+
+10:34:58 --> 10:35:00
+Giacomo Satoru Quintili: Logistical problems.
+
+10:35:00 --> 10:35:07
+Ivonq Brscic: I don't know what happened. I… I'm… now I'm with my phone connected, because I don't know what happened with computer.
+
+10:35:07 --> 10:35:11
+Giacomo Satoru Quintili: I see, I see, I see. Well, since, uh, since…
+
+10:35:09 --> 10:35:10
+Ivonq Brscic: Thank you.
+
+10:35:11 --> 10:35:15
+Giacomo Satoru Quintili: Uh, you try to log in.
+
+10:35:15 --> 10:35:23
+Giacomo Satoru Quintili: and you showed some effort for participation, you will be granted access to the YouTube video.
+
+10:35:23 --> 10:35:24
+Ivonq Brscic: Okay.
+
+10:35:23 --> 10:35:25
+Giacomo Satoru Quintili: Try to follow…
+
+10:35:25 --> 10:35:27
+Ivonq Brscic: Okay. Uh…
+
+10:35:26 --> 10:35:28
+Giacomo Satoru Quintili: As much as possible.
+
+10:35:27 --> 10:35:33
+Ivonq Brscic: Yeah, I will, I will read everything after the lesson. Sorry.
+
+10:35:31 --> 10:35:32
+Giacomo Satoru Quintili: No.
+
+10:35:32 --> 10:35:34
+Giacomo Satoru Quintili: It's okay.
+
+10:35:33 --> 10:35:35
+Ivonq Brscic: Okay, now I'm here.
+
+10:35:34 --> 10:35:39
+Giacomo Satoru Quintili: Uh, yeah, yeah, no, I just want to avoid people…
+
+10:35:39 --> 10:35:40
+Giacomo Satoru Quintili: To.
+
+10:35:40 --> 10:35:41
+Giacomo Satoru Quintili: You know.
+
+10:35:41 --> 10:35:43
+Giacomo Satoru Quintili: Ugh. And…
+
+10:35:43 --> 10:35:45
+Giacomo Satoru Quintili: Bye bye.
+
+10:35:45 --> 10:36:00
+Giacomo Satoru Quintili: You know, guys, I live this a lot of times and sometimes people are just not responsible and at the end of the year they end up in a very tough situation and then they don't take accountability for their, no.
+
+10:36:00 --> 10:36:04
+Giacomo Satoru Quintili: And so I do all this kind of stuff for defense.
+
+10:36:04 --> 10:36:06
+Giacomo Satoru Quintili: Try to understand.
+
+10:36:07 --> 10:36:12
+Giacomo Satoru Quintili: Not for offense, for defense. Because I need to defend from people who…
+
+10:36:07 --> 10:36:08
+Ivonq Brscic: Yeah, of course.
+
+10:36:12 --> 10:36:18
+Giacomo Satoru Quintili: For some reason, they… and the end, oh, but it's not my fault. No, it was your fault.
+
+10:36:19 --> 10:36:21
+Giacomo Satoru Quintili: So…
+
+10:36:21 --> 10:36:24
+Giacomo Satoru Quintili: Um, let's move on, okay?
+
+10:36:26 --> 10:36:28
+Giacomo Satoru Quintili: Splitter. Gate.
+
+10:36:26 --> 10:36:27
+Ivonq Brscic: Yep.
+
+10:36:29 --> 10:36:32
+Giacomo Satoru Quintili: The gate signal goes here.
+
+10:36:32 --> 10:36:44
+Giacomo Satoru Quintili: And then this module, which is pretty common in a modular synthesizer, allows you to get multiple copies of a signal. So plug one copy here, and one copy here.
+
+10:36:45 --> 10:36:50
+Giacomo Satoru Quintili: We are doing this for discipline, okay? We could simply do this.
+
+10:36:51 --> 10:36:53
+Giacomo Satoru Quintili: We could.
+
+10:36:54 --> 10:37:02
+Giacomo Satoru Quintili: But for discipline, we just study the simulation. We simulate how a real synthesizer works. You should do this.
+
+10:37:02 --> 10:37:03
+Giacomo Satoru Quintili: Okay.
+
+10:37:14 --> 10:37:17
+Giacomo Satoru Quintili: Now, let me know when you're done.
+
+10:37:18 --> 10:37:19
+Giacomo Satoru Quintili: Perfect.
+
+10:37:25 --> 10:37:31
+Giacomo Satoru Quintili: Perfect. As you can see now, uh, click here, the QWERTY keyboard.
+
+10:37:31 --> 10:37:33
+Giacomo Satoru Quintili: Control K.
+
+10:37:33 --> 10:37:44
+Giacomo Satoru Quintili: and the keyboard appears. So you can press A, S, D, F, G, etc, etc. Now, notice how, when you press a key.
+
+10:37:44 --> 10:37:46
+Giacomo Satoru Quintili: This gets red.
+
+10:37:46 --> 10:37:48
+Giacomo Satoru Quintili: And also the envelope.
+
+10:37:48 --> 10:37:55
+Giacomo Satoru Quintili: becomes red, you see? So it means that it's working. But still, no sound can be heard. Hmm?
+
+10:37:55 --> 10:38:00
+Giacomo Satoru Quintili: That's because we still didn't plug the envelopes to anything.
+
+10:38:00 --> 10:38:04
+Giacomo Satoru Quintili: Now, notice how the envelope has two outputs.
+
+10:38:06 --> 10:38:15
+Giacomo Satoru Quintili: One that goes up, and one that goes down. Never use the second one. Never use this one that goes down. Always use the positive output.
+
+10:38:16 --> 10:38:17
+Giacomo Satoru Quintili: Hmm? For now.
+
+10:38:17 --> 10:38:25
+Giacomo Satoru Quintili: So, I'm going to right-click here to assign a new color, set global cable color to dark red, for example.
+
+10:38:27 --> 10:38:36
+Giacomo Satoru Quintili: And I'm gonna plug this signal into this input, the CV input of the gain. We will study CV inputs on the next lesson.
+
+10:38:39 --> 10:38:44
+Giacomo Satoru Quintili: In short, this input allows us to control the game.
+
+10:38:45 --> 10:38:52
+Giacomo Satoru Quintili: So this signal, the envelope, will, by plugging it here, will make the gain open.
+
+10:38:53 --> 10:38:57
+Giacomo Satoru Quintili: And we don't have to manually rotate the knob.
+
+10:39:04 --> 10:39:10
+Giacomo Satoru Quintili: Repeat the same thing by plugging the envelope this output here.
+
+10:39:10 --> 10:39:11
+Giacomo Satoru Quintili: Here.
+
+10:39:13 --> 10:39:19
+Giacomo Satoru Quintili: This is the CV input, control voltage input, to control the cutoff.
+
+10:39:19 --> 10:39:21
+Giacomo Satoru Quintili: But for now, we don't care.
+
+10:39:21 --> 10:39:26
+Giacomo Satoru Quintili: We leave it with zero amount, nothing, okay?
+
+10:39:26 --> 10:39:28
+Giacomo Satoru Quintili: For now.
+
+10:39:33 --> 10:39:37
+Giacomo Satoru Quintili: Once you have done that, try to press a key.
+
+10:39:38 --> 10:39:41
+Giacomo Satoru Quintili: You should hear sound.
+
+10:39:43 --> 10:39:44
+Giacomo Satoru Quintili: Nice.
+
+10:39:46 --> 10:39:51
+Giacomo Satoru Quintili: Notice how, now, notice how, if you press other keys.
+
+10:39:53 --> 10:39:56
+Giacomo Satoru Quintili: The note doesn't change.
+
+10:39:57 --> 10:40:01
+Giacomo Satoru Quintili: Now, let's see if you paid attention. What should we do?
+
+10:40:02 --> 10:40:03
+Giacomo Satoru Quintili: To fix.
+
+10:40:05 --> 10:40:09
+travismorgado: Da Mhamsing Ond Steve Source Patch.
+
+10:40:08 --> 10:40:10
+Giacomo Satoru Quintili: Correct.
+
+10:40:10 --> 10:40:12
+Giacomo Satoru Quintili: The pitch.
+
+10:40:13 --> 10:40:19
+Giacomo Satoru Quintili: We need to plug the pitch signal into the pitch CV input of the oscillator.
+
+10:40:21 --> 10:40:24
+Giacomo Satoru Quintili: So this connection is super important.
+
+10:40:33 --> 10:40:35
+Giacomo Satoru Quintili: Finished.
+
+10:40:37 --> 10:40:43
+Giacomo Satoru Quintili: And this is it. This is the final patch. Let's save the preset.
+
+10:40:44 --> 10:40:48
+Giacomo Satoru Quintili: Hmm? To save a preset…
+
+10:40:48 --> 10:40:50
+Giacomo Satoru Quintili: You go here, save.
+
+10:40:52 --> 10:40:55
+Giacomo Satoru Quintili: Type a category.
+
+10:40:56 --> 10:41:06
+Giacomo Satoru Quintili: You… you cannot click here, you need to type. So, type something like… I don't know, you do you. Exercise, homework, whatever.
+
+10:41:06 --> 10:41:08
+Giacomo Satoru Quintili: I'm going to press demo.
+
+10:41:10 --> 10:41:19
+Giacomo Satoru Quintili: Name. We're going to use a convention, which is going to be your name, followed by the name of the patch.
+
+10:41:19 --> 10:41:22
+Giacomo Satoru Quintili: For example, in my case, it's Quintili.
+
+10:41:24 --> 10:41:27
+Giacomo Satoru Quintili: Patch, a basic patch.
+
+10:41:27 --> 10:41:30
+Giacomo Satoru Quintili: This is called the basic patch.
+
+10:41:38 --> 10:41:39
+Giacomo Satoru Quintili: Okay?
+
+10:41:40 --> 10:41:48
+Giacomo Satoru Quintili: Then you go there, the keywords here, effect, instrument, fine, instrument is fine, save.
+
+10:41:48 --> 10:41:56
+Giacomo Satoru Quintili: Okay. I already made it. So it's going, it's asking me if I can want to overwrite. I press yes. Hmm.
+
+10:41:57 --> 10:42:02
+Giacomo Satoru Quintili: Where do we find it? We find it by clicking here.
+
+10:42:05 --> 10:42:07
+Giacomo Satoru Quintili: Now right click.
+
+10:42:08 --> 10:42:10
+Giacomo Satoru Quintili: show file.
+
+10:42:12 --> 10:42:14
+Giacomo Satoru Quintili: This will open.
+
+10:42:15 --> 10:42:16
+Giacomo Satoru Quintili: the folder.
+
+10:42:18 --> 10:42:20
+Giacomo Satoru Quintili: With a file.
+
+10:42:20 --> 10:42:25
+Giacomo Satoru Quintili: And this is going to be the file that you need to upload on Classroom.
+
+10:42:26 --> 10:42:28
+Giacomo Satoru Quintili: When I will give you assignments.
+
+10:42:30 --> 10:42:31
+Giacomo Satoru Quintili: Okay.
+
+10:42:32 --> 10:42:37
+Giacomo Satoru Quintili: And this is basically the first exercise of this year.
+
+10:42:38 --> 10:42:44
+Giacomo Satoru Quintili: So, in about roughly a week, you will receive an email.
+
+10:42:47 --> 10:42:49
+Giacomo Satoru Quintili: Which…
+
+10:42:49 --> 10:42:52
+Giacomo Satoru Quintili: contains a, uh…
+
+10:42:52 --> 10:42:53
+Giacomo Satoru Quintili: Document.
+
+10:42:53 --> 10:43:04
+Giacomo Satoru Quintili: Word document in which you… you will find all the instructions to… for the assignments. You can look at this exercise as if it was a tutorial.
+
+10:43:05 --> 10:43:15
+Giacomo Satoru Quintili: Okay, just like in a video game, right? The first exercise is the easiest just for a tutorial, so that you familiarize with the system, okay?
+
+10:43:17 --> 10:43:19
+Giacomo Satoru Quintili: So, the exercise is going to be…
+
+10:43:20 --> 10:43:25
+Giacomo Satoru Quintili: Create the basic patch from scratch on your own with no helps.
+
+10:43:25 --> 10:43:28
+Giacomo Satoru Quintili: for just like an exercise.
+
+10:43:28 --> 10:43:30
+Giacomo Satoru Quintili: Save the preset and load it on Classroom.
+
+10:43:31 --> 10:43:43
+Giacomo Satoru Quintili: Okay. Yes, you could cheat. Absolutely, guys. I mean, it's possible that students can cheat. It's their loss because I'm gonna, I'm gonna know eventually I'm gonna know.
+
+10:43:43 --> 10:43:48
+Giacomo Satoru Quintili: So, don't be… don't be irresponsible.
+
+10:43:47 --> 10:43:53
+Hongze(Wengo) Wang: I'm sorry, where do we… wait, we have the preset, and what do we do with it?
+
+10:43:48 --> 10:43:49
+Giacomo Satoru Quintili: Okay.
+
+10:43:53 --> 10:43:56
+Giacomo Satoru Quintili: You have to load it, um…
+
+10:43:55 --> 10:43:56
+Hongze(Wengo) Wang: Yeah?
+
+10:43:56 --> 10:43:59
+Giacomo Satoru Quintili: Once you save the preset.
+
+10:43:58 --> 10:43:59
+Hongze(Wengo) Wang: Uh-huh.
+
+10:43:59 --> 10:44:02
+Giacomo Satoru Quintili: For the homework, you have to load it.
+
+10:44:02 --> 10:44:04
+Giacomo Satoru Quintili: Uh, on Classroom.
+
+10:44:06 --> 10:44:09
+Giacomo Satoru Quintili: Let me show you an example of another class.
+
+10:44:07 --> 10:44:09
+Hongze(Wengo) Wang: Upload it into the platform.
+
+10:44:10 --> 10:44:12
+Giacomo Satoru Quintili: Come again?
+
+10:44:11 --> 10:44:13
+Hongze(Wengo) Wang: Just upload it here.
+
+10:44:13 --> 10:44:21
+Giacomo Satoru Quintili: On classroom, yes. You see, for example, this is another class in which they already submitted a homework.
+
+10:44:15 --> 10:44:16
+Hongze(Wengo) Wang: You know.
+
+10:44:21 --> 10:44:22
+Hongze(Wengo) Wang: Okay, okay.
+
+10:44:21 --> 10:44:22
+Giacomo Satoru Quintili: No?
+
+10:44:22 --> 10:44:25
+Giacomo Satoru Quintili: Uh, this is their file.
+
+10:44:25 --> 10:44:26
+Giacomo Satoru Quintili: Huh.
+
+10:44:26 --> 10:44:29
+Hongze(Wengo) Wang: Okay, so just upload it here. I got you.
+
+10:44:29 --> 10:44:30
+Giacomo Satoru Quintili: Yeah.
+
+10:44:31 --> 10:44:32
+Giacomo Satoru Quintili: And…
+
+10:44:32 --> 10:44:35
+Giacomo Satoru Quintili: Once a…
+
+10:44:35 --> 10:44:40
+Giacomo Satoru Quintili: Homework has been, uh, submitted. You get… you receive a document.
+
+10:44:41 --> 10:44:44
+Giacomo Satoru Quintili: A detailed document with the feedback.
+
+10:44:45 --> 10:44:48
+Giacomo Satoru Quintili: Sometimes a feedback video.
+
+10:44:48 --> 10:44:55
+Giacomo Satoru Quintili: Uh, written stuff, bonus, secret bonuses, score calculation, ranking…
+
+10:44:55 --> 10:44:57
+Giacomo Satoru Quintili: Shift, new deadline shift.
+
+10:44:58 --> 10:45:01
+Giacomo Satoru Quintili: and the time of the new deadline.
+
+10:45:02 --> 10:45:08
+Giacomo Satoru Quintili: You are gonna have an Excel spreadsheet in which you can check your attempt cards.
+
+10:45:08 --> 10:45:17
+Giacomo Satoru Quintili: Uh, your grade and stuff, don't worry, everybody is going to be anonymous. You will be assigned anonymous nicknames.
+
+10:45:18 --> 10:45:21
+Giacomo Satoru Quintili: Which you can change if you don't like.
+
+10:45:21 --> 10:45:22
+Giacomo Satoru Quintili: Okay?
+
+10:45:23 --> 10:45:25
+Giacomo Satoru Quintili: So… yeah.
+
+10:45:25 --> 10:45:34
+Giacomo Satoru Quintili: This is the system, okay? More details in future, uh, maybe I'll post a video on how it works.
+
+10:45:35 --> 10:45:38
+Giacomo Satoru Quintili: Any questions so far?
+
+10:45:40 --> 10:45:50
+Giacomo Satoru Quintili: No. Right. So you see, this is the structure, the architecture of a monophonic synthesizer, the very basic.
+
+10:45:56 --> 10:46:00
+Giacomo Satoru Quintili: Monophonic synthesizer, let's move on a little bit, okay?
+
+10:46:01 --> 10:46:06
+Giacomo Satoru Quintili: Monophonic synthesizers can have multiple oscillators.
+
+10:46:08 --> 10:46:11
+Giacomo Satoru Quintili: For this exercise, only one.
+
+10:46:11 --> 10:46:13
+Giacomo Satoru Quintili: Graham.
+
+10:46:16 --> 10:46:24
+Giacomo Satoru Quintili: More oscillators allow for to get a more a richer sound.
+
+10:46:25 --> 10:46:26
+Giacomo Satoru Quintili: Okay.
+
+10:46:34 --> 10:46:39
+Giacomo Satoru Quintili: So what's the purpose of monophonic synthesizers?
+
+10:46:39 --> 10:46:45
+Giacomo Satoru Quintili: I mean, only one key works at a time, so it doesn't look to be more…
+
+10:46:45 --> 10:46:47
+Giacomo Satoru Quintili: to be very effective.
+
+10:46:47 --> 10:46:49
+Giacomo Satoru Quintili: Actually.
+
+10:46:49 --> 10:46:51
+Giacomo Satoru Quintili: There are pros.
+
+10:46:51 --> 10:46:55
+Giacomo Satoru Quintili: for monophonic synthesizer, okay?
+
+10:46:55 --> 10:47:03
+Giacomo Satoru Quintili: Monophonic synthesizers are perfect suited for bass lines, for example.
+
+10:47:10 --> 10:47:12
+Giacomo Satoru Quintili: Or lead.
+
+10:47:15 --> 10:47:17
+Giacomo Satoru Quintili: Do you know a lead?
+
+10:47:18 --> 10:47:20
+Giacomo Satoru Quintili: like solos.
+
+10:47:19 --> 10:47:21
+travismorgado: 0 .
+
+10:47:20 --> 10:47:21
+Giacomo Satoru Quintili: Hmm?
+
+10:47:22 --> 10:47:28
+Giacomo Satoru Quintili: So, monophonic synthesizers are perfect for solos, arpeggios.
+
+10:47:31 --> 10:47:35
+Giacomo Satoru Quintili: Because they give you a lot of control.
+
+10:47:36 --> 10:47:38
+Giacomo Satoru Quintili: Over a Malibu.
+
+10:47:43 --> 10:47:47
+Giacomo Satoru Quintili: So they produce one voice.
+
+10:47:49 --> 10:47:53
+Giacomo Satoru Quintili: But you have a lot of control over it.
+
+10:48:18 --> 10:48:21
+Giacomo Satoru Quintili: Of course. They're…
+
+10:48:21 --> 10:48:25
+Giacomo Satoru Quintili: Negative, their cons is the fact that you cannot.
+
+10:48:26 --> 10:48:27
+Giacomo Satoru Quintili: Play.
+
+10:48:27 --> 10:48:33
+Giacomo Satoru Quintili: Then, you cannot play a monophonic synthesizer as if it was a piano.
+
+10:48:33 --> 10:48:38
+Giacomo Satoru Quintili: You cannot, you know, do chords and stuff.
+
+10:48:38 --> 10:48:47
+Giacomo Satoru Quintili: I mean, you can do a chord, I repeat, if you use multiple oscillators, you can get a chord, but you are stuck with that chord.
+
+10:48:47 --> 10:48:54
+Giacomo Satoru Quintili: You cannot do weird chords and stuff, no. For that, you need a polyphonic synthesizer.
+
+10:48:54 --> 10:48:58
+Giacomo Satoru Quintili: So let's talk about polyphonic synthesizers.
+
+10:48:58 --> 10:49:00
+Giacomo Satoru Quintili: On the market, we have…
+
+10:49:00 --> 10:49:02
+Giacomo Satoru Quintili: Three.
+
+10:49:02 --> 10:49:03
+Giacomo Satoru Quintili: Types.
+
+10:49:03 --> 10:49:09
+Giacomo Satoru Quintili: I'm going to be honest, the only one you really care are true polyphonic.
+
+10:49:09 --> 10:49:12
+Giacomo Satoru Quintili: Alright, these are the best.
+
+10:49:12 --> 10:49:15
+Giacomo Satoru Quintili: These two…
+
+10:49:15 --> 10:49:17
+Giacomo Satoru Quintili: RM.
+
+10:49:18 --> 10:49:20
+Giacomo Satoru Quintili: Depends.
+
+10:49:20 --> 10:49:25
+Giacomo Satoru Quintili: In some situation you might prefer a duophonic because it's cheaper.
+
+10:49:25 --> 10:49:37
+Giacomo Satoru Quintili: it depends on what you need, so you might prefer a Duophonic to save some money. But you wanna go for sure, just get a True Polyphonic, okay?
+
+10:49:38 --> 10:49:41
+Giacomo Satoru Quintili: So, how does it work?
+
+10:49:41 --> 10:49:49
+Giacomo Satoru Quintili: Let's talk about duophonic. Well, duophonic synthesizers basically have two architectures instead of one.
+
+10:49:52 --> 10:49:54
+Giacomo Satoru Quintili: You see?
+
+10:49:54 --> 10:49:58
+Giacomo Satoru Quintili: It's basically, it's two times the basic patch, you see?
+
+10:49:58 --> 10:50:01
+Giacomo Satoru Quintili: This is a basic patch. One voice.
+
+10:50:01 --> 10:50:05
+Giacomo Satoru Quintili: And this is the second voice, two voices.
+
+10:50:09 --> 10:50:11
+Giacomo Satoru Quintili: Okay?
+
+10:50:11 --> 10:50:15
+Giacomo Satoru Quintili: You… what does it mean? It means that two keys work.
+
+10:50:19 --> 10:50:20
+Giacomo Satoru Quintili: Not more.
+
+10:50:29 --> 10:50:32
+Giacomo Satoru Quintili: Umm yeah well.
+
+10:50:33 --> 10:50:35
+Giacomo Satoru Quintili: Any questions so far?
+
+10:50:36 --> 10:50:38
+Giacomo Satoru Quintili: No, let's move on.
+
+10:50:37 --> 10:50:38
+Ivonq Brscic: Yes.
+
+10:50:38 --> 10:50:40
+Giacomo Satoru Quintili: Paraphonic.
+
+10:50:40 --> 10:50:42
+Giacomo Satoru Quintili: Now.
+
+10:50:42 --> 10:50:49
+Giacomo Satoru Quintili: Uh, remember this. People… there's much confusion about the difference between true polyphonic and paraphonic.
+
+10:50:50 --> 10:50:54
+Giacomo Satoru Quintili: Paraphonic and True Polyphonic. Hmm?
+
+10:50:58 --> 10:51:00
+Giacomo Satoru Quintili: I'm going to be…
+
+10:51:02 --> 10:51:04
+Giacomo Satoru Quintili: For the sake of, um…
+
+10:51:06 --> 10:51:15
+Giacomo Satoru Quintili: I don't want to delve too deep, okay, for not confuse you too much, so I'm going to be purposefully superficial now.
+
+10:51:16 --> 10:51:18
+Giacomo Satoru Quintili: Okay.
+
+10:51:18 --> 10:51:26
+Giacomo Satoru Quintili: In short, paraphonic are cheaper, true polyphonic are more expensive, but paraphonic are more, um…
+
+10:51:26 --> 10:51:29
+Giacomo Satoru Quintili: Skraus, you come and see this.
+
+10:51:29 --> 10:51:31
+Giacomo Satoru Quintili: Um, bad.
+
+10:51:32 --> 10:51:40
+Giacomo Satoru Quintili: let's be honest, they are bad. And true polyphonic are more expensive, because they're… they're just more, um…
+
+10:51:41 --> 10:51:43
+Giacomo Satoru Quintili: Well done, okay.
+
+10:51:43 --> 10:51:46
+Giacomo Satoru Quintili: So this is the cheaper option.
+
+10:51:47 --> 10:51:49
+Giacomo Satoru Quintili: And this is the good one.
+
+10:51:49 --> 10:51:55
+Giacomo Satoru Quintili: I'm gonna be superficial, okay? So, paraphonic basically means…
+
+10:52:00 --> 10:52:08
+Giacomo Satoru Quintili: don't be scared about the Yamaha, it's just cables, okay? Paraphonic means you can have… you can…
+
+10:52:08 --> 10:52:11
+Giacomo Satoru Quintili: Uh, play multiple keys…
+
+10:52:12 --> 10:52:14
+Giacomo Satoru Quintili: So they are polyphonic.
+
+10:52:14 --> 10:52:20
+Giacomo Satoru Quintili: And you can play a lot of them, right? You can play 20 other times, okay? No limits.
+
+10:52:20 --> 10:52:22
+Giacomo Satoru Quintili: Okay, that's good!
+
+10:52:22 --> 10:52:23
+Giacomo Satoru Quintili: Problem.
+
+10:52:24 --> 10:52:32
+Giacomo Satoru Quintili: problem. You only have one articulation, global, one global articulation.
+
+10:52:32 --> 10:52:33
+Giacomo Satoru Quintili: for all.
+
+10:52:33 --> 10:52:35
+Giacomo Satoru Quintili: What does it mean?
+
+10:52:37 --> 10:52:42
+Giacomo Satoru Quintili: You only have one filter and one amplifier.
+
+10:52:42 --> 10:52:44
+Giacomo Satoru Quintili: For all of them.
+
+10:52:45 --> 10:52:48
+Hongze(Wengo) Wang: Does it mean everything sounds the same?
+
+10:52:47 --> 10:52:49
+Giacomo Satoru Quintili: Yes.
+
+10:52:48 --> 10:52:49
+Hongze(Wengo) Wang: Okay.
+
+10:52:49 --> 10:52:52
+Giacomo Satoru Quintili: So you have one fade in.
+
+10:52:56 --> 10:53:06
+Giacomo Satoru Quintili: Let me show you a true polyphonic, so it's more clear, the difference. And then I'll go back to the paraphonic. A true polyphonic…
+
+10:53:06 --> 10:53:12
+Giacomo Satoru Quintili: Has multiple voices, as you can see, and each of them are independent.
+
+10:53:13 --> 10:53:18
+Giacomo Satoru Quintili: Independent. So, if I press a note, this.
+
+10:53:18 --> 10:53:21
+Giacomo Satoru Quintili: Chain of module is going to play.
+
+10:53:22 --> 10:53:27
+Giacomo Satoru Quintili: So this voice is going to have its own articulation.
+
+10:53:29 --> 10:53:33
+Giacomo Satoru Quintili: So it's own fade in and it's own fade out.
+
+10:53:34 --> 10:53:36
+Giacomo Satoru Quintili: Vi.
+
+10:53:37 --> 10:53:41
+Giacomo Satoru Quintili: You see? Each one is independent.
+
+10:53:40 --> 10:53:41
+Giacomo Satoru Quintili: Con.
+
+10:53:41 --> 10:53:44
+Giacomo Satoru Quintili: On a paraphonic, no.
+
+10:53:44 --> 10:53:46
+Giacomo Satoru Quintili: On a paraphonic.
+
+10:53:47 --> 10:53:49
+Giacomo Satoru Quintili: You have one single…
+
+10:53:52 --> 10:53:54
+Giacomo Satoru Quintili: One single envelope.
+
+10:53:54 --> 10:53:58
+Giacomo Satoru Quintili: You see that the sound disappears.
+
+10:53:55 --> 10:53:56
+Hongze(Wengo) Wang: I have a…
+
+10:53:56 --> 10:53:57
+Hongze(Wengo) Wang: Have a good day.
+
+10:53:58 --> 10:54:00
+Hongze(Wengo) Wang: I have a question.
+
+10:53:59 --> 10:54:00
+Giacomo Satoru Quintili: Yep.
+
+10:54:00 --> 10:54:06
+Hongze(Wengo) Wang: For the true polyphonic, how do you select different sounds? Because when you…
+
+10:54:05 --> 10:54:07
+Giacomo Satoru Quintili: Yeah.
+
+10:54:07 --> 10:54:19
+Giacomo Satoru Quintili: Absolutely, absolutely a good question. It's a little bit nerd as a question, so I'm not gonna bother you too much. Just know that every time you press a key.
+
+10:54:15 --> 10:54:17
+Hongze(Wengo) Wang: Okay.
+
+10:54:18 --> 10:54:20
+Hongze(Wengo) Wang: Hello?
+
+10:54:19 --> 10:54:20
+Giacomo Satoru Quintili: Hmm?
+
+10:54:20 --> 10:54:22
+Giacomo Satoru Quintili: Up.
+
+10:54:22 --> 10:54:30
+Giacomo Satoru Quintili: Basically, uh, the key you are pressing is going to be allocated.
+
+10:54:30 --> 10:54:33
+Giacomo Satoru Quintili: By an algorithm.
+
+10:54:33 --> 10:54:35
+Hongze(Wengo) Wang: Okay.
+
+10:54:34 --> 10:54:40
+Giacomo Satoru Quintili: So an algorithm will decide, okay, what's the first slot available?
+
+10:54:40 --> 10:54:44
+Giacomo Satoru Quintili: I'm gonna send this voice to that row.
+
+10:54:44 --> 10:54:48
+Hongze(Wengo) Wang: So I have to assign different keys to different…
+
+10:54:46 --> 10:54:50
+Giacomo Satoru Quintili: No, no, no, no, not you.
+
+10:54:50 --> 10:54:54
+Hongze(Wengo) Wang: Oh, so like the algorithm does it?
+
+10:54:54 --> 10:54:55
+Giacomo Satoru Quintili: Yeah.
+
+10:54:55 --> 10:54:57
+Hongze(Wengo) Wang: Bahaha.
+
+10:54:56 --> 10:54:58
+Giacomo Satoru Quintili: So thanks, the engineer.
+
+10:54:58 --> 10:55:05
+Hongze(Wengo) Wang: OK, but what if I don't want that sound though, like the sound that they assigned, the algorithm assigned?
+
+10:55:05 --> 10:55:07
+Giacomo Satoru Quintili: Oh, you don't have choice.
+
+10:55:07 --> 10:55:09
+Hongze(Wengo) Wang: Ah, okay.
+
+10:55:09 --> 10:55:11
+Hongze(Wengo) Wang: Thank you.
+
+10:55:10 --> 10:55:16
+Giacomo Satoru Quintili: It's… no, but it's okay, you don't see this. Look, this is what I made.
+
+10:55:16 --> 10:55:24
+Giacomo Satoru Quintili: which goes behind the scenes. Look what, uh, the… how a true polyphonic is.
+
+10:55:24 --> 10:55:25
+Giacomo Satoru Quintili: done.
+
+10:55:25 --> 10:55:27
+Giacomo Satoru Quintili: Look, look.
+
+10:55:27 --> 10:55:35
+Giacomo Satoru Quintili: When you have in front of you a polyphonic synthesizer, which is a true polyphonic synthesizer, like this one, you see?
+
+10:55:38 --> 10:55:40
+Giacomo Satoru Quintili: It's a small picture. I want a big one.
+
+10:55:44 --> 10:55:46
+Giacomo Satoru Quintili: That's a little bit too small.
+
+10:55:46 --> 10:55:47
+Giacomo Satoru Quintili: Just a moment.
+
+10:55:59 --> 10:56:03
+Giacomo Satoru Quintili: Maybe this one. Yeah, this is a bigger picture.
+
+10:56:04 --> 10:56:09
+Giacomo Satoru Quintili: Yes, we like it. All right, so you see this is a.
+
+10:56:10 --> 10:56:17
+Giacomo Satoru Quintili: a compact synthesizer, as you can see, and know that it's polyphonic.
+
+10:56:17 --> 10:56:23
+Giacomo Satoru Quintili: True polyphonic. Prophet 10 means that 10 keys work.
+
+10:56:23 --> 10:56:24
+Giacomo Satoru Quintili: At a time.
+
+10:56:24 --> 10:56:26
+Giacomo Satoru Quintili: 10 keys.
+
+10:56:26 --> 10:56:32
+Giacomo Satoru Quintili: You see that there's only one cutoff knob, for example, one cutoff.
+
+10:56:35 --> 10:56:38
+Giacomo Satoru Quintili: Guys, this is the front panel.
+
+10:56:38 --> 10:56:42
+Giacomo Satoru Quintili: You have to imagine that behind the front panel you have this.
+
+10:56:42 --> 10:56:44
+Giacomo Satoru Quintili: 10 rows of this.
+
+10:56:44 --> 10:56:46
+Giacomo Satoru Quintili: With 10 cut off.
+
+10:56:48 --> 10:56:50
+Giacomo Satoru Quintili: Doesn't make sense.
+
+10:56:51 --> 10:56:52
+travismorgado: Lea.
+
+10:56:51 --> 10:57:02
+Giacomo Satoru Quintili: but would be too inconvenient to move 10 cutoff at a time. So, the front panel of a true polyphonic synthesizer is the macro.
+
+10:57:03 --> 10:57:05
+Giacomo Satoru Quintili: The knobs you see…
+
+10:57:06 --> 10:57:08
+Giacomo Satoru Quintili: are macros.
+
+10:57:08 --> 10:57:12
+Giacomo Satoru Quintili: Behind, you have 10 filters.
+
+10:57:13 --> 10:57:15
+Giacomo Satoru Quintili: Does it make sense?
+
+10:57:16 --> 10:57:21
+Giacomo Satoru Quintili: So you don't move the single cutoff, you move the macro, this one.
+
+10:57:22 --> 10:57:26
+Giacomo Satoru Quintili: That moves all of them at once, for convenience.
+
+10:57:26 --> 10:57:35
+Giacomo Satoru Quintili: So, your question was, what if I don't like this voice? I wanted to use this one. It doesn't matter, because they all sound the same.
+
+10:57:37 --> 10:57:43
+Hongze(Wengo) Wang: But if they all sound the same, aren't they just Paraphonics?
+
+10:57:43 --> 10:57:48
+Giacomo Satoru Quintili: No, because I'm talking about the envelope is independent.
+
+10:57:48 --> 10:57:49
+Hongze(Wengo) Wang: Ah, okay.
+
+10:57:49 --> 10:57:53
+Giacomo Satoru Quintili: The envelope. So when I press one key.
+
+10:57:53 --> 10:57:56
+Giacomo Satoru Quintili: See, this one has… okay, let me increase the attack, okay?
+
+10:57:56 --> 10:57:58
+Giacomo Satoru Quintili: You see, this one has.
+
+10:57:58 --> 10:58:03
+Giacomo Satoru Quintili: fade in. If I press another key, the new key.
+
+10:57:59 --> 10:58:00
+Hongze(Wengo) Wang: Yep.
+
+10:58:03 --> 10:58:07
+Giacomo Satoru Quintili: The new voice is going to have a fade-in, its own fade-in look.
+
+10:58:08 --> 10:58:11
+Hongze(Wengo) Wang: Ah, I get it. I get it.
+
+10:58:10 --> 10:58:13
+Giacomo Satoru Quintili: Okay, they're independent on a…
+
+10:58:13 --> 10:58:15
+Giacomo Satoru Quintili: Uh, in terms of envelope.
+
+10:58:15 --> 10:58:17
+Hongze(Wengo) Wang: I see. Thank you.
+
+10:58:16 --> 10:58:21
+Giacomo Satoru Quintili: On a paraphonic, no, you only have one fading for all.
+
+10:58:20 --> 10:58:25
+Hongze(Wengo) Wang: Okay, so the dynamic is going to sound exactly the same.
+
+10:58:25 --> 10:58:26
+Giacomo Satoru Quintili: Yeah.
+
+10:58:25 --> 10:58:28
+Hongze(Wengo) Wang: Okay. Understood. Thank you.
+
+10:58:26 --> 10:58:27
+Giacomo Satoru Quintili: Yeah.
+
+10:58:28 --> 10:58:30
+Giacomo Satoru Quintili: Of course.
+
+10:58:30 --> 10:58:40
+Giacomo Satoru Quintili: It's actually very hard to explain and to get. It's a small nuance, right? So that's why, that's why many people get confused.
+
+10:58:40 --> 10:58:44
+Giacomo Satoru Quintili: by true polyphonic and paraphonic, okay?
+
+10:58:44 --> 10:58:55
+Giacomo Satoru Quintili: So paraffinic are cheaper because you don't need to have a lot of modules. You save a lot of money because you don't use all these filters and all these amplifiers.
+
+10:58:55 --> 10:59:01
+Giacomo Satoru Quintili: Okay, each voice must have an apartment on a true polyphonic.
+
+10:59:02 --> 10:59:14
+Giacomo Satoru Quintili: While on the Paraphonic, you save a lot of money because you only have one single apartment for all the people who live in that apartment.
+
+10:59:15 --> 10:59:19
+Hongze(Wengo) Wang: Can you play something on the paraphonics as well? Yeah.
+
+10:59:17 --> 10:59:19
+Giacomo Satoru Quintili: Yeah.
+
+10:59:19 --> 10:59:25
+Giacomo Satoru Quintili: See? It's perfect for if you press chords all at once.
+
+10:59:20 --> 10:59:22
+Hongze(Wengo) Wang: Hello.
+
+10:59:26 --> 10:59:29
+Giacomo Satoru Quintili: But, if you play notes…
+
+10:59:29 --> 10:59:30
+Giacomo Satoru Quintili: After.
+
+10:59:30 --> 10:59:31
+Hongze(Wengo) Wang: Yep.
+
+10:59:33 --> 10:59:37
+Hongze(Wengo) Wang: Ah, okay, yeah, I understood now. Okay, thank you.
+
+10:59:33 --> 10:59:35
+Giacomo Satoru Quintili: Gone.
+
+10:59:36 --> 10:59:38
+Giacomo Satoru Quintili: It's gone. You see?
+
+10:59:37 --> 10:59:39
+Hongze(Wengo) Wang: Yep.
+
+10:59:38 --> 10:59:47
+Giacomo Satoru Quintili: Of course. That's the problem. So, in short, you only have one articulation for all. So, paraphonic are great.
+
+10:59:47 --> 10:59:51
+Giacomo Satoru Quintili: Just for chords. Chords.
+
+10:59:52 --> 10:59:53
+Giacomo Satoru Quintili: Once.
+
+10:59:53 --> 10:59:55
+Giacomo Satoru Quintili: Okay.
+
+10:59:55 --> 10:59:57
+Giacomo Satoru Quintili: Doesn't make sense.
+
+10:59:58 --> 11:00:01
+Giacomo Satoru Quintili: So paraphonic are perfect for pads.
+
+10:59:58 --> 10:59:59
+Hongze(Wengo) Wang: Yeah. Okay.
+
+11:00:03 --> 11:00:05
+Giacomo Satoru Quintili: Long story short.
+
+11:00:06 --> 11:00:10
+Giacomo Satoru Quintili: You press one key, one chord.
+
+11:00:10 --> 11:00:15
+Giacomo Satoru Quintili: All at once, then you move and press another chord all at once.
+
+11:00:15 --> 11:00:17
+Giacomo Satoru Quintili: Doesn't make sense.
+
+11:00:17 --> 11:00:18
+Hongze(Wengo) Wang: Yes.
+
+11:00:17 --> 11:00:18
+Ivonq Brscic: Yep.
+
+11:00:19 --> 11:00:20
+Hongze(Wengo) Wang: Thank you.
+
+11:00:19 --> 11:00:22
+Giacomo Satoru Quintili: Paraphonic. So, you wanna do pods?
+
+11:00:22 --> 11:00:28
+Giacomo Satoru Quintili: You want pads? You want to save money? Paraphonic. Go for Paraphonic.
+
+11:00:28 --> 11:00:37
+Giacomo Satoru Quintili: You want a polyphonic, true polyphonic, which allows you also to play some solos while you do some chords with that, then you need a true polyphonic.
+
+11:00:39 --> 11:00:41
+Giacomo Satoru Quintili: That doesn't make sense.
+
+11:00:41 --> 11:00:42
+Ivonq Brscic: Yeah, ma'am.
+
+11:00:42 --> 11:00:49
+Giacomo Satoru Quintili: Okay, good. So these are the differences between monophonic.
+
+11:00:49 --> 11:00:53
+Giacomo Satoru Quintili: and polyphonic. Duophonic, paraphonic, true polyphonic.
+
+11:00:55 --> 11:00:56
+Giacomo Satoru Quintili: Um…
+
+11:01:02 --> 11:01:12
+Giacomo Satoru Quintili: So you are going to have the video about this topic, the video recording, the PDF.
+
+11:01:12 --> 11:01:14
+Giacomo Satoru Quintili: of the recap.
+
+11:01:15 --> 11:01:18
+Giacomo Satoru Quintili: Guys, I highly encourage you to.
+
+11:01:18 --> 11:01:26
+Giacomo Satoru Quintili: uh, classroom, okay? Because here, uh, you'll find, for example, the PDF of the.
+
+11:01:26 --> 11:01:31
+Giacomo Satoru Quintili: The PDF of the recap of the lesson.
+
+11:01:32 --> 11:01:34
+Giacomo Satoru Quintili: And the quits…
+
+11:01:34 --> 11:01:36
+Giacomo Satoru Quintili: For, uh…
+
+11:01:36 --> 11:01:38
+Giacomo Satoru Quintili: Help retaining, uh…
+
+11:01:38 --> 11:01:41
+Giacomo Satoru Quintili: the informations, okay?
+
+11:01:42 --> 11:01:50
+Giacomo Satoru Quintili: So, let's talk about… let's go back to the OneVoice architecture. It's called OneVoice, okay?
+
+11:01:50 --> 11:01:53
+Giacomo Satoru Quintili: Let's talk about the voice.
+
+11:02:01 --> 11:02:06
+Giacomo Satoru Quintili: Monophonic synthesizers have one voice.
+
+11:02:07 --> 11:02:08
+Giacomo Satoru Quintili: Okay.
+
+11:02:24 --> 11:02:25
+Giacomo Satoru Quintili: Duophonic.
+
+11:02:27 --> 11:02:29
+Giacomo Satoru Quintili: I have two voices.
+
+11:02:29 --> 11:02:30
+Giacomo Satoru Quintili: Independent.
+
+11:02:34 --> 11:02:36
+Giacomo Satoru Quintili: Paraphonic…
+
+11:02:37 --> 11:02:39
+Giacomo Satoru Quintili: Only have one voice.
+
+11:02:39 --> 11:02:42
+Giacomo Satoru Quintili: Actually. Okay.
+
+11:02:45 --> 11:02:48
+Giacomo Satoru Quintili: But they can produce multiple notes at once.
+
+11:02:48 --> 11:02:52
+Giacomo Satoru Quintili: That's the weird thing that confuses people.
+
+11:02:52 --> 11:02:57
+Giacomo Satoru Quintili: Okay. While true polyphonic, actually, why they are the best?
+
+11:02:57 --> 11:03:01
+Giacomo Satoru Quintili: I mean, quote unquote, best. Because they have…
+
+11:03:01 --> 11:03:04
+Giacomo Satoru Quintili: And voices, that depends.
+
+11:03:04 --> 11:03:15
+Giacomo Satoru Quintili: There's not a fixed number, right? Prophet 5 has 5 voices. Prophet 10 has 10 voices. So, yeah, it's variable.
+
+11:03:15 --> 11:03:19
+Hongze(Wengo) Wang: Does it mean Duophonics have two envelopes?
+
+11:03:15 --> 11:03:16
+Giacomo Satoru Quintili: So…
+
+11:03:16 --> 11:03:17
+Giacomo Satoru Quintili: Yep.
+
+11:03:19 --> 11:03:20
+Giacomo Satoru Quintili: Yep.
+
+11:03:20 --> 11:03:22
+Hongze(Wengo) Wang: Okay, I see. Thank you.
+
+11:03:21 --> 11:03:31
+Giacomo Satoru Quintili: two architectures, two oscillator, filter, amplifier, two envelopes, and then oscillator, filter, amplifier.
+
+11:03:31 --> 11:03:32
+Hongze(Wengo) Wang: Welcome.
+
+11:03:31 --> 11:03:33
+Giacomo Satoru Quintili: Double. Okay.
+
+11:03:34 --> 11:03:38
+Giacomo Satoru Quintili: So, true polyphonic have N voices.
+
+11:03:38 --> 11:03:43
+Giacomo Satoru Quintili: Variable number of voices. All of them are independent.
+
+11:03:45 --> 11:03:47
+Giacomo Satoru Quintili: Okay.
+
+11:03:56 --> 11:03:58
+Giacomo Satoru Quintili: Okay.
+
+11:03:58 --> 11:04:08
+Giacomo Satoru Quintili: Once we have done that, you now know the type of synthesizers on the market. So if you read paraphonic, be careful.
+
+11:04:13 --> 11:04:17
+Giacomo Satoru Quintili: Let's talk about the two signals.
+
+11:04:20 --> 11:04:23
+Giacomo Satoru Quintili: The two types of signals.
+
+11:04:23 --> 11:04:25
+Giacomo Satoru Quintili: on a synthesizer.
+
+11:04:25 --> 11:04:29
+Giacomo Satoru Quintili: It's another topic.
+
+11:04:34 --> 11:04:35
+Giacomo Satoru Quintili: So.
+
+11:04:37 --> 11:04:44
+Giacomo Satoru Quintili: This is a new topic. We finish with the types of synthesizers in terms of monophonic, polyphonic, okay?
+
+11:04:44 --> 11:04:47
+Giacomo Satoru Quintili: Now we talk about the signal.
+
+11:04:48 --> 11:04:53
+Giacomo Satoru Quintili: The signal can be seen as the blood of the synthesizer.
+
+11:04:56 --> 11:05:07
+Giacomo Satoru Quintili: First, what is a signal? Now, generally speaking, generally, a signal is a way to carry an information.
+
+11:05:08 --> 11:05:13
+Giacomo Satoru Quintili: General. This is generally, okay, can be side signal.
+
+11:05:13 --> 11:05:15
+Giacomo Satoru Quintili: smoke signal.
+
+11:05:15 --> 11:05:17
+Giacomo Satoru Quintili: signal.
+
+11:05:17 --> 11:05:20
+Giacomo Satoru Quintili: street signal, okay?
+
+11:05:20 --> 11:05:23
+Giacomo Satoru Quintili: We are talking about electrical signal.
+
+11:05:23 --> 11:05:24
+Giacomo Satoru Quintili: Okay.
+
+11:05:24 --> 11:05:27
+Giacomo Satoru Quintili: So, synthesizer…
+
+11:05:29 --> 11:05:34
+Giacomo Satoru Quintili: Synthesizers have two types of signals.
+
+11:05:39 --> 11:05:41
+Giacomo Satoru Quintili: Audio.
+
+11:05:41 --> 11:05:43
+Giacomo Satoru Quintili: and CV.
+
+11:05:47 --> 11:05:50
+Giacomo Satoru Quintili: CV stands for control voltage.
+
+11:06:05 --> 11:06:07
+Giacomo Satoru Quintili: Long story short.
+
+11:06:07 --> 11:06:08
+Giacomo Satoru Quintili: Audio.
+
+11:06:11 --> 11:06:15
+Giacomo Satoru Quintili: It's audio. It's the material audio.
+
+11:06:15 --> 11:06:16
+Giacomo Satoru Quintili: is the sound.
+
+11:06:17 --> 11:06:20
+Giacomo Satoru Quintili: Electrical signal.
+
+11:06:21 --> 11:06:22
+Giacomo Satoru Quintili: used…
+
+11:06:24 --> 11:06:26
+Giacomo Satoru Quintili: to hear sound.
+
+11:06:27 --> 11:06:33
+Giacomo Satoru Quintili: So, the actual… the actual material. CVE, careful, it's an electrical signal.
+
+11:06:34 --> 11:06:38
+Giacomo Satoru Quintili: used to get automations.
+
+11:06:46 --> 11:06:47
+Giacomo Satoru Quintili: Hmm?
+
+11:06:48 --> 11:06:51
+Giacomo Satoru Quintili: AKA move faders.
+
+11:06:51 --> 11:06:53
+Giacomo Satoru Quintili: and knobs.
+
+11:07:05 --> 11:07:08
+Giacomo Satoru Quintili: Let's see the features of the audio signal.
+
+11:07:09 --> 11:07:12
+Giacomo Satoru Quintili: The audio signal MUST meet.
+
+11:07:12 --> 11:07:15
+Giacomo Satoru Quintili: Strict requirements.
+
+11:07:19 --> 11:07:21
+Giacomo Satoru Quintili: First, it must…
+
+11:07:23 --> 11:07:24
+Giacomo Satoru Quintili: Oscillate.
+
+11:07:25 --> 11:07:26
+Giacomo Satoru Quintili: Must.
+
+11:07:29 --> 11:07:31
+Giacomo Satoru Quintili: Seconds.
+
+11:07:31 --> 11:07:33
+Giacomo Satoru Quintili: It must have…
+
+11:07:35 --> 11:07:37
+Giacomo Satoru Quintili: a frequency.
+
+11:07:37 --> 11:07:38
+Giacomo Satoru Quintili: Above.
+
+11:07:39 --> 11:07:41
+Giacomo Satoru Quintili: 20 hertz.
+
+11:07:44 --> 11:07:46
+Giacomo Satoru Quintili: Third.
+
+11:07:50 --> 11:07:52
+Giacomo Satoru Quintili: It must have…
+
+11:07:53 --> 11:07:55
+Giacomo Satoru Quintili: It must be used.
+
+11:07:56 --> 11:07:58
+Giacomo Satoru Quintili: To be heard.
+
+11:08:05 --> 11:08:08
+Giacomo Satoru Quintili: So we are talking about purpose.
+
+11:08:23 --> 11:08:26
+Giacomo Satoru Quintili: Okay, now let's see.
+
+11:08:32 --> 11:08:40
+Giacomo Satoru Quintili: I'm going to use an oscilloscope. I suggest you to use it for studying purposes.
+
+11:08:39 --> 11:08:45
+travismorgado: Way, Sury, Nafrey Propgeres e Mass Hosliy Friulesya Bottone, Harrys Mosselasson, Over Masmework.
+
+11:08:45 --> 11:08:47
+Giacomo Satoru Quintili: Yeah, the purpose.
+
+11:08:52 --> 11:08:56
+Giacomo Satoru Quintili: Okay, so for example.
+
+11:08:59 --> 11:09:01
+Giacomo Satoru Quintili: What do you think?
+
+11:09:02 --> 11:09:04
+Giacomo Satoru Quintili: This signal.
+
+11:09:05 --> 11:09:08
+Giacomo Satoru Quintili: Is it audio or not?
+
+11:09:11 --> 11:09:16
+travismorgado: A myphing sovicesos o Slow scope maxmithing interess grosse lite. No.
+
+11:09:16 --> 11:09:24
+Giacomo Satoru Quintili: No, oscilloscope is just a module that allows us to visualize the electrical signal. We can see it.
+
+11:09:24 --> 11:09:29
+travismorgado: Woow, che è successo a Charles Trockley. È stato di al Webinar.
+
+11:09:29 --> 11:09:42
+Giacomo Satoru Quintili: Yeah, this is not an audio signal, because the blue line that you see is the electrical signal. We can visualize it. That's why I suggest you to use your oscilloscope, guys, to study.
+
+11:09:42 --> 11:09:56
+Giacomo Satoru Quintili: we can see the voltage, the electrical voltage. You see, it's not oscillating, it's not doing up and down, up and down, and it's not doing it fast, absolutely not, it's standing still. So this thing, if I plug it to an output.
+
+11:09:56 --> 11:09:58
+Giacomo Satoru Quintili: We hear nothing.
+
+11:10:01 --> 11:10:03
+Giacomo Satoru Quintili: Okay.
+
+11:10:04 --> 11:10:11
+Giacomo Satoru Quintili: Oh, I heard a click because I removed the electrical signal, right? Anyway, so let's plug…
+
+11:10:13 --> 11:10:15
+Giacomo Satoru Quintili: An oscillator.
+
+11:10:16 --> 11:10:17
+Giacomo Satoru Quintili: Right?
+
+11:10:17 --> 11:10:27
+Giacomo Satoru Quintili: Yeah, this most likely is gonna be audio because it oscillates, you see, oscillates, and it oscillates fast.
+
+11:10:31 --> 11:10:34
+Giacomo Satoru Quintili: Like a vibrating string.
+
+11:10:36 --> 11:10:38
+Giacomo Satoru Quintili: Okay.
+
+11:10:38 --> 11:10:40
+Giacomo Satoru Quintili: So there are signals that…
+
+11:10:40 --> 11:10:42
+Giacomo Satoru Quintili: have these features.
+
+11:10:42 --> 11:10:45
+Giacomo Satoru Quintili: And then they can be audible.
+
+11:10:46 --> 11:10:48
+Giacomo Satoru Quintili: These are audio signals.
+
+11:10:52 --> 11:10:54
+Giacomo Satoru Quintili: This, what do you think?
+
+11:11:01 --> 11:11:03
+travismorgado: George Fashion.
+
+11:11:02 --> 11:11:05
+Giacomo Satoru Quintili: Uh, what do you think? Is it audio or CV?
+
+11:11:05 --> 11:11:08
+Hongze(Wengo) Wang: Don't think it's an audio.
+
+11:11:08 --> 11:11:12
+Giacomo Satoru Quintili: Careful, it is oscillating, yes, so it's meeting…
+
+11:11:11 --> 11:11:12
+Ivonq Brscic: is to…
+
+11:11:12 --> 11:11:16
+Giacomo Satoru Quintili: It's a CV because it's too slow, you see?
+
+11:11:15 --> 11:11:17
+Hongze(Wengo) Wang: Yeah. Okay.
+
+11:11:16 --> 11:11:21
+Giacomo Satoru Quintili: It is oscillating, but it's too slow, so even if I plug it to an output.
+
+11:11:22 --> 11:11:24
+Giacomo Satoru Quintili: I hear nothing.
+
+11:11:25 --> 11:11:29
+Giacomo Satoru Quintili: So this signal will be used to control.
+
+11:11:32 --> 11:11:35
+Giacomo Satoru Quintili: Let's see the purpose of control signals.
+
+11:11:36 --> 11:11:38
+Giacomo Satoru Quintili: Control signals.
+
+11:11:38 --> 11:11:44
+Giacomo Satoru Quintili: are useful because they do the job in our behalf.
+
+11:11:46 --> 11:11:50
+Giacomo Satoru Quintili: Look, I have this frequency here.
+
+11:11:52 --> 11:11:53
+Giacomo Satoru Quintili: Right?
+
+11:11:54 --> 11:11:56
+Giacomo Satoru Quintili: You see that, uh…
+
+11:11:56 --> 11:12:01
+Giacomo Satoru Quintili: With this knob, frequency, I can change the frequency, right?
+
+11:12:03 --> 11:12:06
+Giacomo Satoru Quintili: So far so good. Let's listen to it.
+
+11:12:14 --> 11:12:20
+Giacomo Satoru Quintili: Cool, I'm doing it manually. You know what, though? I can automate this.
+
+11:12:20 --> 11:12:28
+Giacomo Satoru Quintili: Instead of me turning the knob right and left, I can use this signal to do this work for me.
+
+11:12:31 --> 11:12:41
+Giacomo Satoru Quintili: I'm telling you the purpose of control signals. So, they are electrical signals, but they are used to move stuff instead of me.
+
+11:12:43 --> 11:12:46
+Giacomo Satoru Quintili: I'm not doing anything. It's an automation.
+
+11:12:53 --> 11:12:55
+Giacomo Satoru Quintili: Doesn't make sense.
+
+11:12:56 --> 11:12:56
+Ivonq Brscic: No.
+
+11:12:56 --> 11:12:58
+Hongze(Wengo) Wang: Yeah.
+
+11:12:57 --> 11:13:07
+Giacomo Satoru Quintili: Yeah, so this is the difference between audio signals used for audio, the sound that we craft, and then control signals.
+
+11:13:08 --> 11:13:14
+Giacomo Satoru Quintili: Control signals are used to do the work in our behalf, so I don't have to move the knob.
+
+11:13:16 --> 11:13:18
+Giacomo Satoru Quintili: Okay. And…
+
+11:13:18 --> 11:13:22
+Giacomo Satoru Quintili: If this is clear, know that.
+
+11:13:22 --> 11:13:26
+Giacomo Satoru Quintili: A skilled electronic musician.
+
+11:13:28 --> 11:13:30
+Giacomo Satoru Quintili: To be a skilled.
+
+11:13:30 --> 11:13:34
+Giacomo Satoru Quintili: Electronic musician, you need to be very good.
+
+11:13:35 --> 11:13:40
+Giacomo Satoru Quintili: at manipulating and mastering control voltages.
+
+11:13:42 --> 11:13:43
+Giacomo Satoru Quintili: You know what I mean?
+
+11:13:44 --> 11:13:50
+Giacomo Satoru Quintili: So, the more you understand how it works and the possible combinations.
+
+11:13:50 --> 11:13:54
+Giacomo Satoru Quintili: the better electronic musicians you are.
+
+11:13:55 --> 11:14:05
+Giacomo Satoru Quintili: Now, you're not electronic musicians, you are guitarists, pianists, vocalists, singers, and so on and so forth, so you don't need to get.
+
+11:14:05 --> 11:14:11
+Giacomo Satoru Quintili: good at this, right? You just need to know the bare minimum.
+
+11:14:12 --> 11:14:14
+Giacomo Satoru Quintili: Doesn't make sense.
+
+11:14:14 --> 11:14:16
+Giacomo Satoru Quintili: So don't worry.
+
+11:14:15 --> 11:14:15
+Ivonq Brscic: Excellent.
+
+11:14:16 --> 11:14:26
+Giacomo Satoru Quintili: So, really, don't worry, you don't have to squeeze too much your brain to get some weird combination, unless you like doing it, right? People… there are some people who enjoy it.
+
+11:14:26 --> 11:14:34
+Giacomo Satoru Quintili: Uh, like me, who enjoy combinations and, uh, like a… some kind of problem-solving riddle.
+
+11:14:34 --> 11:14:38
+Giacomo Satoru Quintili: I don't know, we find it stimulating, right?
+
+11:14:38 --> 11:14:46
+Giacomo Satoru Quintili: Uh, other people don't like it. So, it's a matter of taste, okay? So, all you need to know is the…
+
+11:14:46 --> 11:14:48
+Giacomo Satoru Quintili: General idea.
+
+11:14:49 --> 11:14:50
+Giacomo Satoru Quintili: Okay.
+
+11:14:50 --> 11:14:57
+Giacomo Satoru Quintili: And what you need to know is that some signals are used for audio. Some signals are used to move stuff.
+
+11:15:00 --> 11:15:05
+Giacomo Satoru Quintili: And you need to remember the name. Audio and CV.
+
+11:15:06 --> 11:15:08
+Giacomo Satoru Quintili: control voltage.
+
+11:15:09 --> 11:15:16
+Giacomo Satoru Quintili: Now, about control voltage. Control voltage has no elements.
+
+11:15:20 --> 11:15:24
+Giacomo Satoru Quintili: What does, what does it mean? Doesn't need to oscillate.
+
+11:15:25 --> 11:15:27
+Giacomo Satoru Quintili: So it can oscillate.
+
+11:15:27 --> 11:15:29
+Giacomo Satoru Quintili: or not.
+
+11:15:31 --> 11:15:34
+Giacomo Satoru Quintili: It can oscillate.
+
+11:15:34 --> 11:15:38
+Giacomo Satoru Quintili: uh… below 20 Hertz.
+
+11:15:38 --> 11:15:40
+Giacomo Satoru Quintili: or above.
+
+11:15:44 --> 11:15:45
+Giacomo Satoru Quintili: Okay.
+
+11:15:46 --> 11:15:49
+Giacomo Satoru Quintili: So controlled voltage can be anything.
+
+11:15:49 --> 11:15:52
+Giacomo Satoru Quintili: There's only one thing.
+
+11:15:53 --> 11:15:55
+Giacomo Satoru Quintili: The purpose.
+
+11:15:57 --> 11:16:03
+Giacomo Satoru Quintili: The purpose is important. The control voltages are not used to be heard.
+
+11:16:05 --> 11:16:06
+Giacomo Satoru Quintili: Okay.
+
+11:16:13 --> 11:16:18
+Giacomo Satoru Quintili: The purpose of the CV is what differentiates.
+
+11:16:20 --> 11:16:22
+Giacomo Satoru Quintili: From an audio.
+
+11:16:24 --> 11:16:28
+Giacomo Satoru Quintili: CVs are used.
+
+11:16:28 --> 11:16:29
+Giacomo Satoru Quintili: To control.
+
+11:16:30 --> 11:16:33
+Giacomo Satoru Quintili: Not to be heard.
+
+11:16:42 --> 11:16:43
+Giacomo Satoru Quintili: Okay.
+
+11:17:00 --> 11:17:11
+Giacomo Satoru Quintili: I can plug here, you see? This guy is going up and down, up and down, it's just like moving the knob up and down, right? Slowly.
+
+11:17:11 --> 11:17:13
+Giacomo Satoru Quintili: But I could do this.
+
+11:17:13 --> 11:17:16
+Giacomo Satoru Quintili: I could make it super fast.
+
+11:17:23 --> 11:17:27
+Giacomo Satoru Quintili: Con la.
+
+11:17:31 --> 11:17:33
+Giacomo Satoru Quintili: Una.
+
+11:17:33 --> 11:17:39
+Giacomo Satoru Quintili: What's going on? Well, I'm using a control voltage.
+
+11:17:40 --> 11:17:43
+Giacomo Satoru Quintili: With all your properties.
+
+11:17:43 --> 11:17:49
+Giacomo Satoru Quintili: You see? This control voltage is super fast, it's oscillating, just like an audio.
+
+11:17:49 --> 11:17:52
+Giacomo Satoru Quintili: But I'm not using it as an audio.
+
+11:17:52 --> 11:17:54
+Giacomo Satoru Quintili: You see what I mean?
+
+11:17:54 --> 11:17:59
+Giacomo Satoru Quintili: I'm using to control the frequency of this oscillator.
+
+11:17:59 --> 11:18:04
+Giacomo Satoru Quintili: So this frequency knob, you have to imagine that it's going up and down super fast.
+
+11:18:06 --> 11:18:09
+Giacomo Satoru Quintili: So I can use an audio signal.
+
+11:18:09 --> 11:18:11
+Giacomo Satoru Quintili: as a CV.
+
+11:18:12 --> 11:18:14
+Giacomo Satoru Quintili: Okay.
+
+11:18:13 --> 11:18:15
+Giacomo Satoru Quintili: Vi.
+
+11:18:15 --> 11:18:20
+Giacomo Satoru Quintili: for more advanced stuff. This is called frequency modulation.
+
+11:18:20 --> 11:18:24
+Giacomo Satoru Quintili: It's a type of synthesis that we will study at the end.
+
+11:18:24 --> 11:18:25
+Giacomo Satoru Quintili: of the cohorts.
+
+11:18:28 --> 11:18:32
+Giacomo Satoru Quintili: It's just to show you that a CV can be anything.
+
+11:18:32 --> 11:18:37
+Giacomo Satoru Quintili: Can be standing still, can oscillate slowly.
+
+11:18:37 --> 11:18:42
+Giacomo Satoru Quintili: Uh, or can oscillate super fast, and then we get this.
+
+11:18:42 --> 11:18:44
+Giacomo Satoru Quintili: Okay?
+
+11:18:45 --> 11:18:46
+Ivonq Brscic: Yeah, thank you.
+
+11:18:46 --> 11:18:56
+Giacomo Satoru Quintili: You need to familiarize guys, so don't worry, we will go back here over and over on this topic, over and over and over and over, okay?
+
+11:18:57 --> 11:19:00
+Giacomo Satoru Quintili: And eventually you will familiarize.
+
+11:19:00 --> 11:19:02
+Giacomo Satoru Quintili: So…
+
+11:19:02 --> 11:19:09
+Giacomo Satoru Quintili: We finished the lesson now. Let's do a recap.
+
+11:19:09 --> 11:19:17
+Giacomo Satoru Quintili: And next time, uh, we will talk, uh… oh, no, no, no, no, first, sorry. First, I need to talk about pitch and gate, sorry.
+
+11:19:17 --> 11:19:19
+Giacomo Satoru Quintili: Sorry, sorry.
+
+11:19:19 --> 11:19:25
+Giacomo Satoru Quintili: Pitch and get why I need to talk about this too, because we did the basic patch.
+
+11:19:26 --> 11:19:30
+Giacomo Satoru Quintili: So, at the very least, know what a pitch and gate are.
+
+11:19:30 --> 11:19:33
+Giacomo Satoru Quintili: It's not going to be hard.
+
+11:19:33 --> 11:19:40
+Giacomo Satoru Quintili: Pitch CV and Gate CV, I'm gonna call them this way, CV, from now on.
+
+11:19:44 --> 11:19:47
+Giacomo Satoru Quintili: These are CV signals.
+
+11:19:48 --> 11:19:49
+Giacomo Satoru Quintili: Okay.
+
+11:19:49 --> 11:19:53
+Giacomo Satoru Quintili: Both generated by the keyboard.
+
+11:19:54 --> 11:19:55
+Giacomo Satoru Quintili: Huh?
+
+11:19:57 --> 11:19:58
+Giacomo Satoru Quintili: The pitch.
+
+11:19:59 --> 11:20:02
+Giacomo Satoru Quintili: is a control voltage CV.
+
+11:20:02 --> 11:20:04
+Giacomo Satoru Quintili: Whose voltage?
+
+11:20:06 --> 11:20:10
+Giacomo Satoru Quintili: Depends on which key has been pressed.
+
+11:20:16 --> 11:20:19
+Giacomo Satoru Quintili: So, for example.
+
+11:20:19 --> 11:20:20
+Giacomo Satoru Quintili: C2.
+
+11:20:20 --> 11:20:22
+Giacomo Satoru Quintili: is zero volts.
+
+11:20:24 --> 11:20:27
+Giacomo Satoru Quintili: C3, it's 1 volt.
+
+11:20:28 --> 11:20:31
+Giacomo Satoru Quintili: The each key has its own vault.
+
+11:20:35 --> 11:20:36
+Giacomo Satoru Quintili: Okay.
+
+11:20:39 --> 11:20:40
+Giacomo Satoru Quintili: So.
+
+11:20:40 --> 11:20:44
+Giacomo Satoru Quintili: To each key equal one voltage.
+
+11:20:45 --> 11:20:50
+Giacomo Satoru Quintili: And this is a very precise thing, because the oscillator…
+
+11:20:50 --> 11:20:55
+Giacomo Satoru Quintili: Depending on how much voltage it receives, it produces.
+
+11:20:55 --> 11:20:59
+Giacomo Satoru Quintili: a frequency, a specific frequency.
+
+11:21:06 --> 11:21:10
+Giacomo Satoru Quintili: Example. If the oscillator receives 0 volts.
+
+11:21:10 --> 11:21:11
+Giacomo Satoru Quintili: Here.
+
+11:21:11 --> 11:21:17
+Giacomo Satoru Quintili: 0, the oscillator will produce C2, for example.
+
+11:21:17 --> 11:21:18
+Giacomo Satoru Quintili: Okay.
+
+11:21:19 --> 11:21:27
+Giacomo Satoru Quintili: If I send 3 volts inside here, the oscillator will produce another note.
+
+11:21:27 --> 11:21:29
+Giacomo Satoru Quintili: Doesn't make sense.
+
+11:21:31 --> 11:21:33
+Giacomo Satoru Quintili: And the principle is…
+
+11:21:33 --> 11:21:37
+Giacomo Satoru Quintili: For each increment of voltage.
+
+11:21:38 --> 11:21:41
+Giacomo Satoru Quintili: We go up one octave.
+
+11:21:45 --> 11:21:52
+Giacomo Satoru Quintili: This calibration is called 1 volt per octave, and it's written like this, 1B slash oct.
+
+11:21:58 --> 11:22:00
+Giacomo Satoru Quintili: It's a pretty simple one.
+
+11:22:01 --> 11:22:10
+Giacomo Satoru Quintili: So, think. I'm gonna ask you a question, okay? Each volt increases by one octave. So, if C2 is zero volts.
+
+11:22:12 --> 11:22:15
+Giacomo Satoru Quintili: How many volts is gonna be C3?
+
+11:22:15 --> 11:22:17
+Hongze(Wengo) Wang: One.
+
+11:22:16 --> 11:22:19
+Giacomo Satoru Quintili: One, correct. Simple, no?
+
+11:22:21 --> 11:22:23
+Giacomo Satoru Quintili: And what about C1?
+
+11:22:23 --> 11:22:26
+Giacomo Satoru Quintili: I repeat, C2 is 0, 0.
+
+11:22:26 --> 11:22:28
+Hongze(Wengo) Wang: Negative one.
+
+11:22:27 --> 11:22:28
+travismorgado: Le Roon.
+
+11:22:27 --> 11:22:29
+Giacomo Satoru Quintili: Negative one.
+
+11:22:29 --> 11:22:32
+Giacomo Satoru Quintili: You see, it goes down, the oscilloscope tells you.
+
+11:22:33 --> 11:22:43
+Giacomo Satoru Quintili: And what about the notes in between? Well, I don't know, they're gonna be slash 12, because there are 12 notes, right? They're gonna be values in between.
+
+11:22:45 --> 11:22:46
+Giacomo Satoru Quintili: Does it make sense?
+
+11:22:48 --> 11:22:49
+Ivonq Brscic: No.
+
+11:22:49 --> 11:22:56
+Giacomo Satoru Quintili: Correct. Nice. So this is how it works. So the pitch CV is an electrical signal.
+
+11:22:56 --> 11:23:06
+Giacomo Satoru Quintili: Which increases if you press higher notes, decreases if you press lower notes, and you use this signal to tune the oscillator.
+
+11:23:07 --> 11:23:09
+Giacomo Satoru Quintili: That's it.
+
+11:23:12 --> 11:23:22
+Giacomo Satoru Quintili: Usually. So, the main purpose of the pitch CV is to tune the oscillator. We will see that we can use this signal to do other stuff.
+
+11:23:25 --> 11:23:27
+Giacomo Satoru Quintili: Okay.
+
+11:23:28 --> 11:23:37
+Giacomo Satoru Quintili: Track. It's to track any parameter using the keys. Basically, you press high keys, the parameter will increase its value.
+
+11:23:38 --> 11:23:40
+Giacomo Satoru Quintili: Generally speaking, okay?
+
+11:23:41 --> 11:23:44
+Giacomo Satoru Quintili: But the main purpose is to tune the oscillator.
+
+11:23:44 --> 11:23:47
+Giacomo Satoru Quintili: Gate. Ready?
+
+11:23:47 --> 11:23:56
+Giacomo Satoru Quintili: Alright, gate is simpler. The gate is very dumb. The gate is just a switch. On, off. Binary switch.
+
+11:24:02 --> 11:24:04
+Giacomo Satoru Quintili: So, the gate…
+
+11:24:07 --> 11:24:10
+Giacomo Satoru Quintili: It's a binary, I repeat, a binary.
+
+11:24:13 --> 11:24:14
+Giacomo Satoru Quintili: Signal.
+
+11:24:15 --> 11:24:20
+Giacomo Satoru Quintili: Binary means it can only have two values.
+
+11:24:22 --> 11:24:24
+Giacomo Satoru Quintili: Okay.
+
+11:24:26 --> 11:24:28
+Giacomo Satoru Quintili: 0 volts…
+
+11:24:29 --> 11:24:31
+Giacomo Satoru Quintili: No key pressed.
+
+11:24:32 --> 11:24:34
+Giacomo Satoru Quintili: 5 volts.
+
+11:24:35 --> 11:24:38
+Giacomo Satoru Quintili: One or more.
+
+11:24:38 --> 11:24:39
+Giacomo Satoru Quintili: He pressed.
+
+11:24:40 --> 11:24:41
+Giacomo Satoru Quintili: It's a switch.
+
+11:24:45 --> 11:24:47
+Hongze(Wengo) Wang: So what is the purpose of this?
+
+11:24:47 --> 11:24:49
+Giacomo Satoru Quintili: to trigger stuff.
+
+11:24:49 --> 11:24:52
+Hongze(Wengo) Wang: Oh, it's like an on and off switch.
+
+11:24:51 --> 11:24:53
+Giacomo Satoru Quintili: Yeah.
+
+11:24:52 --> 11:24:53
+Hongze(Wengo) Wang: Okay.
+
+11:24:54 --> 11:24:57
+Giacomo Satoru Quintili: And if you hold it.
+
+11:24:57 --> 11:25:01
+Giacomo Satoru Quintili: The 5 volts are gonna stay at 5.
+
+11:25:01 --> 11:25:08
+Giacomo Satoru Quintili: You see, we use the gate to trigger.
+
+11:25:08 --> 11:25:10
+Giacomo Satoru Quintili: To start.
+
+11:25:10 --> 11:25:12
+Giacomo Satoru Quintili: Things.
+
+11:25:12 --> 11:25:15
+Giacomo Satoru Quintili: For example, the envelope.
+
+11:25:17 --> 11:25:18
+Giacomo Satoru Quintili: Okay.
+
+11:25:19 --> 11:25:26
+Giacomo Satoru Quintili: One of the most common uses of the gate is to power the envelope generators.
+
+11:25:28 --> 11:25:37
+Giacomo Satoru Quintili: Just like plugging the electricity to something, you see? As long as I hold the key, this is powered, sustained.
+
+11:25:39 --> 11:25:41
+Giacomo Satoru Quintili: So we have sound.
+
+11:25:43 --> 11:25:45
+Giacomo Satoru Quintili: Or… does it make sense?
+
+11:25:45 --> 11:25:57
+Giacomo Satoru Quintili: We have another… I'll just show you a real quick example, counter example. We have the trigger, which acts similarly, but has no time. You see, it's a spike.
+
+11:25:57 --> 11:26:00
+Giacomo Satoru Quintili: If I hold the key.
+
+11:26:00 --> 11:26:02
+Giacomo Satoru Quintili: It doesn't hold the 5 volts.
+
+11:26:02 --> 11:26:06
+Giacomo Satoru Quintili: So it's very similar to the gate, you see? The trigger.
+
+11:26:06 --> 11:26:11
+Giacomo Satoru Quintili: We cannot use the trigger to power the envelopes because no sustain.
+
+11:26:14 --> 11:26:19
+Giacomo Satoru Quintili: If I hold the key, you see the envelope dies immediately.
+
+11:26:19 --> 11:26:23
+Giacomo Satoru Quintili: The gate signal instead holds the value.
+
+11:26:23 --> 11:26:25
+Giacomo Satoru Quintili: You see what I mean?
+
+11:26:29 --> 11:26:31
+Hongze(Wengo) Wang: I'm sorry, can you repeat that, please?
+
+11:26:30 --> 11:26:35
+Giacomo Satoru Quintili: Yeah, yeah, yeah. The gate is used to power stuff.
+
+11:26:35 --> 11:26:37
+Giacomo Satoru Quintili: For all the time you hold the key.
+
+11:26:37 --> 11:26:41
+Giacomo Satoru Quintili: As long as you hold the key, you are sending 5 balls.
+
+11:26:43 --> 11:26:44
+Giacomo Satoru Quintili: Okay.
+
+11:26:44 --> 11:26:48
+Hongze(Wengo) Wang: So the gate is like a switch and the trigger is like a button?
+
+11:26:48 --> 11:26:51
+Giacomo Satoru Quintili: The trigger is just an impulse.
+
+11:26:51 --> 11:26:54
+Giacomo Satoru Quintili: Instant impulse, with no time.
+
+11:26:54 --> 11:26:56
+Hongze(Wengo) Wang: Uh…
+
+11:26:55 --> 11:26:57
+Giacomo Satoru Quintili: It's a spike.
+
+11:26:56 --> 11:26:58
+Hongze(Wengo) Wang: Okay, understood.
+
+11:26:58 --> 11:27:02
+Hongze(Wengo) Wang: It's like if you let go of your hand, it doesn't work anymore.
+
+11:26:58 --> 11:27:01
+Giacomo Satoru Quintili: It is used for other purposes.
+
+11:27:01 --> 11:27:02
+Giacomo Satoru Quintili: M.
+
+11:27:02 --> 11:27:03
+Hongze(Wengo) Wang: It's like…
+
+11:27:03 --> 11:27:06
+Hongze(Wengo) Wang: you know, Minecraft pressure plates.
+
+11:27:06 --> 11:27:07
+Giacomo Satoru Quintili: Yep.
+
+11:27:06 --> 11:27:10
+Hongze(Wengo) Wang: Yeah, it's like that. Like…
+
+11:27:08 --> 11:27:12
+Giacomo Satoru Quintili: Oh, well, I don't remember real quick, uh…
+
+11:27:11 --> 11:27:21
+Hongze(Wengo) Wang: Like, gate would be a switch, and trigger would be like a button when you let go of your hand, or pressure, it just stops? Okay, understood.
+
+11:27:13 --> 11:27:15
+Giacomo Satoru Quintili: Uh-huh.
+
+11:27:14 --> 11:27:15
+travismorgado: Certo.
+
+11:27:16 --> 11:27:19
+Giacomo Satoru Quintili: Oh, yeah, yeah, yeah, yeah.
+
+11:27:19 --> 11:27:22
+Giacomo Satoru Quintili: Yeah, yeah, yeah, yeah, yeah, yeah.
+
+11:27:21 --> 11:27:22
+Hongze(Wengo) Wang: Okay.
+
+11:27:22 --> 11:27:33
+Giacomo Satoru Quintili: Uh, yeah, if you play Minecraft, you will find many, many similarities. Yes, absolutely, absolutely. Those who play Minecraft are very good at synthesizers.
+
+11:27:34 --> 11:27:49
+Giacomo Satoru Quintili: Anyway, so you see, we will see. So the gate again, let's go back to the gate. The gate is a switch, binary switch on off, and it holds the value as long as at least one key has been is pressed.
+
+11:27:51 --> 11:27:56
+Giacomo Satoru Quintili: Note that if you press a key and then you press another key.
+
+11:27:56 --> 11:27:59
+Giacomo Satoru Quintili: Nothing changes. It's not like it becomes 10 volts.
+
+11:27:59 --> 11:28:02
+Giacomo Satoru Quintili: It stands at five, okay?
+
+11:28:03 --> 11:28:07
+Giacomo Satoru Quintili: Once I release all keys, it goes back to zero.
+
+11:28:08 --> 11:28:15
+Giacomo Satoru Quintili: Main purpose of the envelope, of the gate, I repeat, to power up the envelope.
+
+11:28:15 --> 11:28:17
+travismorgado: Il.
+
+11:28:16 --> 11:28:18
+Giacomo Satoru Quintili: to feed the envelopes.
+
+11:28:20 --> 11:28:22
+Giacomo Satoru Quintili: Okay, so pitch.
+
+11:28:22 --> 11:28:29
+Giacomo Satoru Quintili: Different voltages for each key is used to tune the oscillator, or other stuff that we will see in the future.
+
+11:28:29 --> 11:28:31
+Giacomo Satoru Quintili: gate.
+
+11:28:31 --> 11:28:34
+Giacomo Satoru Quintili: Binary signal, on-off.
+
+11:28:34 --> 11:28:37
+Giacomo Satoru Quintili: It holds the value as long as one key is pressed.
+
+11:28:37 --> 11:28:41
+Giacomo Satoru Quintili: And gate is usually used to power the envelopes.
+
+11:28:41 --> 11:28:44
+Giacomo Satoru Quintili: And so we have sound.
+
+11:28:46 --> 11:28:47
+Giacomo Satoru Quintili: Okay.
+
+11:28:49 --> 11:28:58
+Giacomo Satoru Quintili: Now you should have all the knowledge to understand the basic patch, one architecture, right? And how it works, more or less.
+
+11:28:59 --> 11:29:06
+Giacomo Satoru Quintili: There are still things that you don't know, such as how the envelope works, but this we will see.
+
+11:29:07 --> 11:29:13
+Giacomo Satoru Quintili: I mean, it's intuitive, but we will see it in the future. We still need to see what is the amount.
+
+11:29:13 --> 11:29:15
+Giacomo Satoru Quintili: attenuation amount.
+
+11:29:15 --> 11:29:19
+Giacomo Satoru Quintili: the different things.
+
+11:29:19 --> 11:29:21
+Giacomo Satoru Quintili: 8 .
+
+11:29:20 --> 11:29:23
+Giacomo Satoru Quintili: So we just scratched the surface.
+
+11:29:24 --> 11:29:25
+Giacomo Satoru Quintili: Okay.
+
+11:29:27 --> 11:29:29
+Giacomo Satoru Quintili: Uh, any questions?
+
+11:29:31 --> 11:29:37
+Giacomo Satoru Quintili: No. Okay. You have two weeks. Okay. I know you're busy guys. I know, I know.
+
+11:29:37 --> 11:29:44
+Giacomo Satoru Quintili: I'm very well aware of how much stuff they assign you, I know. You have 2 weeks.
+
+11:29:44 --> 11:29:51
+Giacomo Satoru Quintili: And the first exercise is pretty simple. It's just the basic patch, okay? So…
+
+11:29:51 --> 11:29:56
+Giacomo Satoru Quintili: a lot of time. It's your responsibility to manage it, uh, well.
+
+11:29:55 --> 11:29:59
+Hongze(Wengo) Wang: Like the basic patch we did in class today?
+
+11:29:57 --> 11:30:00
+Giacomo Satoru Quintili: Yes. Yes.
+
+11:29:59 --> 11:30:02
+Hongze(Wengo) Wang: We can just edit it right now, right? Because.
+
+11:30:02 --> 11:30:04
+Hongze(Wengo) Wang: I followed everything we did.
+
+11:30:04 --> 11:30:05
+Hongze(Wengo) Wang: Okay.

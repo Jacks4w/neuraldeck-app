@@ -237,3 +237,11 @@ test("sample manifest still validates when transcripts have Windows CRLF line en
     assert.equal(r.errors.length, 0, JSON.stringify(r.errors));
     assert.equal(r.added.length, 3);
 });
+
+test("renderer uses no blocking native dialogs (alert/confirm/prompt break keyboard focus on Windows)", () => {
+    const dir = new URL("../src/renderer/", import.meta.url);
+    for (const f of fs.readdirSync(dir).filter((x) => /\.(js|html)$/.test(x))) {
+        const src = fs.readFileSync(new URL(f, dir), "utf8").replace(/\/\/.*$/gm, "").replace(/\/\*[\s\S]*?\*\//g, "").replace(/<!--[\s\S]*?-->/g, "");
+        assert.doesNotMatch(src, /(^|[^\w.])(window\.)?(alert|confirm|prompt)\s*\(/m, `${f} usa un dialogo nativo`);
+    }
+});

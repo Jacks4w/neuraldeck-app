@@ -3,6 +3,8 @@ import path from "node:path";
 import {fileURLToPath} from "node:url";
 import {sha256, cleanTranscript, chunkText, safeFileName} from "./textutils.js";
 
+const toLf = (buf) => Buffer.from(buf.toString("utf8").replace(/\r\n?/g, "\n"), "utf8");
+
 /**
  * Converte i link di condivisione più comuni in link di download diretto.
  * - GitHub "blob" -> raw.githubusercontent.com
@@ -150,8 +152,12 @@ export async function runUpdate({manifestUrl, store, transcriptsDir, embedPassag
         try {
             const buf = await fetchBuffer(itemUrl, {fetchImpl, signal});
             if (looksLikeHtml(buf)) throw new Error("il link restituisce una pagina HTML (link non diretto o file non pubblico)");
-            const hash = sha256(buf);
-            if (item.sha256 && item.sha256 !== hash) throw new Error(`hash SHA-256 non corrisponde (atteso ${item.sha256.slice(0, 12)}..., ricevuto ${hash.slice(0, 12)}...)`);
+            // Hash accettato sia sui byte originali sia con fine riga normalizzati (CRLF→LF):
+            // Git su Windows, Drive o un editor possono convertire i fine riga senza cambiare il contenuto.
+            const lfHash = sha256(toLf(buf));
+            const okHashes = new Set([sha256(buf), lfHash]);
+            if (item.sha256 && !okHashes.has(item.sha256)) throw new Error(`hash SHA-256 non corrisponde (atteso ${item.sha256.slice(0, 12)}..., ricevuto ${lfHash.slice(0, 12)}...)`);
+            const hash = item.sha256 || lfHash;
             const local = store.getLesson(item.id);
             if (kind === "check" && local && local.sha256 === hash && local.title === item.title) {
                 result.unchanged.push(item.id);

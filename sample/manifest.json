@@ -1,27 +1,23 @@
 {
-  "course": "Synthesizers 101 (demo)",
-  "version": "2026-11-11",
+  "course": "Synthesizers - Saint Louis College of Music",
   "transcripts": [
     {
-      "id": "lesson-01-oscillators",
+      "id": "lesson-01",
       "lesson": 1,
-      "title": "Oscillators and Waveforms",
-      "url": "transcripts/lesson-01-oscillators.txt",
-      "sha256": "a5207aebf2fa93c3455a6113eaa8c0385babd3500ce9c51e5ac276ed87e5251d"
+      "title": "Sound, Musical Instruments and the Synthesizer",
+      "url": "transcripts/2026-10-02-Lesson-01-Sound-Musical-Instruments-Synthesizer.txt"
     },
     {
-      "id": "lesson-02-filters",
+      "id": "lesson-02",
       "lesson": 2,
-      "title": "Filters, Cutoff and Resonance",
-      "url": "transcripts/lesson-02-filters.txt",
-      "sha256": "1fb2d32d67669d3ee48403414a9ffef9f66b64c23e5d14ec88a9281f2cb39ae2"
+      "title": "Architecture of a Synthesizer",
+      "url": "transcripts/2026-10-16-Lesson-02-Synthesizer-Architecture.txt"
     },
     {
-      "id": "lesson-03-envelopes-lfo",
+      "id": "lesson-03",
       "lesson": 3,
-      "title": "Envelopes, LFOs and Modulation",
-      "url": "transcripts/lesson-03-envelopes-lfo.txt",
-      "sha256": "d090e098c121edd5e8ebd2ba5779d5ceaa4ff6d34b002cde49df3aa358f3ea79"
+      "title": "Modules, Inputs, Amount and Keyboard",
+      "url": "transcripts/2026-10-30-Lesson-03-Modules-Inputs-Amount-Keyboard.txt"
     }
   ]
 }

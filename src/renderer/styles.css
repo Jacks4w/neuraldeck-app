@@ -141,6 +141,13 @@ textarea::placeholder { color: var(--dim); }
 .setup-panel { width: min(820px, 94vw); }
 .settings-panel { width: min(780px, 94vw); display: flex; flex-direction: column; gap: 12px; }
 .sync-panel { width: min(760px, 94vw); }
+.confirm-overlay { z-index: 80; }
+.confirm-panel { width: min(460px, 92vw); border-color: var(--red); box-shadow: 0 0 40px rgba(255,51,85,.25), inset 0 0 60px rgba(255,43,214,.05); }
+.confirm-panel .panel-title { color: var(--red); }
+.confirm-msg { color: var(--txt); font-size: 14px; line-height: 1.5; margin: 0 0 6px; word-break: break-word; }
+.confirm-msg b { color: var(--yel); }
+.confirm-hint { color: var(--dim); font-size: 11px; margin-bottom: 16px; }
+.confirm-panel .btn:focus-visible { outline: 2px solid var(--yel); outline-offset: 2px; }
 .terminal { background: #000; border: 1px solid var(--line); color: var(--green); padding: 12px; margin: 0 0 14px; font-family: var(--mono); font-size: 12px; line-height: 1.5; min-height: 120px; max-height: 300px; overflow-y: auto; white-space: pre-wrap; }
 .terminal .err { color: var(--red); }
 .terminal .hl { color: var(--cyan); }

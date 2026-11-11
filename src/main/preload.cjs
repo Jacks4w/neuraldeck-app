@@ -33,5 +33,6 @@ contextBridge.exposeInMainWorld("deck", {
     rebuild: () => call("kb:rebuild"),
     openDataDir: () => call("app:openDataDir"),
     openExternal: (url) => call("app:openExternal", url),
+    refocus: () => ipcRenderer.send("win:refocus"),
     on
 });

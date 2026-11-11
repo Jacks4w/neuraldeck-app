@@ -30,7 +30,8 @@ const transcripts = files.map((f, i) => {
         lesson: m ? Number(m[1]) : i + 1,
         title: (m ? m[2] : firstLine).trim().slice(0, 100),
         url: baseUrl ? baseUrl.replace(/\/$/, "") + "/" + encodeURIComponent(f) : `${relDir ? relDir + "/" : ""}${encodeURIComponent(f)}`,
-        sha256: crypto.createHash("sha256").update(buf).digest("hex")
+        // hash sul testo con fine riga LF: identico da Windows, Linux o Mac
+        sha256: crypto.createHash("sha256").update(buf.toString("utf8").replace(/\r\n?/g, "\n"), "utf8").digest("hex")
     };
 });
 const manifest = {course: opt("--course", "Synthesizers"), version: new Date().toISOString().slice(0, 10), transcripts};

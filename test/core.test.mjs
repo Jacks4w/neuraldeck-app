@@ -221,3 +221,19 @@ test("conversation store reuses empty sessions and auto-titles", () => {
     assert.ok(a.title.length <= 42);
     assert.throws(() => cs.get("../../etc/passwd"));
 });
+
+test("sample manifest still validates when transcripts have Windows CRLF line endings", async () => {
+    const {pathToFileURL} = await import("node:url");
+    const src = new URL("../sample/", import.meta.url);
+    const dir = tmp();
+    fs.mkdirSync(path.join(dir, "sample", "transcripts"), {recursive: true});
+    fs.copyFileSync(new URL("manifest.json", src), path.join(dir, "sample", "manifest.json"));
+    for (const f of fs.readdirSync(new URL("transcripts/", src))) {
+        const lf = fs.readFileSync(new URL(`transcripts/${f}`, src), "utf8").replace(/\r\n/g, "\n");
+        fs.writeFileSync(path.join(dir, "sample", "transcripts", f), lf.replace(/\n/g, "\r\n"));
+    }
+    const store = new VectorStore(path.join(dir, "v.json"));
+    const r = await runUpdate({manifestUrl: pathToFileURL(path.join(dir, "sample", "manifest.json")).toString(), store, transcriptsDir: path.join(dir, "tr"), embedPassages: fakeEmbed, embedModelId: "fake"});
+    assert.equal(r.errors.length, 0, JSON.stringify(r.errors));
+    assert.equal(r.added.length, 3);
+});

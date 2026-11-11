@@ -103,6 +103,7 @@ function createWindow() {
         if (/^https?:/.test(url)) shell.openExternal(url);
         return {action: "deny"};
     });
+    win.on("focus", () => win.webContents.focus());
     if (process.env.NEURALDECK_DEVTOOLS) win.webContents.openDevTools({mode: "detach"});
 }
 
@@ -159,7 +160,20 @@ handle("settings:set", async (patch) => {
 handle("conv:list", () => conversations.list());
 handle("conv:get", (id) => conversations.get(id));
 handle("conv:create", () => conversations.create());
-handle("conv:delete", (id) => conversations.delete(id));
+handle("conv:delete", (id) => {
+    const r = conversations.delete(id);
+    setTimeout(refocusWindow, 50); // rete di sicurezza: tastiera di nuovo attiva dopo la cancellazione
+    return r;
+});
+
+// Electron su Windows: dopo dialoghi/overlay la tastiera può restare senza focus finché
+// non si cambia finestra. Ridare il focus a finestra + webContents lo ripristina.
+function refocusWindow() {
+    if (!win || win.isDestroyed() || win.isMinimized()) return;
+    if (!win.isFocused()) win.focus();
+    win.webContents.focus();
+}
+ipcMain.on("win:refocus", () => refocusWindow());
 handle("conv:rename", (id, title) => conversations.rename(id, title));
 
 handle("chat:send", async ({convId, text}) => {

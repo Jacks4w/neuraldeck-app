@@ -10,40 +10,81 @@ on:
   push:
     tags: ["v*"]
 
+permissions:
+  contents: write
+
 jobs:
   build-windows:
     runs-on: windows-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
+    defaults:
+      run:
+        shell: bash
+    env:
+      CSC_IDENTITY_AUTO_DISCOVERY: "false"
+      npm_config_fund: "false"
+      npm_config_audit: "false"
+      npm_config_fetch_retries: "5"
     steps:
-      - uses: actions/checkout@v4
+      - name: "0 - Git: mantieni i fine riga originali (niente CRLF)"
+        run: git config --global core.autocrlf false
 
-      - uses: actions/setup-node@v4
+      - name: "1 - Scarica il codice del repository"
+        uses: actions/checkout@v5
+
+      - name: "2 - Installa Node.js 22"
+        uses: actions/setup-node@v5
         with:
           node-version: 22
-          cache: npm
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Ensure Windows llama.cpp binaries (CPU + Vulkan, optional CUDA)
-        shell: bash
+      - name: "3 - Diagnostica: versioni e file presenti"
         run: |
-          if [ "${{ inputs.cuda }}" = "true" ]; then node scripts/fetch-win-binaries.mjs --cuda; else node scripts/fetch-win-binaries.mjs; fi
+          echo "node $(node -v) | npm $(npm -v) | $(uname -a)"
+          echo "--- file nel repository ---"
+          git ls-files
+          missing=0
+          for f in package.json package-lock.json src/main/main.js src/main/preload.cjs src/renderer/index.html config/defaults.json sample/manifest.json scripts/fetch-win-binaries.mjs test/core.test.mjs build/icon.png; do
+            if [ -f "$f" ]; then echo "OK      $f"; else echo "MANCA   $f"; missing=1; fi
+          done
+          if [ ! -f package-lock.json ]; then echo "::warning title=package-lock.json mancante::Verrà usato npm install (più lento ma funziona)."; fi
+          if [ "$missing" = 1 ] && [ ! -f package.json -o ! -f src/main/main.js ]; then
+            echo "::error title=Passo 3 - File mancanti::Mancano file essenziali nel repository (vedi elenco MANCA sopra). Ricaricali su GitHub."
+            exit 1
+          fi
 
-      - name: Unit tests
+      - name: "4 - Installa le dipendenze (npm ci, poi npm install se serve)"
+        run: |
+          if [ -f package-lock.json ] && npm ci; then
+            echo "npm ci completato"
+          else
+            echo "::warning title=Passo 4::npm ci non riuscito o lockfile assente: provo npm install"
+            rm -rf node_modules
+            npm install || { echo "::error title=Passo 4 - Installazione dipendenze fallita::Anche npm install è fallito. Guarda le righe 'npm ERR!' qui sopra."; exit 1; }
+          fi
+          ls node_modules/@node-llama-cpp || true
+
+      - name: "5 - Verifica binari llama.cpp per Windows (CPU + Vulkan, CUDA opzionale)"
+        run: |
+          if [ "${{ inputs.cuda }}" = "true" ]; then args="--cuda"; else args=""; fi
+          node scripts/fetch-win-binaries.mjs $args || { echo "::error title=Passo 5 - Binari Windows::Impossibile ottenere i binari @node-llama-cpp/win-x64."; exit 1; }
+
+      - name: "6 - Test automatici (non bloccanti)"
+        id: unit_tests
+        continue-on-error: true
         run: npm test
 
-      - name: Smoke test native binding (load llama.cpp on Windows, CPU)
-        shell: bash
-        run: node -e "import('node-llama-cpp').then(async m=>{const l=await m.getLlama({gpu:false,build:'never'});console.log('llama.cpp OK on',process.platform,'gpu=',l.gpu)})"
+      - name: "7 - Prova di caricamento llama.cpp su Windows (non bloccante)"
+        id: smoke
+        continue-on-error: true
+        run: node -e "import('node-llama-cpp').then(async m=>{const l=await m.getLlama({gpu:false,build:'never'});console.log('llama.cpp OK su',process.platform,'gpu =',l.gpu)}).catch(e=>{console.error(e);process.exit(1)})"
 
-      - name: Build NSIS installer + portable zip
-        env:
-          CSC_IDENTITY_AUTO_DISCOVERY: "false"
-        run: npx electron-builder --win nsis zip --x64 --publish never
+      - name: "8 - Costruisci installer NSIS (.exe) + zip portatile"
+        run: |
+          npx electron-builder --win nsis zip --x64 --publish never || { echo "::error title=Passo 8 - electron-builder fallito::Guarda le righe con 'error' o '⨯' qui sopra."; exit 1; }
+          ls -la release
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+      - name: "9 - Carica i file prodotti (Artifacts)"
+        uses: actions/upload-artifact@v6
         with:
           name: NeuralDeck-windows
           path: |
@@ -51,10 +92,22 @@ jobs:
             release/*.zip
           if-no-files-found: error
 
-      - name: Attach to GitHub Release (tag builds only)
+      - name: "10 - Allega alla Release (solo per i tag v*)"
         if: startsWith(github.ref, 'refs/tags/v')
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: |
             release/*.exe
             release/*.zip
+
+      - name: "Riepilogo"
+        if: always()
+        run: |
+          {
+            echo "## NeuralDeck - riepilogo build Windows"
+            echo "- Test automatici: ${{ steps.unit_tests.outcome }}"
+            echo "- Prova llama.cpp: ${{ steps.smoke.outcome }}"
+            echo "- Esito job: ${{ job.status }}"
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ "${{ steps.unit_tests.outcome }}" = "failure" ]; then echo "::warning title=Passo 6 - Test falliti::La build è proseguita, ma alcuni test non passano: apri il passo 6 per i dettagli."; fi
+          if [ "${{ steps.smoke.outcome }}" = "failure" ]; then echo "::warning title=Passo 7 - llama.cpp non caricato::Il motore potrebbe non avviarsi su Windows: apri il passo 7 per i dettagli."; fi

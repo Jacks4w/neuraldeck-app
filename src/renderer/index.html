@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:">
+    <title>NeuralDeck</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="scanlines"></div>
+<div class="titlebar"><span class="tb-brand">NEURAL<span class="mag">//</span>DECK</span><span class="tb-sub" id="tbSub">offline lesson intelligence</span></div>
+
+<div class="app">
+    <aside class="sidebar">
+        <div class="logo glitch" data-text="NEURAL_DECK">NEURAL_DECK</div>
+        <div class="logo-sub">v<span id="ver">0</span> :: local ai :: zero cloud</div>
+        <button class="btn btn-new" id="btnNew">+ NEW_SESSION</button>
+        <div class="section-label">// sessions</div>
+        <ul class="conv-list" id="convList"></ul>
+        <div class="sidebar-bottom">
+            <div class="kb-status" id="kbStatus">KB: --</div>
+            <button class="btn btn-sync" id="btnSync" title="Scarica le nuove trascrizioni dal link del docente">⟳ AGGIORNA <span class="dim">// SYNC</span></button>
+            <button class="btn btn-ghost" id="btnSettings">⚙ SETTINGS</button>
+        </div>
+    </aside>
+
+    <main class="main">
+        <header class="topbar">
+            <div class="course" id="courseName">--</div>
+            <div class="chips">
+                <span class="chip" id="chipEngine"><i class="dot"></i><span>OFFLINE</span></span>
+            </div>
+        </header>
+
+        <section class="messages" id="messages"></section>
+
+        <footer class="composer">
+            <div class="prompt-row">
+                <span class="ps1">root@deck:~$</span>
+                <textarea id="input" rows="1" placeholder="ask anything about the lessons — any language…"></textarea>
+                <button class="btn btn-exec" id="btnSend">EXEC ▶</button>
+                <button class="btn btn-kill hidden" id="btnStop">KILL ■</button>
+            </div>
+            <div class="composer-hint">enter = send · shift+enter = newline · answers are generated locally and may contain errors — check the cited lesson</div>
+        </footer>
+    </main>
+</div>
+
+<!-- SETUP WIZARD -->
+<div class="overlay hidden" id="setup">
+    <div class="panel setup-panel">
+        <div class="panel-title glitch" data-text="BOOT SEQUENCE">BOOT SEQUENCE</div>
+        <pre class="terminal" id="bootLog"></pre>
+        <div class="model-cards" id="modelCards"></div>
+        <div class="progress hidden" id="dlBox">
+            <div class="progress-label" id="dlLabel">--</div>
+            <div class="bar"><div class="bar-fill" id="dlFill"></div></div>
+            <div class="progress-meta" id="dlMeta">--</div>
+            <button class="btn btn-ghost" id="btnCancelDl">ABORT</button>
+        </div>
+    </div>
+</div>
+
+<!-- SETTINGS -->
+<div class="overlay hidden" id="settings">
+    <div class="panel settings-panel">
+        <div class="panel-title">⚙ SYSTEM_CONFIG</div>
+        <label>Manifest URL <span class="dim">(link al manifest.json del docente)</span>
+            <input id="setManifest" type="text" spellcheck="false" placeholder="https://raw.githubusercontent.com/.../manifest.json">
+        </label>
+        <label>Course name <input id="setCourse" type="text"></label>
+        <div class="row">
+            <label>Answer language
+                <select id="setLang"></select>
+            </label>
+            <label>Compute backend
+                <select id="setBackend"><option value="auto">AUTO (GPU → CPU fallback)</option><option value="cpu">CPU ONLY</option></select>
+            </label>
+            <label>Top-K excerpts
+                <select id="setTopK"><option>3</option><option>4</option><option>5</option><option>6</option><option>8</option></select>
+            </label>
+        </div>
+        <label class="check"><input id="setTranslate" type="checkbox"> Translate non-English questions to English before searching (more accurate, a bit slower)</label>
+        <label class="check"><input id="setSyncDel" type="checkbox"> Remove lessons that disappear from the manifest</label>
+        <label class="check"><input id="setAutoUpd" type="checkbox"> Run AGGIORNA automatically at startup</label>
+        <div class="kb-lessons" id="kbLessons"></div>
+        <div class="row buttons">
+            <button class="btn" id="btnDemo">LOAD DEMO TRANSCRIPTS</button>
+            <button class="btn" id="btnRebuild">REBUILD INDEX</button>
+            <button class="btn" id="btnModel">CHANGE MODEL</button>
+            <button class="btn" id="btnDataDir">OPEN DATA DIR</button>
+        </div>
+        <div class="sys-info" id="sysInfo"></div>
+        <div class="row buttons right">
+            <button class="btn btn-ghost" id="btnCloseSettings">CANCEL</button>
+            <button class="btn btn-exec" id="btnSaveSettings">SAVE</button>
+        </div>
+    </div>
+</div>
+
+<!-- SYNC LOG -->
+<div class="overlay hidden" id="syncOverlay">
+    <div class="panel sync-panel">
+        <div class="panel-title">⟳ SYNC_PROTOCOL</div>
+        <div class="bar"><div class="bar-fill" id="syncFill"></div></div>
+        <pre class="terminal" id="syncLog"></pre>
+        <div class="row buttons right">
+            <button class="btn btn-ghost" id="btnSyncCancel">ABORT</button>
+            <button class="btn btn-exec hidden" id="btnSyncClose">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<div class="toast hidden" id="toast"></div>
+<script src="markdown.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "course": "Synthesizers 101 (demo)",
+  "version": "2026-11-11",
+  "transcripts": [
+    {
+      "id": "lesson-01-oscillators",
+      "lesson": 1,
+      "title": "Oscillators and Waveforms",
+      "url": "transcripts/lesson-01-oscillators.txt",
+      "sha256": "a5207aebf2fa93c3455a6113eaa8c0385babd3500ce9c51e5ac276ed87e5251d"
+    },
+    {
+      "id": "lesson-02-filters",
+      "lesson": 2,
+      "title": "Filters, Cutoff and Resonance",
+      "url": "transcripts/lesson-02-filters.txt",
+      "sha256": "1fb2d32d67669d3ee48403414a9ffef9f66b64c23e5d14ec88a9281f2cb39ae2"
+    },
+    {
+      "id": "lesson-03-envelopes-lfo",
+      "lesson": 3,
+      "title": "Envelopes, LFOs and Modulation",
+      "url": "transcripts/lesson-03-envelopes-lfo.txt",
+      "sha256": "d090e098c121edd5e8ebd2ba5779d5ceaa4ff6d34b002cde49df3aa358f3ea79"
+    }
+  ]
+}

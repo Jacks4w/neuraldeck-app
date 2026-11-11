@@ -1,0 +1,91 @@
+{
+  "name": "neural-deck",
+  "version": "0.1.0",
+  "description": "Chatbot RAG locale sulle trascrizioni delle lezioni (Electron + node-llama-cpp)",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/*.test.mjs",
+    "test:rag": "node scripts/rag-smoke.mjs",
+    "win:binaries": "node scripts/fetch-win-binaries.mjs",
+    "dist:win": "electron-builder --win --x64",
+    "dist:win:zip": "electron-builder --win zip --x64",
+    "dist:linux": "electron-builder --linux dir"
+  },
+  "author": "Saint Louis College of Music - Synth Class",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "franc-min": "^6.2.0",
+    "node-llama-cpp": "^3.22.3"
+  },
+  "devDependencies": {
+    "electron": "^38.8.6",
+    "electron-builder": "^26.18.0"
+  },
+  "allowScripts": {
+    "electron@38.8.6": true,
+    "electron-winstaller@5.4.0": true,
+    "node-llama-cpp@3.22.3": true
+  },
+  "productName": "NeuralDeck",
+  "build": {
+    "appId": "it.saintlouis.neuraldeck",
+    "productName": "NeuralDeck",
+    "executableName": "NeuralDeck",
+    "asar": true,
+    "npmRebuild": false,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "src/**/*",
+      "config/**/*",
+      "package.json",
+      "!node_modules/node-llama-cpp/llama/gitRelease.bundle",
+      "!node_modules/node-llama-cpp/llama/llama.cpp/**/*",
+      "!node_modules/node-llama-cpp/llama/localBuilds/**/*",
+      "!node_modules/node-llama-cpp/bins/**/*",
+      "!node_modules/@node-llama-cpp/*/bins/**/*",
+      "node_modules/@node-llama-cpp/${os}-${arch}*/bins/**/*"
+    ],
+    "asarUnpack": [
+      "node_modules/node-llama-cpp/bins",
+      "node_modules/@node-llama-cpp/*"
+    ],
+    "extraResources": [
+      {
+        "from": "sample",
+        "to": "sample"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.png",
+      "artifactName": "${productName}-${version}-win-${arch}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "deleteAppDataOnUninstall": false,
+      "createDesktopShortcut": true,
+      "shortcutName": "NeuralDeck",
+      "artifactName": "${productName}-Setup-${version}-${arch}.${ext}"
+    },
+    "linux": {
+      "target": [
+        "dir"
+      ],
+      "category": "Education",
+      "icon": "build/icon.png"
+    }
+  }
+}
